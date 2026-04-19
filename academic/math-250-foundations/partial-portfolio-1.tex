@@ -64,7 +64,7 @@ Since $t \in \mathbb{Z}$, $2t^2+2t$ must also be an integer, as the integers are
 {(Exam 1 Review $\#2.j$)) }
 \textbf{Theorem:}{ Suppose $x \in \R$. If $x^2$ is irrational, then $x$ is irrational.}
 \begin{proof}
-    Let $x \in \R$. For this proof, we will show the contrapositive, that is, if $x$ is rational, then $x^2$ is rational. Assume $x \in \mathbb{Q}$. Then, by definition of a rational number, $\exists p,q \in \mathbb{Z}$ such that $x = \frac{p}{q}$, where $q \ne 0$:
+    Let $x \in \R$. For this proof, we will show the contrapositive, that is, we will prove that $x$ is rational, then $x^2$ is rational. Assume $x \in \mathbb{Q}$. Then, by definition of a rational number, $\exists p,q \in \mathbb{Z}$ such that $x = \frac{p}{q}$, where $q \ne 0$:
     \begin{align*}
     x&=\frac{p}{q}
     \end{align*}
@@ -126,8 +126,8 @@ This shows $n+4$ is a multiple of 3. Since $n+4$ is prime, it must be that $n + 
 {(Homework 3 $\#14$) }
 \textbf{Theorem:}{ Let $A, B$, and $C$ be arbitrary sets. Prove that if $A-C \nsubseteq A-B$, then $B \nsubseteq C$.}
 \begin{proof}
-Let $A, B, C$ be arbitrary sets. For this proof, we will prove the contrapositive, that is, $B \subseteq C$ implies that $A-C \subseteq A-B$. Assume $B \subseteq C$, and suppose $x$ is an arbitrary element of $A - C$. By definition of set difference, $x \in A - C$ implies that $x \in A$ and $x \not \in C$. Since $B \subseteq C$, it follows that $x \not \in C$ implies $x \not \in B$, by definition of subset. Thus, $x \not \in B$.
-By definition of set difference, since $x \in A$ and $x \not \in B$, $x \in A-B$. So, by definition of subset, $A - C \subseteq A - B$. Thus, we've proven the contrapositive. Therefore, if $A - C \not\subseteq A - B$, then $ B \not\subseteq C$.
+Let $A, B, C$ be arbitrary sets. For this proof, we will prove the contrapositive. That is, we will show $B \subseteq C$ implies $A-C \subseteq A-B$. Assume $B \subseteq C$. Now, suppose $x$ is an arbitrary element of $A - C$. By definition of set difference, $x \in A - C$ implies $x \in A$ and $x \not \in C$. We are given that $B \subseteq C$, and by definition of a subset, if any element is in $B$, it must also be in $C$. Since we know $x \notin C$, it logically follows $x \notin B$.
+Now we have established that $x \in A$ and $x \notin B$. By definition of set difference, this implies $x \in A - B$. So, by definition of subset, $A - C \subseteq A - B$. Thus, we've proven the contrapositive. Therefore, the original statement holds: if $A - C \not\subseteq A - B$, then $ B \not\subseteq C$.
 \end{proof}
 
 \end{document}
