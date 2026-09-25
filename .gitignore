@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+._*
+
+# Obsidian: keep settings, skip per-device layout and plugin code
+.obsidian/workspace*.json
+.obsidian/plugins/*/*
+!.obsidian/plugins/obsidian-latex-suite/data.json
+!.obsidian/plugins/obsidian-linter/data.json
+.obsidian/plugins/terminal/
+.trash/
+
+# Stray nested vault config
+academic/math-212/.obsidian/
+
+# Claude Code local settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# DSA problem generator scratch output (curated copies live in generated-problems/)
+archive/dsa-problem-generator/output/
+
+# LaTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
