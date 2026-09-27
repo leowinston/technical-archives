@@ -53,16 +53,24 @@ $$
 - When $0 < y_0 < T$, the denominator stays positive and $y \to 0$.
 - The closer $y_0$ is to $T$ from above, the later the blow-up.
 
+## Solution set
+- **Solution set:** $y(t) = \dfrac{y_0T}{y_0 + (T - y_0)e^{rt}}$, $y_0 \in \mathbb{R}$.
+- **Constant solutions:** $y \equiv 0$ ($y_0 = 0$) and $y \equiv T$ ($y_0 = T$). Both are included.
+- **Interval of existence:**
+  - $0 \leq y_0 \leq T$: all $t \in \mathbb{R}$.
+  - $y_0 > T$: $t < t^\star$ (blow-up forward in time).
+  - $y_0 < 0$: $t > t^\star$, where now $t^\star < 0$ (blow-up backward in time); $y \to 0$ as $t \to \infty$.
+
 ## Graph
-Solutions with $T = 2$, $r = 1$, and $y_0 \in \{2.5, 3, 4\}$. Their vertical asymptotes $t^\star = \ln\frac{y_0}{y_0 - 2} \approx 1.61, 1.10, 0.69$ are dashed.
+Solutions with $T = 2$, $r = 1$, and $y_0 \in \{2.5, 3, 4\}$. The//ir vertical asymptotes $t^\star = \ln\frac{y_0}{y_0 - 2} \approx 1.61, 1.10, 0.69$ are dashed.
 ```desmos-graph
 left=-0.5; right=3; top=12; bottom=-0.5
 xAxisLabel=t; yAxisLabel=y
 ---
-y=\frac{aT}{a+\left(T-a\right)e^{r_{0}x}}|x>=0|x<t_{s}|#c74440
+y=\frac{aT}{a+\left(T-a\right)e^{r_{0}x}}|x>=0|x<t_s|#c74440
 a=[2.5,3,4]
-t_{s}=\frac{1}{r_{0}}\ln\left(\frac{a}{a-T}\right)
-x=t_{s}|dashed|#000000
+t_s=\frac{1}{r_{0}}\ln\left(\frac{a}{a-T}\right)
+x=t_s|dashed|#000000
 T=2
 r_0=1
 y=T|dotted|#2d70b3

@@ -37,6 +37,12 @@ y &= y_0e^{a(x - x_0)}
 \end{align*}
 $$
 
+## Solution set
+- **General solution:** $y(x) = Ce^{ax}$, $C \in \mathbb{R}$, $x \in \mathbb{R}$.
+- **IVP:** $C = y_0e^{-ax_0}$, which can be any real number, so every IVP is covered.
+- **Constant solutions:** $y \equiv 0$, included at $C = 0$. If $a = 0$, every constant $y \equiv C$ is a solution.
+- **Note:** solving by separation instead gives $C = \pm e^{c} \neq 0$ at first. $y \equiv 0$ is lost when dividing by $y$ and put back as $C = 0$ (same situation as [[WB1 P15 - Separable Equation with an Explicit Solution|Problem 15]]).
+
 ## Graph
 Solutions through $(x_0, y_0) = (1, 1)$ for $a \in \{-1, -0.5, 0, 0.5, 1\}$:
 ```desmos-graph

@@ -61,6 +61,12 @@ As $t \to \infty$, $v \to 0$ and $x \to x_0 + \dfrac{v_0}{k}$. So the total stop
 > [!note]
 > With constant (Coulomb) friction $a = -\mu g$ instead, $v = v_0 - \mu g t$, and the car stops at the finite time $t = v_0/(\mu g)$.
 
+## Solution set
+- **General solution:** $v(t) = Ce^{-kt}$, $C \in \mathbb{R}$, $t \in \mathbb{R}$. The IVP picks $C = v_0$.
+- **Position:** $x(t) = C_1 + C_2e^{-kt}$, $C_1, C_2 \in \mathbb{R}$. The IVP picks $C_1 = x_0 + \tfrac{v_0}{k}$, $C_2 = -\tfrac{v_0}{k}$.
+- **Constant solutions:** $v \equiv 0$ (the car at rest), included at $C = 0$. For position, $x \equiv C_1$ (the $C_2 = 0$ case).
+- **Note:** $C$ comes straight from the guess $v = Ce^{-kt}$, not from exponentiating, so $C = 0$ needs no special justification.
+
 ## Graph
 Velocity (blue) and position (red), with $v_0 = 3$, $x_0 = 0$, and $k \in \{0.5, 1\}$. The dashed line is the stopping distance $v_0/k$ for $k = 0.5$.
 ```desmos-graph

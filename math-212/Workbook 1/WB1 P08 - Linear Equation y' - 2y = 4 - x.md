@@ -49,6 +49,10 @@ $$
 
 Only $c = 0$ gives a bounded solution as $x \to \infty$: the line $y = \tfrac{x}{2} - \tfrac{7}{4}$. Every other solution moves away from it.
 
+## Solution set
+- **General solution:** $y(x) = \dfrac{x}{2} - \dfrac{7}{4} + Ce^{2x}$, $C \in \mathbb{R}$, $x \in \mathbb{R}$.
+- **Constant solutions:** none. $y \equiv k$ would need $-2k = 4 - x$ for all $x$.
+
 ## Graph
 ```desmos-graph
 left=-6; right=4; top=4; bottom=-6

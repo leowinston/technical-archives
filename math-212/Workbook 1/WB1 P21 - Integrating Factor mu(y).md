@@ -47,6 +47,12 @@ $$
 \boxed{\,e^{y}\left(x^2y^3 + 1\right) = c\,}
 $$
 
+## Solution set
+- **General solution (implicit):** $e^{y}\left(x^2y^3 + 1\right) = C$, $C \in \mathbb{R}$.
+- **Explicit in $x$:** $x = \pm\sqrt{\dfrac{Ce^{-y} - 1}{y^3}}$ where the radicand is $\geq 0$.
+- **Constant solutions:** $y \equiv 0$ ($M = 2xy^3 = 0$ and $dy = 0$). It lies on the level set $C = 1$.
+- **Note:** $\mu = e^{y}$ is never $0$, so nothing is added or lost.
+
 ## Graph
 ```desmos-graph
 left=-4; right=4; top=3; bottom=-4

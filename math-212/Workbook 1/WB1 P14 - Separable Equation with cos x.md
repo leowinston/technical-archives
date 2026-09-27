@@ -35,6 +35,11 @@ $$
 $$
 together with the equilibrium solution $y \equiv 3$.
 
+## Solution set
+- **General solution (implicit):** $y^2 + 6y + 19\ln\lvert y - 3\rvert = \sin x + C$, $C \in \mathbb{R}$.
+- **Constant solutions:** $y \equiv 3$. No $C$ gives it ($\ln 0$ is undefined), so it is listed separately.
+- **Note:** $f$ is smooth, so no solution crosses $y = 3$. Each solution stays above or below it for all $x \in \mathbb{R}$ ($\lvert y'\rvert$ is bounded, so there is no blow-up).
+
 ## Graph
 Implicit solutions for several values of $c$, with the equilibrium $y = 3$ dashed. Solutions never cross $y = 3$. The graph writes $\ln\lvert y - 3\rvert$ as $\tfrac{1}{2}\ln\left((y - 3)^2\right)$ because the plugin treats `|` as a separator.
 ```desmos-graph

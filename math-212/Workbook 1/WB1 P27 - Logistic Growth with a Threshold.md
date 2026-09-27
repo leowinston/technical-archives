@@ -81,6 +81,14 @@ f'(K) &= -r\left(\frac{K}{T} - 1\right) < 0 &&\implies y = K \text{ is asymptoti
 \end{align*}
 $$
 
+## Solution set
+- **Constant solutions:** $y \equiv 0$, $y \equiv T$, $y \equiv K$.
+- **General solution (implicit, not asked):** with partial fractions,
+$$
+\frac{\lvert y\rvert^{K - T}\,\lvert y - K\rvert^{T}}{\lvert y - T\rvert^{K}} = Ce^{-r(K - T)t}, \qquad C > 0
+$$
+- **Note:** $C = e^{c} > 0$ here, and the absolute values can't be dropped because the exponents need not be integers. $y \equiv 0$ and $y \equiv K$ would need $C = 0$, and $y \equiv T$ would need "$C = \infty$", so all three equilibria are listed separately.
+
 ## Graph
 Parameters: $T = 1$, $K = 3$, $r = 1$. Then $y_{1,2} = \frac{4 \mp \sqrt 7}{3} \approx 0.45,\ 2.22$.
 

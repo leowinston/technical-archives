@@ -28,6 +28,10 @@ y &= uy_1 = \left(\frac{x^4}{4} + c\right)e^{-2x}
 $$
 This agrees with the integrating factor answer in Problem 10.
 
+## Solution set
+- **General solution:** $y(x) = \left(\dfrac{x^4}{4} + C\right)e^{-2x}$, $C \in \mathbb{R}$, $x \in \mathbb{R}$ (same as [[WB1 P10 - Linear Equation with Exponential Forcing|Problem 10]]).
+- **Constant solutions:** none.
+
 ## Graph
 The particular solution $y_p = \tfrac{x^4}{4}e^{-2x}$ is black, and the complementary terms $ce^{-2x}$ are dashed.
 ```desmos-graph

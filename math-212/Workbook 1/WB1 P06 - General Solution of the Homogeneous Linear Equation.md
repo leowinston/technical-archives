@@ -45,6 +45,11 @@ $$
 y = ce^{-P(x)} = ce^{-\int p(x)\,dx} \qquad \blacksquare
 $$
 
+## Solution set
+- **General solution:** $y(x) = Ce^{-\int p(x)\,dx}$, $C \in \mathbb{R}$, $x \in (a, b)$.
+- **Constant solutions:** $y \equiv 0$ ($C = 0$). A nonzero constant works only where $p \equiv 0$.
+- **Note:** here $C$ comes from $u' = 0$, so $C \in \mathbb{R}$ directly. Part (b) proves nothing is missing, unlike the separable case.
+
 ## Graph
 An example with $p(x) = x$, so $y = ce^{-x^2/2}$:
 ```desmos-graph

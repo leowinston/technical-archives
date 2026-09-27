@@ -38,6 +38,12 @@ $$
 \boxed{\,x^4y^3 + x^3 + 2y^3 = c\,}
 $$
 
+## Solution set
+- **General solution (implicit):** $x^4y^3 + x^3 + 2y^3 = C$, $C \in \mathbb{R}$.
+- **Explicit:** $y(x) = \sqrt[3]{\dfrac{C - x^3}{x^4 + 2}}$ (real cube root), $C \in \mathbb{R}$.
+- **Constant solutions:** none. $y \equiv k$ would need $4x^3k^3 + 3x^2 = 0$ for all $x$.
+- **Note:** $N = 3y^2(x^4 + 2) = 0$ when $y = 0$, that is at $x = \sqrt[3]{C}$. The tangent is vertical there, so each curve gives a solution $y(x)$ on $(-\infty, \sqrt[3]{C})$ and another on $(\sqrt[3]{C}, \infty)$.
+
 ## Graph
 Level curves of $\psi(x, y) = x^4y^3 + x^3 + 2y^3$:
 ```desmos-graph

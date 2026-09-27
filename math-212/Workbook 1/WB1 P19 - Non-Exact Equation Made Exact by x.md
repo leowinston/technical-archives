@@ -55,6 +55,12 @@ $$
 $$
 Solving for $y$ (for $x \neq 0$): $y = \pm\sqrt{\dfrac{c - x^3}{x^2}}$.
 
+## Solution set
+- **General solution (implicit):** $x^3 + x^2y^2 = C$, $C \in \mathbb{R}$.
+- **Explicit:** $y(x) = \pm\dfrac{\sqrt{C - x^3}}{\lvert x\rvert}$, valid for $x < \sqrt[3]{C}$, $x \neq 0$. Each sign and each side of $x = 0$ is a separate solution.
+- **Constant solutions:** none. $y \equiv k$ would need $3x + 2k^2 = 0$ for all $x$.
+- **Note:** multiplying by $\mu = x$ can add the curve $x = 0$ (it sits inside $C = 0$). $x \equiv 0$ does solve the original differential form, but it is not a function $y(x)$.
+
 ## Graph
 ```desmos-graph
 left=-4; right=4; top=4; bottom=-4

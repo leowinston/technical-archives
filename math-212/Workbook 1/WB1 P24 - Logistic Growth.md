@@ -86,14 +86,21 @@ $$
 $$
 Check: $y(0) = y_0$, and for $y_0 > 0$, $y \to K$ as $t \to \infty$.
 
+## Solution set
+- **General solution:** $y(t) = \dfrac{CK}{C + Ke^{-rt}}$, $C \in \mathbb{R}$, from $\dfrac{y}{1 - y/K} = Ce^{rt}$.
+- **Constant solutions:** $y \equiv 0$ (included at $C = 0$) and $y \equiv K$ (no $C$ gives it; list separately).
+- **IVP form:** $y(t) = \dfrac{y_0K}{y_0 + (K - y_0)e^{-rt}}$, $y_0 \in \mathbb{R}$. This parametrization includes **both** equilibria ($y_0 = 0$ and $y_0 = K$). Which constant solutions a formula misses depends on the parametrization, as in [[WB1 P15 - Separable Equation with an Explicit Solution|Problem 15]].
+- **Interval of existence:** $0 \leq y_0 \leq K$ gives all $t \in \mathbb{R}$. $y_0 < 0$ blows down to $-\infty$ at $t^\star = \tfrac{1}{r}\ln\tfrac{y_0 - K}{y_0} > 0$. $y_0 > K$ exists for all $t \geq 0$ but blows up going backward in time.
+
 ## Graph
 **Solutions in the $ty$-plane** with $K = 4$ and $r = 1$. The equilibria $y = 0$ and $y = K$ are dashed, and the inflection level $y = K/2$ is dotted.
+
 ```desmos-graph
-left=-0.5; right=8; top=7; bottom=-0.5
+left=-0.5; right=8; top=7; bottom=-3
 xAxisLabel=t; yAxisLabel=y
 ---
 y=\frac{y_{0}K}{y_{0}+\left(K-y_{0}\right)e^{-r_{0}x}}|x>=0
-y_{0}=[0.1,0.5,1,2,3,5,6]
+y_{0}=[-2,-1.5,-1.7,-1.2,-0.8,-0.5,-0.3,-0.1,0.1,0.5,1,2,3,5,6]
 K=4
 r_0=1
 y=K|dashed|#388c46

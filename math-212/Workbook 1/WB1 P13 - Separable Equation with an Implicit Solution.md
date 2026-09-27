@@ -31,6 +31,11 @@ y - \frac{y^3}{3} &= \frac{x^3}{3} + c \\
 \end{align*}
 $$
 
+## Solution set
+- **General solution (implicit):** $3y - y^3 - x^3 = C$, $C \in \mathbb{R}$. Here $C = 3c$ with $c$ an additive constant, so every real $C$ is allowed, and each one gives a nonempty curve.
+- **Constant solutions:** none. $y' = 0$ only at $x = 0$, not identically.
+- **Note:** each curve defines functions $y(x)$ only on pieces that avoid $y = \pm 1$, where the tangent is vertical. A single solution $y(x)$ is one such piece.
+
 ## Graph
 Implicit level curves $3y - y^3 - x^3 = C$. The lines $y = \pm 1$ (dashed) mark where solutions have vertical tangents.
 ```desmos-graph

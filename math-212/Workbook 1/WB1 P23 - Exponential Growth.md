@@ -41,6 +41,11 @@ $$
 - If $r > 0$, every solution with $y_0 > 0$ grows without bound. The doubling time is $\dfrac{\ln 2}{r}$.
 - If $r < 0$, every solution decays to $0$. The half-life is $\dfrac{\ln 2}{\lvert r\rvert}$.
 
+## Solution set
+- **General solution:** $y(t) = Ce^{rt}$, $C \in \mathbb{R}$, $t \in \mathbb{R}$. The IVP picks $C = y_0$.
+- **Constant solutions:** $y \equiv 0$, included at $C = 0$.
+- **Note:** separation gives $C = \pm e^{c} \neq 0$. $y \equiv 0$ is lost when dividing by $y$ and put back as $C = 0$. For a population, only $C \geq 0$ is meaningful.
+
 ## Graph
 Growth with $r = 0.5$ in blue and decline with $r = -0.5$ in red, for $y_0 \in \{0.5, 1, 2, 3\}$:
 ```desmos-graph

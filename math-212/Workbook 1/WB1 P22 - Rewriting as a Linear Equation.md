@@ -31,6 +31,10 @@ e^{-x}y &= e^{x} + e^{-x} + c \\
 $$
 **Check:** $y' = 2e^{2x} + ce^{x}$ and $e^{2x} + y - 1 = 2e^{2x} + ce^{x} \checkmark$
 
+## Solution set
+- **General solution:** $y(x) = e^{2x} + 1 + Ce^{x}$, $C \in \mathbb{R}$, $x \in \mathbb{R}$.
+- **Constant solutions:** none. $y \equiv k$ would need $e^{2x} + k - 1 = 0$ for all $x$.
+
 ## Graph
 As $x \to -\infty$, every solution approaches $y = 1$. This is not an equilibrium, because $y \equiv 1$ does not solve the equation.
 ```desmos-graph

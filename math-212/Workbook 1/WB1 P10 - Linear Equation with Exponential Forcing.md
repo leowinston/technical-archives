@@ -32,6 +32,10 @@ y &= \left(\frac{x^4}{4} + c\right)e^{-2x}
 $$
 Every solution tends to $0$ as $x \to \infty$, because the exponential dominates.
 
+## Solution set
+- **General solution:** $y(x) = \left(\dfrac{x^4}{4} + C\right)e^{-2x}$, $C \in \mathbb{R}$, $x \in \mathbb{R}$.
+- **Constant solutions:** none. $y \equiv k$ would need $2k = x^3e^{-2x}$ for all $x$.
+
 ## Graph
 ```desmos-graph
 left=-1.5; right=6; top=3; bottom=-2

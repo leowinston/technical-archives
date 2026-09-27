@@ -32,6 +32,11 @@ y &= \int x^{-2}\,dx = -\frac{1}{x} + c, \qquad x \neq 0
 \end{align*}
 $$
 
+## Solution set
+- **(a)** $y(x) = x + C$, $C \in \mathbb{R}$, $x \in \mathbb{R}$.
+- **(b)** $y(x) = -\dfrac{1}{x} + C$, $C \in \mathbb{R}$, on **either** $(-\infty, 0)$ **or** $(0, \infty)$. A solution lives on one interval; the constants on the two sides are independent.
+- **Constant solutions:** none in either part, since $y' \neq 0$.
+
 ## Graph
 Family (a) in blue and family (b) in red:
 ```desmos-graph

@@ -48,6 +48,12 @@ x^3 + 2x^2 + 2x + 4 = x^2(x + 2) + 2(x + 2) = (x^2 + 2)(x + 2) > 0 \iff x > -2
 $$
 So the solution is valid on $(-2, \infty)$. At $x = -2$, $y = 1$ and the tangent is vertical.
 
+## Solution set
+- **General solution (implicit):** $y^2 - 2y = x^3 + 2x^2 + 2x + C$, $C \in \mathbb{R}$.
+- **Explicit:** $y(x) = 1 \pm \sqrt{x^3 + 2x^2 + 2x + C + 1}$, valid where the radicand is **positive**. Each sign is a separate family.
+- **IVP:** $C = 3$, minus sign, $x \in (-2, \infty)$.
+- **Constant solutions:** none. $3x^2 + 4x + 2$ has negative discriminant, so it is never $0$. $y = 1$ is where $f$ is undefined, not a solution.
+
 ## Graph
 The IVP solution is blue and the discarded $+$ branch is dashed. The point $(-2, 1)$ marks the vertical tangent.
 ```desmos-graph

@@ -31,6 +31,12 @@ $$
 $$
 **Check by separation:** $6\ln\lvert x\rvert + 4\ln\lvert y\rvert = c$ gives $x^6y^4 = C'$, which is the same family.
 
+## Solution set
+- **General solution (implicit):** $x^3y^2 = C$, $C \in \mathbb{R}$.
+- **Explicit:** as $y' = -\dfrac{3y}{2x}$ (linear), $y(x) = K\lvert x\rvert^{-3/2}$, $K \in \mathbb{R}$, on $(0, \infty)$ **or** $(-\infty, 0)$.
+- **Constant solutions:** $y \equiv 0$, included at $C = 0$ ($K = 0$).
+- **Note:** in the separable check, $C' = e^{c} > 0$ at first, and $y \equiv 0$ was lost when dividing by $y^2$. It returns as $C' = 0$. Also $x \equiv 0$ solves the differential form, but it is not a function $y(x)$.
+
 ## Graph
 ```desmos-graph
 left=-4; right=4; top=4; bottom=-4

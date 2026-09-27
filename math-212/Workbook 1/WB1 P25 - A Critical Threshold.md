@@ -34,11 +34,11 @@ $$
 
 **(b) Increasing and decreasing**
 
-| Interval | $f(y)$ | Solutions |
-|---|---|---|
-| $y < 0$ | $+$ | increasing |
-| $0 < y < T$ | $-$ | **decreasing** (population dies out) |
-| $y > T$ | $+$ | **increasing** (grows without bound) |
+| Interval    | $f(y)$ | Solutions                            |
+| ----------- | ------ | ------------------------------------ |
+| $y < 0$     | $+$    | increasing                           |
+| $0 < y < T$ | $-$    | **decreasing** (population dies out) |
+| $y > T$     | $+$    | **increasing** (grows without bound) |
 
 **(c) Phase line**
 - Below $0$ the arrows point **up**, toward $0$.
@@ -72,6 +72,10 @@ f'(T) &= r > 0 &&\implies y = T \text{ is unstable (the threshold)}
 \end{align*}
 $$
 A population that starts below $T$ goes extinct. One that starts above $T$ grows without bound, reaching infinity in finite time (see [[WB1 P26 - Critical Threshold Blow-Up|Problem 26]]).
+
+## Solution set
+- **Constant solutions:** $y \equiv 0$ and $y \equiv T$.
+- **General solution** (from [[WB1 P26 - Critical Threshold Blow-Up|Problem 26]]): $y(t) = \dfrac{y_0T}{y_0 + (T - y_0)e^{rt}}$, $y_0 \in \mathbb{R}$. It includes both equilibria ($y_0 = 0$, $y_0 = T$).
 
 ## Graph
 **Solutions in the $ty$-plane** with $T = 2$ and $r = 1$. Starting values below $T$ are blue. The value $y_0 = 2.5$ is red and blows up near $t^\star = \ln 5 \approx 1.61$.

@@ -29,6 +29,10 @@ y &= \frac{1}{2}x^3 + \frac{1}{2}x^2 + c_1x + c_2
 \end{align*}
 $$
 
+## Solution set
+- **General solution:** $y(x) = \tfrac{1}{2}x^3 + \tfrac{1}{2}x^2 + C_1x + C_2$, $C_1, C_2 \in \mathbb{R}$, $x \in \mathbb{R}$.
+- **Constant solutions:** none, since $y'' = 0 \neq 3x + 1$.
+
 ## Graph
 Members of the solution family with $c_2 = 0$ and several values of $c_1$:
 ```desmos-graph

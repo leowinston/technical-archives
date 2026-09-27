@@ -32,6 +32,10 @@ y &= \frac{2x^2 + c}{4 + x^2}
 $$
 Every solution tends to $2$ as $x \to \pm\infty$. By Theorem 2.4.1, each solution exists on all of $\mathbb{R}$.
 
+## Solution set
+- **General solution:** $y(x) = \dfrac{2x^2 + C}{4 + x^2}$, $C \in \mathbb{R}$, $x \in \mathbb{R}$.
+- **Constant solutions:** $y \equiv k$ requires $2xk = 4x$ for all $x$, so $k = 2$. It is included at $C = 8$: $\dfrac{2x^2 + 8}{4 + x^2} = 2$.
+
 ## Graph
 ```desmos-graph
 left=-8; right=8; top=4; bottom=-3

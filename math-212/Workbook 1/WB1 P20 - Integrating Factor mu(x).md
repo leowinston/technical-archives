@@ -54,6 +54,11 @@ $$
 \boxed{\,e^{-x^2}\left(x^2y^3 + 2y^2 - 1\right) = c\,}
 $$
 
+## Solution set
+- **General solution (implicit):** $e^{-x^2}\left(x^2y^3 + 2y^2 - 1\right) = C$, $C \in \mathbb{R}$.
+- **Constant solutions:** none. $y \equiv k$ would need $M = 0$ for all $x$. The $x^3$ coefficient forces $k = 0$, but then $M = 2x \neq 0$.
+- **Note:** $\mu = e^{-x^2}$ is never $0$, so multiplying by it neither adds nor removes solutions.
+
 ## Graph
 ```desmos-graph
 left=-3; right=3; top=3; bottom=-3

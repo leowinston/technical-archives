@@ -42,6 +42,10 @@ y &= y_1(x)\left[\int \frac{f(x)}{y_1(x)}\,dx + c\right]
 $$
 Since $1/y_1 = e^{\int p} = \mu$, this matches the integrating factor formula from [[WB1 P09 - Deriving the Integrating Factor|Problem 9]].
 
+## Solution set
+- **General solution:** $y(x) = y_1(x)\left[\displaystyle\int \dfrac{f(x)}{y_1(x)}\,dx + C\right]$, $C \in \mathbb{R}$, with $y_1 = e^{-\int p\,dx}$.
+- **Note:** $y_1$ is **one** fixed nonzero solution of the complementary equation, so its own constant is set to $1$. The free constant is the $C$ from integrating $u'$.
+
 ## Graph
 The general solution splits as $y = cy_1 + y_p$. For example, with $y' + y = 1$: $y_1 = e^{-x}$ and $y = 1 + ce^{-x}$. The complementary part is dashed and the particular solution $y_p = 1$ is black.
 ```desmos-graph

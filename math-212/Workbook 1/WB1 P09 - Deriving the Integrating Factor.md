@@ -38,6 +38,10 @@ $$
 y = \frac{1}{\mu(x)}\left[\int \mu(x)f(x)\,dx + c\right]
 $$
 
+## Solution set
+- **Integrating factor:** $\mu(x) = e^{\int p(x)\,dx}$. Any nonzero constant multiple also works, so the constant is dropped (it can't be $0$, or $\mu$ would be useless).
+- **General solution:** $y(x) = \dfrac{1}{\mu(x)}\left[\displaystyle\int \mu(x)f(x)\,dx + C\right]$, $C \in \mathbb{R}$, on any interval where $p$ and $f$ are continuous.
+
 ## Graph
 An example: $y' + 2xy = 2x$ gives $\mu = e^{x^2}$, so $(e^{x^2}y)' = 2xe^{x^2}$ and $y = 1 + ce^{-x^2}$.
 ```desmos-graph
