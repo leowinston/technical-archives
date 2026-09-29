@@ -26,4 +26,6 @@ $$
 $$
 Larger $\delta$ shrinks $\beta$: more bias, less variance. This is Chapter 6.3 (regularized approximation) of the book.
 
+The same penalty appears in [[Regularized Spectral Clustering]]. There, $\tau\sum_i(x_i - \bar x)^2$ is added to the cut relaxation, and $\tau$ trades fitting fine structure against stability on sparse graphs.
+
 See also: [[Jensen's Inequality]], [[Least Squares by Gradient Descent]]

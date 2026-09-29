@@ -37,7 +37,7 @@ The same theorem appears in both portfolios, proved two ways: $x + \frac1x \ge 2
 
 ## Explorations
 - [[Inductive Proof of the Fibonacci Recurrence]] — strong induction, $\begin{bmatrix}1&1\\1&0\end{bmatrix}^n$ state-transition form
-- [[Banach's Fixed Point Theorem]] — contraction on a complete space (unfinished draft, April 2026)
+- [[Banach's Fixed Point Theorem]] — contraction on a complete space (drafted April 2026, finished September 2026) · proves ODE existence and uniqueness via [[academic/math-212/Topics/Existence and Uniqueness Theorems|Picard iteration]]
 
 ---
 

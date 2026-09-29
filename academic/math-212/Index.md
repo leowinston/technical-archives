@@ -38,7 +38,7 @@ Topic notes hold definitions, theorems, and standard forms. Problem notes hold w
 - [[Modeling with First-Order Equations]] — mixing, finance, motion with resistance, cooling, Torricelli
 
 ### 2.4 Differences Between Linear and Nonlinear Equations
-- [[Existence and Uniqueness Theorems]] — Thm 2.4.1 (linear), Thm 2.4.2 (nonlinear), interval of existence, singular solutions
+- [[Existence and Uniqueness Theorems]] — Thm 2.4.1 (linear), Thm 2.4.2 (nonlinear, via Picard iteration and Banach), interval of existence, singular solutions
 - [[Bernoulli Equations]] — $y' + p(t)y = q(t)y^n$, substitution $v = y^{1-n}$
 
 ### 2.5 Autonomous Equations and Population Dynamics

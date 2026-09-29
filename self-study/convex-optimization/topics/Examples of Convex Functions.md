@@ -26,7 +26,21 @@ Back to [[self-study/convex-optimization/Index|Index]] · Section 3.1.5
 
 Log-sum-exp is a smooth max: $\max_i x_i \le \log\sum e^{x_i} \le \max_i x_i + \log n$.
 
+## $\log\det X$ is concave
+Restrict to a line $X = Z + tV$ with $Z \succ 0$, and let $\lambda_i$ be the eigenvalues of $Z^{-1/2}VZ^{-1/2}$:
+$$
+g(t) = \log\det Z + \sum_i \log(1 + t\lambda_i)
+$$
+Each term is concave in $t$, so $g$ is concave.
+
+**Evaluating it without eigenvalues.** Factor $X = GG^{\top}$ (Cholesky). Then $\det X = \prod_k g_{kk}^2$, so
+$$
+\boxed{\log\det X = 2\sum_k \log g_{kk}}
+$$
+This is exact and costs $\tfrac13 n^3$ flops, versus $n!$ terms for cofactor expansion. The factorization succeeds iff $X \succ 0$, so it also checks the domain. Summing logs also avoids the overflow you get from forming $\det X$ first.
+
 ## Explorations
 - [[EX02 - Checking Convexity with the Hessian]]
+- [[EX11 - Log Det via Cholesky]]
 
-See also: [[Second-Order Conditions]], [[Operations That Preserve Convexity of Functions]]
+See also: [[Second-Order Conditions]], [[Operations That Preserve Convexity of Functions]], [[academic/math-315/Topics/Cholesky Factorization|Cholesky Factorization]]

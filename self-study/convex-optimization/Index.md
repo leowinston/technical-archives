@@ -61,7 +61,7 @@ Self-study notes built from two sources: my annotated copy of Boyd & Vandenbergh
 - [[Convex Functions]] — ✎ definition, ✎ concave, restriction to a line
 - [[First-Order Condition]] — tangent line is a global underestimator
 - [[Second-Order Conditions]] — ✎ $\nabla^2 f \succeq 0$
-- [[Examples of Convex Functions]] — norms, max, log-sum-exp, $\log\det$
+- [[Examples of Convex Functions]] — norms, max, log-sum-exp, $\log\det$ (concave; evaluate via Cholesky)
 - [[Sublevel Sets and Epigraph]] — ✎ sublevel-set sketch, $f$ convex $\iff \epi f$ convex
 - [[Jensen's Inequality]] — $f(\E X) \le \E f(X)$, ✎ dithering hurts (ML notebook)
 
@@ -113,13 +113,10 @@ Self-study notes built from two sources: my annotated copy of Boyd & Vandenbergh
 - [[Maximum Likelihood Estimation]] — Gaussian MLE = least squares
 - [[Bias-Variance Tradeoff]] — bias² + variance + $\sigma^2$, ridge regularization
 
-### Spectral Graph Theory
-- [[Graph Laplacian]] — $L_G = D_G - A_G \succeq 0$, spectral gap
-- [[Spectral Clustering and Sparsest Cut]] — Fiedler vector, $\phi_G \ge \lambda_2$, sweep algorithm
-
-### Information Theory
-- [[Prefix Codes and Huffman Coding]] — greedy proof, Kraft + entropy as the convex relaxation
-- [[Noiseless and Memoryless Channels]] — $[Y, \nu_y, Z]$, channel kernel, capacity as concave max
+### Graphs as Optimization Problems
+- [[Sparsest Cut as a Spectral Relaxation]] — $\{\pm1\}^n \to$ sphere relaxation, $\lambda_2 \le \phi_G$, $\lambda_2(w)$ concave, regularization
+- Graph definitions ($L_G$, Fiedler vector, sweep algorithm) live in [[self-study/graph-theory/Index|Graph Theory]]
+- [[Regularized Spectral Clustering]] (graph theory) — ridge term $\tau\sum_i(x_i - \bar x)^2$ in the cut relaxation
 
 ---
 
@@ -136,8 +133,8 @@ Self-study notes built from two sources: my annotated copy of Boyd & Vandenbergh
 | 7 | [[EX07 - Markowitz Three-Asset Portfolio]] | ✎ §4.4.1 | [[Markowitz Portfolio Optimization]], [[Quadratic Programs]] |
 | 8 | [[EX08 - Least Squares by Gradient Descent]] | ML notebook | [[Least Squares by Gradient Descent]] |
 | 9 | [[EX09 - Gaussian MLE Equals Least Squares]] | ML notebook | [[Maximum Likelihood Estimation]] |
-| 10 | [[EX10 - Fiedler Vector Sparsest Cut on a 10-Node Graph]] | ML notebook | [[Spectral Clustering and Sparsest Cut]], [[Graph Laplacian]] |
-| 11 | [[EX11 - Huffman Code and the Entropy Bound]] | ML notebook | [[Prefix Codes and Huffman Coding]] |
+| 10 | [[EX10 - Relaxation Gap on a 10-Node Graph]] | ML notebook | [[Sparsest Cut as a Spectral Relaxation]] |
+| 11 | [[EX11 - Log Det via Cholesky]] | §3.1.5, lecture | [[Examples of Convex Functions]], [[academic/math-315/Topics/Cholesky Factorization\|Cholesky Factorization]] |
 
 ---
 

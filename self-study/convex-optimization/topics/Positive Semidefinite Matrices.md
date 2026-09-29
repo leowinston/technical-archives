@@ -23,7 +23,8 @@ For $A \succ 0$ (positive definite), make each inequality strict and $B$ nonsing
 ## Where it shows up
 - **Convexity test:** $f$ is convex iff $\nabla^2 f \succeq 0$.
 - **Covariance** $\Sigma = \E[(x - \bar x)(x - \bar x)^{\top}] \succeq 0$, so $x^{\top}\Sigma x$ in Markowitz is convex.
-- **Graph Laplacian:** $L_G \succeq 0$.
+- **Graph Laplacian:** $L_G = B^{\top}B \succeq 0$ (see [[Laplacian of a Graph]]).
+- **Regularized Laplacian:** $L_G + \tau\big(I - \tfrac1n J\big) \succeq 0$, and $D + \tau I \succ 0$, so $(D + \tau I)^{-1/2}$ exists even with isolated vertices (see [[Regularized Spectral Clustering]]).
 - $\Spsd{n}$ is a convex cone.
 
-See also: [[Second-Order Conditions]], [[Important Convex Sets]], [[Graph Laplacian]]
+See also: [[Second-Order Conditions]], [[Important Convex Sets]], [[Sparsest Cut as a Spectral Relaxation]]

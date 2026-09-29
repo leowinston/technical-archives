@@ -29,4 +29,4 @@ f(x + v) \approx f(x) + \nabla f(x)^{\top}v + \tfrac12 v^{\top}\nabla^2 f(x)\,v
 $$
 The sign of the quadratic term is what [[Second-Order Conditions]] checks.
 
-See also: [[Least Squares by Gradient Descent]], [[Graph Laplacian]]
+See also: [[Least Squares by Gradient Descent]], [[Laplace Operator and the Graph Laplacian]] (graph theory)

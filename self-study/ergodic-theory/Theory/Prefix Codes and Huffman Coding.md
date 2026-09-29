@@ -1,9 +1,9 @@
 ---
-tags: [convex-optimization, topic, ml-notebook, information-theory]
+tags: [ergodic-theory, topic, ml-notebook, information-theory]
 source: ML notebook "Codes" / "Huffman Coding" / "Greedy Algorithm to solve"
 ---
 # Prefix Codes and Huffman Coding
-Back to [[self-study/convex-optimization/Index|Index]] · ML notebook
+Back to [[self-study/ergodic-theory/Index|Index]] · ML notebook
 
 ## Prefix codes
 $\varphi : \mathcal A \to \{0, 1\}^{*}$ is **prefix-free** if no codeword $\varphi(a_i)$ is a prefix of another $\varphi(a_j)$. Codewords are the leaves of a binary tree. Goal:
@@ -24,7 +24,7 @@ Repeatedly merge the two least likely symbols $b, d$ into one symbol $\alpha$ wi
 ## Convex relaxation
 Drop integrality: minimize $\sum p_a\ell_a$ s.t. $\sum 2^{-\ell_a} \le 1$ (Kraft). This is a convex problem with solution $\ell_a = -\log_2 p_a$ and value the **entropy** $H(p)$. Huffman satisfies $H \le \E[L] < H + 1$.
 
-## Explorations
-- [[EX11 - Huffman Code and the Entropy Bound]]
+## Examples
+- [[EX01 - Huffman Code and the Entropy Bound]]
 
 See also: [[Noiseless and Memoryless Channels]]

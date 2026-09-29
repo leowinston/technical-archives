@@ -38,4 +38,4 @@ $$
 ## Explorations
 - [[EX08 - Cholesky Factorization of a 3x3 SPD Matrix]]
 
-See also: [[Symmetric Positive Definite Matrices]], [[LDLT Factorization]]
+See also: [[Symmetric Positive Definite Matrices]], [[LDLT Factorization]], [[self-study/convex-optimization/explorations/EX11 - Log Det via Cholesky|Log det via Cholesky]] (convex opt)

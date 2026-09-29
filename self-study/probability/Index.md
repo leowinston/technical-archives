@@ -22,7 +22,7 @@ Topic notes hold definitions, key results, and one-line examples. Problem notes 
 - [[Stars and Bars]] — $\binom{n+k-1}{k}$ indistinguishable objects into $n$ boxes
 
 ## Part 2 — Axioms of Probability
-- [[Axioms of Probability]] — $\P(\emptyset) = 0$, $\P(S) = 1$, countable additivity, consequences
+- [[Axioms of Probability]] — $\P(\emptyset) = 0$, $\P(S) = 1$, countable additivity, consequences, measure-theoretic $(S, \mathscr F, \P)$ (links to [[self-study/ergodic-theory/Index|Ergodic Theory]])
 - [[Inclusion-Exclusion]] — unions of events, de Montmort, $1 - 1/e$
 
 ## Part 3 — Conditional Probability

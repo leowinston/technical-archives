@@ -1,10 +1,10 @@
 ---
-tags: [convex-optimization, exploration, ml-notebook, information-theory]
+tags: [ergodic-theory, example, ml-notebook, information-theory]
 source: ML notebook "Huffman Coding" (symbols a–f, codes 10, 000, 110, 01, 001, 111)
 topics: ["[[Prefix Codes and Huffman Coding]]"]
 ---
-# EX11 — Huffman Code and the Entropy Bound
-Back to [[self-study/convex-optimization/Index|Index]]
+# EX01 — Huffman Code and the Entropy Bound
+Back to [[self-study/ergodic-theory/Index|Index]]
 
 > [!question] Problem
 > Your notebook code is $a{:}\,10,\ b{:}\,000,\ c{:}\,110,\ d{:}\,01,\ e{:}\,001,\ f{:}\,111$. Take

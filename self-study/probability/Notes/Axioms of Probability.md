@@ -22,6 +22,12 @@ $$
 **Key step for the complement:** $A$ and $A^c$ are disjoint with union $S$, so $\P(A) + \P(A^c) = 1$.
 **For the union:** write $A \cup B = A \cup (B \cap A^c)$, which is a disjoint union.
 
+## Measure-theoretic version
+In measure theory a probability space is a triple $(S, \mathscr F, \P)$, where $\mathscr F$ is a $\sigma$-field of events and $\P$ is a **measure** with $\P(S) = 1$ (see [[self-study/ergodic-theory/Theory/Measures, Semirings, and Rings|Measures, Semirings, and Rings]]). Axiom 2 above is exactly $\sigma$-additivity.
+- For finite or countable $S$, take $\mathscr F$ = all subsets. Nothing changes.
+- For an uncountable $S$, such as infinite sequences of coin flips, not every subset can be given a consistent probability. So $\P$ is defined only on $\mathscr F$ (see [[self-study/ergodic-theory/Theory/Sequence Spaces and Sigma-Fields|Sequence Spaces and Sigma-Fields]]).
+- $\mathscr F$ is closed under complements and countable unions. That is what makes $\P(A^c)$ and $\P(A \cup B)$ in the consequences well-defined.
+
 ## Interpretations
 - **Frequentist:** the long-run frequency over many repetitions.
 - **Bayesian:** a degree of belief. It also applies to one-off events like an election.
