@@ -1,0 +1,74 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usetikzlibrary{arrows.meta, positioning, graphs, automata, matrix, calc}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlist{nosep}
+
+\tikzset{
+    every tree node/.style={circle, draw, minimum size=0.6cm, inner sep=1pt},
+    blank/.style={draw=none, fill=none, edge from parent/.style={draw=none}},
+    blacknode/.style={circle, draw, fill=black, text=white, minimum size=0.6cm, inner sep=1pt},
+    whitenode/.style={circle, draw, fill=white, text=black, minimum size=0.6cm, inner sep=1pt},
+    rednode/.style={circle, draw, fill=white, text=black, minimum size=0.6cm, inner sep=1pt},
+    tfnode/.style={rectangle, draw, rounded corners=2pt, minimum size=0.45cm, inner sep=1pt},
+    listnode/.style={rectangle, draw, rounded corners=2pt, minimum height=0.6cm, inner sep=3pt},
+    skipnode/.style={rectangle, draw, minimum size=0.6cm, inner sep=2pt},
+    main node/.style={circle, draw, minimum size=0.6cm}
+}
+\begin{document}
+
+\begin{center}
+    \Large\textbf{CS 253: Data Structures and Algorithms}\\
+    \large\textbf{Randomized Final Study Problem}
+\end{center}
+\vspace{1em}
+
+% seed=1
+% topic=radix_sort
+% passes=4
+% max_digits=4
+
+\section*{Linear Sorting and String Matching}
+\subsection*{LSD Radix Sort}
+Use least significant digit (LSD) radix sort on the array \texttt{[9335, 1043, 4189, 1941, 8127, 7374, 7747, 6229, 3449]}. Label each digit pass and preserve stability.
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+ Pass 0 & 9335 & 1043 & 4189 & 1941 & 8127 & 7374 & 7747 & 6229 & 3449 \\
+\hline
+ Pass 1 & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} \\
+\hline
+ Pass 2 & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} \\
+\hline
+ Pass 3 & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} \\
+\hline
+ Pass 4 & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} & \phantom{0} \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Instructor Reference}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+ Pass 0 & 9335 & 1043 & 4189 & 1941 & 8127 & 7374 & 7747 & 6229 & 3449 \\
+\hline
+ Pass 1 & 1941 & 1043 & 7374 & 9335 & 8127 & 7747 & 4189 & 6229 & 3449 \\
+\hline
+ Pass 2 & 8127 & 6229 & 9335 & 1941 & 1043 & 7747 & 3449 & 7374 & 4189 \\
+\hline
+ Pass 3 & 1043 & 8127 & 4189 & 6229 & 9335 & 7374 & 3449 & 7747 & 1941 \\
+\hline
+ Pass 4 & 1043 & 1941 & 3449 & 4189 & 6229 & 7374 & 7747 & 8127 & 9335 \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{document}
