@@ -1,13 +1,21 @@
-# macOS
+# Operating system files
 .DS_Store
+.DS_Store?
 ._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Obsidian: keep settings, skip per-device layout and plugin code
-.obsidian/workspace*.json
-.obsidian/plugins/*/*
-!.obsidian/plugins/obsidian-latex-suite/data.json
-!.obsidian/plugins/obsidian-linter/data.json
-.obsidian/plugins/terminal/
+# Obsidian: keep only the Desmos, MathJax, and Latex Suite plugins, plus the list
+# that switches them on in a fresh clone
+.obsidian/*
+!.obsidian/community-plugins.json
+!.obsidian/plugins/
+.obsidian/plugins/*
+!.obsidian/plugins/obsidian-desmos/
+!.obsidian/plugins/obsidian-latex/
+!.obsidian/plugins/obsidian-latex-suite/
 .trash/
 
 # Stray nested vault config
@@ -16,12 +24,23 @@ academic/math-212/.obsidian/
 # Claude Code local settings
 .claude/
 
-# Python
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache and bytecode
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+*.egg-info/
 .pytest_cache/
-venv/
-.venv/
+.mypy_cache/
+.ruff_cache/
 
 # DSA problem generator scratch output (curated copies live in generated-problems/)
 archive/dsa-problem-generator/output/
@@ -34,3 +53,8 @@ archive/dsa-problem-generator/output/
 *.out
 *.synctex.gz
 *.toc
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
