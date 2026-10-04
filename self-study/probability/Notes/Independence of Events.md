@@ -2,7 +2,7 @@
 tags: [probability, topic, part-3]
 ---
 # Independence of Events
-Back to [[self-study/probability/Index|Index]] · Part 3
+Back to [Index](../Index.md) · Part 3
 
 ## Definition
 $$
@@ -23,6 +23,6 @@ $$
 - **The triple condition alone is not enough either.** If $\P(A) = 0$, it holds automatically and says nothing about $B$ and $C$.
 
 ## Problems
-- [[P20 - Even Number of Successes]]
+- [P20 - Even Number of Successes](../Problems/P20%20-%20Even%20Number%20of%20Successes.md)
 
-See also: [[Conditional Independence]], [[Independence of Random Variables]]
+See also: [Conditional Independence](Conditional%20Independence.md), [Independence of Random Variables](Independence%20of%20Random%20Variables.md)

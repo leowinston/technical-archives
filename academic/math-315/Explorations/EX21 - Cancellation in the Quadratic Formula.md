@@ -4,7 +4,7 @@ source: Constructed example for Section 2.2 (slides 40–42, Example 2.2.13)
 topics: ["[[Cancellation Error]]", "[[Rounding and Machine Precision]]"]
 ---
 # EX21 — Cancellation in the Quadratic Formula
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Solve $x^2 + 62.10x + 1 = 0$ using 4-digit arithmetic with rounding.
@@ -98,6 +98,6 @@ An equivalent fix is Vieta's formula: $x_1 x_2 = c/a$, so $x_1 = c/(a x_2) = 1/(
 - Algebraically equal formulas can behave very differently in floating point.
 
 ## Related topics
-- [[Cancellation Error]]
-- [[Rounding and Machine Precision]]
-- [[Floating-Point Arithmetic]]
+- [Cancellation Error](../Topics/Cancellation%20Error.md)
+- [Rounding and Machine Precision](../Topics/Rounding%20and%20Machine%20Precision.md)
+- [Floating-Point Arithmetic](../Topics/Floating-Point%20Arithmetic.md)

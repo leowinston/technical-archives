@@ -8,7 +8,7 @@ portfolio: "Proof Portfolio- Foundations of Math- Spring 2026"
 date: 2026-02-27
 ---
 # If and only If (Equivalence) Proof
-Back to [[archive/proofs/Index|Index]]
+Back to [Index](../Index.md)
 
 *Proof Portfolio- Foundations of Math- Spring 2026* · Leo Winston · February 27, 2026
 

@@ -2,7 +2,7 @@
 tags: [probability, topic, part-6]
 ---
 # Expected Present Value
-Back to [[self-study/probability/Index|Index]] · Part 6
+Back to [Index](../Index.md) · Part 6
 
 ## Formula
 A cash flow $C_t$ received at time $t$, with discount rate $r$ and probability $p_t$ of actually being paid, has
@@ -26,6 +26,6 @@ $$
 $$
 
 ## Problems
-- [[P24 - Expected Present Value of a Risky Company]]
+- [P24 - Expected Present Value of a Risky Company](../Problems/P24%20-%20Expected%20Present%20Value%20of%20a%20Risky%20Company.md)
 
-See also: [[Expected Value]], [[Limits of Expected Value]]
+See also: [Expected Value](Expected%20Value.md), [Limits of Expected Value](Limits%20of%20Expected%20Value.md)

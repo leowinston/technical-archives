@@ -3,7 +3,7 @@ tags: [graph-theory, theory, ch-1]
 source: Kelly, Graph Theory §1.1.3, §1.1.5 (pp. 5, 7)
 ---
 # Neighbourhood, Degree, and Regularity
-Back to [[self-study/graph-theory/Index|Index]] · Sections 1.1.3, 1.1.5
+Back to [Index](../Index.md) · Sections 1.1.3, 1.1.5
 
 ## Neighbourhood
 $x$ and $y$ are **adjacent** if $xy \in E$.
@@ -31,4 +31,4 @@ $G$ is **$k$-regular** if $d(x) = k$ for every $x$, so $\Delta(G) = \delta(G) = 
 
 ✎ Sketches: $K_2$, $C_3$, $C_4$, $K_4$ are regular. $K_4$ minus an edge is not (degrees $3, 3, 2, 2$).
 
-See also: [[Degree and Adjacency Matrices]], [[Paths, Connectivity, and Distance]]
+See also: [Degree and Adjacency Matrices](Degree%20and%20Adjacency%20Matrices.md), [Paths, Connectivity, and Distance](Paths%2C%20Connectivity%2C%20and%20Distance.md)

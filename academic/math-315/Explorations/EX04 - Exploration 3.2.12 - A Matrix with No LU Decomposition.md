@@ -4,7 +4,7 @@ source: Lecture 3 handout, p. 6 (Exploration 3.2.12)
 topics: ["[[LU Decomposition]]", "[[Gaussian Elimination]]", "[[Partial Pivoting]]"]
 ---
 # Exploration 3.2.12 — A Matrix with No LU Decomposition
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Prove that
@@ -112,9 +112,9 @@ $$
 
 ## Takeaways
 - LU without pivoting exists iff every leading minor $\Delta_1, \dots, \Delta_{n-1}$ is nonzero.
-- A zero pivot is a **row-order** problem, not an invertibility problem. That is the reason for [[Partial Pivoting]].
+- A zero pivot is a **row-order** problem, not an invertibility problem. That is the reason for [Partial Pivoting](../Topics/Partial%20Pivoting.md).
 
 ## Related topics
-- [[LU Decomposition]]
-- [[Gaussian Elimination]]
-- [[Partial Pivoting]]
+- [LU Decomposition](../Topics/LU%20Decomposition.md)
+- [Gaussian Elimination](../Topics/Gaussian%20Elimination.md)
+- [Partial Pivoting](../Topics/Partial%20Pivoting.md)

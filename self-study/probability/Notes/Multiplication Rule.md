@@ -2,7 +2,7 @@
 tags: [probability, topic, part-1]
 ---
 # Multiplication Rule
-Back to [[self-study/probability/Index|Index]] · Part 1
+Back to [Index](../Index.md) · Part 1
 
 ## Statement
 If experiment 1 has $a$ outcomes and, **for each** of them, experiment 2 has $b$ outcomes, then the compound experiment has
@@ -17,6 +17,6 @@ A tree diagram is the picture: $a$ branches, each splitting into $b$.
 - **Trap:** ordered vs unordered. Two cones from 6 options gives $6^2 = 36$ ordered pairs, but $\binom{6}{2} + 6 = 21$ unordered ones, **not** $36/2 = 18$. The pairs $(x, x)$ are counted only once.
 
 ## Problems
-- [[P04 - Lattice Paths]]
+- [P04 - Lattice Paths](../Problems/P04%20-%20Lattice%20Paths.md)
 
-See also: [[Sampling With and Without Replacement]], [[Binomial Coefficients]]
+See also: [Sampling With and Without Replacement](Sampling%20With%20and%20Without%20Replacement.md), [Binomial Coefficients](Binomial%20Coefficients.md)

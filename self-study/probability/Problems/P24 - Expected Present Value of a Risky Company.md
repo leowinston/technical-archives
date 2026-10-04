@@ -3,7 +3,7 @@ tags: [probability, problem, part-6]
 topics: ["[[Expected Present Value]]"]
 ---
 # P24 — Expected Present Value of a Risky Company
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > A company will pay $\$10$M at the end of each of the next three years, but there is a 50% chance it shuts down right after the first payment. The discount rate is 10%.
@@ -28,5 +28,5 @@ $$
 A firm that loses money now can have a huge valuation. The EPV sum is dominated by large, probability-weighted, discounted **future** terms.
 
 ## Related topics
-- [[Expected Present Value]]
-- [[Expected Value]] (linearity doesn't need independence)
+- [Expected Present Value](../Notes/Expected%20Present%20Value.md)
+- [Expected Value](../Notes/Expected%20Value.md) (linearity doesn't need independence)

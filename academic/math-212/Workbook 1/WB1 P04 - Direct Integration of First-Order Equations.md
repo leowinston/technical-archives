@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 4 (p. 4)
 topics: ["[[Solutions and Direction Fields]]"]
 ---
 # Problem 4 — Solve $y' = 1$ and $y' = \frac{1}{x^2}$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Solve (a) $y' = 1$ and (b) $y' = \dfrac{1}{x^2}$.
@@ -48,4 +48,4 @@ c=[-2,0,2]
 ```
 
 ## Related topics
-- [[Solutions and Direction Fields]]
+- [Solutions and Direction Fields](../Topics/Solutions%20and%20Direction%20Fields.md)

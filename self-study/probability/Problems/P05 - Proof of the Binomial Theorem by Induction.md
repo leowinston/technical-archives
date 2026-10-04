@@ -3,7 +3,7 @@ tags: [probability, problem, part-1]
 topics: ["[[Binomial Theorem]]", "[[Story Proofs]]"]
 ---
 # P05 — Proof of the Binomial Theorem by Induction
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Prove that for every integer $n \ge 1$,
@@ -39,5 +39,5 @@ So $P(m) \Rightarrow P(m+1)$. By induction, $P(n)$ holds for all $n \in \mathbb{
 Each term of $(x+y)^n$ comes from choosing $x$ or $y$ in every factor, without regard to order. There are $\binom{n}{k}$ ways to choose $x$ exactly $k$ times.
 
 ## Related topics
-- [[Binomial Theorem]]
-- [[Story Proofs]] (Pascal's rule)
+- [Binomial Theorem](../Notes/Binomial%20Theorem.md)
+- [Story Proofs](../Notes/Story%20Proofs.md) (Pascal's rule)

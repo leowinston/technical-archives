@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-2]
 ---
 # Modeling with First-Order Equations
-Back to [[academic/math-212/Index|Index]] · Chapter 2.3
+Back to [Index](../Index.md) · Chapter 2.3
 
 ## Three-step process
 1. **Construct the model.** Choose variables and write the rate of change as rate in minus rate out.
@@ -18,6 +18,6 @@ Back to [[academic/math-212/Index|Index]] · Chapter 2.3
 - **Escape velocity:** $v\dfrac{dv}{dx} = -\dfrac{gR^2}{(R + x)^2}$
 
 ## Workbook problems
-- [[WB1 P01 - Car Slowing Down to a Stop]]
+- [WB1 P01 - Car Slowing Down to a Stop](../Workbook%201/WB1%20P01%20-%20Car%20Slowing%20Down%20to%20a%20Stop.md)
 
-See also: [[Mathematical Models]]
+See also: [Mathematical Models](Mathematical%20Models.md)

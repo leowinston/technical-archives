@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ml-notebook]
 source: ML notebook "Gradient Descent"; Boyd & Vandenberghe §1.2.1, §9.3
 ---
 # Least Squares by Gradient Descent
-Back to [[self-study/convex-optimization/Index|Index]] · ML notebook
+Back to [Index](../Index.md) · ML notebook
 
 ## Setup
 Data $X \in \R^{n \times d}$, targets $y \in \R^n$, weights $w \in \R^d$. Prediction $\hat y = Xw$. Mean squared error:
@@ -28,6 +28,6 @@ until ‖∇L‖ small
 It converges for a step $t < 2/\lambda_{\max}(\nabla^2 L)$. The limit solves the normal equations $X^{\top}Xw = X^{\top}y$.
 
 ## Explorations
-- [[EX08 - Least Squares by Gradient Descent]]
+- [EX08 - Least Squares by Gradient Descent](../explorations/EX08%20-%20Least%20Squares%20by%20Gradient%20Descent.md)
 
-See also: [[Least-Squares and Linear Programming]], [[Maximum Likelihood Estimation]]
+See also: [Least-Squares and Linear Programming](Least-Squares%20and%20Linear%20Programming.md), [Maximum Likelihood Estimation](Maximum%20Likelihood%20Estimation.md)

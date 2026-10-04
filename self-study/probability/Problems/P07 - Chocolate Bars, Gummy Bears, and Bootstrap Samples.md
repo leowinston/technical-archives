@@ -3,7 +3,7 @@ tags: [probability, problem, part-1]
 topics: ["[[Stars and Bars]]", "[[Inclusion-Exclusion]]"]
 ---
 # P07 — Chocolate Bars, Gummy Bears, and Bootstrap Samples
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > 1. There are 15 chocolate bars and 10 children. Count the distributions if the bars are
@@ -34,6 +34,6 @@ $$
 These unordered samples are **not** equally likely. $\{a_1, \dots, a_n\}$ (each once) arises from $n!$ orderings, but $\{a_1, a_1, \dots, a_1\}$ arises from only one.
 
 ## Related topics
-- [[Stars and Bars]]
-- [[Inclusion-Exclusion]]
-- [[Story Proofs]] (hockey stick)
+- [Stars and Bars](../Notes/Stars%20and%20Bars.md)
+- [Inclusion-Exclusion](../Notes/Inclusion-Exclusion.md)
+- [Story Proofs](../Notes/Story%20Proofs.md) (hockey stick)

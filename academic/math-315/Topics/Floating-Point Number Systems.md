@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-2]
 ---
 # Floating-Point Number Systems
-Back to [[academic/math-315/Index|Index]] · Section 2.2 (slides 23–25, 29, 32)
+Back to [Index](../Index.md) · Section 2.2 (slides 23–25, 29, 32)
 
 ## Definition
 Given a base $\beta > 1$, precision $p \ge 1$, and exponent range $L \le E \le U$, the system $F$ is the set of all
@@ -24,7 +24,7 @@ In base 10, $p = 3$. In base 2, $(1.110101)_2 = 1 + \tfrac12 + \tfrac14 + \tfrac
 Floating-point numbers are **not** equally spaced. Within $[\beta^{E}, \beta^{E+1})$ the gap is $\beta^{E-p+1}$, so the gap grows with $|x|$ while the *relative* gap stays roughly constant.
 
 ## Explorations
-- [[EX16 - Base-2 Representation of -117 and 0.1]]
-- [[EX17 - A Toy Binary Floating-Point System]]
+- [EX16 - Base-2 Representation of -117 and 0.1](../Explorations/EX16%20-%20Base-2%20Representation%20of%20-117%20and%200.1.md)
+- [EX17 - A Toy Binary Floating-Point System](../Explorations/EX17%20-%20A%20Toy%20Binary%20Floating-Point%20System.md)
 
-See also: [[Exponent and Mantissa]], [[Overflow and Underflow]], [[Rounding and Machine Precision]]
+See also: [Exponent and Mantissa](Exponent%20and%20Mantissa.md), [Overflow and Underflow](Overflow%20and%20Underflow.md), [Rounding and Machine Precision](Rounding%20and%20Machine%20Precision.md)

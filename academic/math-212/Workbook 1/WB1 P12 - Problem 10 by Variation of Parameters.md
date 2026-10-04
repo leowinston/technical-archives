@@ -4,10 +4,10 @@ source: Workbook Part 1, Problem 12 (p. 8)
 topics: ["[[Variation of Parameters]]", "[[Linear First-Order Equations]]"]
 ---
 # Problem 12 — Problem 10 by Variation of Parameters
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
-> Solve [[WB1 P10 - Linear Equation with Exponential Forcing|Problem 10]], $y' + 2y = x^3e^{-2x}$, using variation of parameters.
+> Solve [Problem 10](WB1%20P10%20-%20Linear%20Equation%20with%20Exponential%20Forcing.md), $y' + 2y = x^3e^{-2x}$, using variation of parameters.
 
 ## Classification
 - **Type:** ODE, first order, **linear, nonhomogeneous**, constant coefficient
@@ -29,7 +29,7 @@ $$
 This agrees with the integrating factor answer in Problem 10.
 
 ## Solution set
-- **General solution:** $y(x) = \left(\dfrac{x^4}{4} + C\right)e^{-2x}$, $C \in \mathbb{R}$, $x \in \mathbb{R}$ (same as [[WB1 P10 - Linear Equation with Exponential Forcing|Problem 10]]).
+- **General solution:** $y(x) = \left(\dfrac{x^4}{4} + C\right)e^{-2x}$, $C \in \mathbb{R}$, $x \in \mathbb{R}$ (same as [Problem 10](WB1%20P10%20-%20Linear%20Equation%20with%20Exponential%20Forcing.md)).
 - **Constant solutions:** none.
 
 ## Graph
@@ -43,5 +43,5 @@ c=[-1,1,2]
 ```
 
 ## Related topics
-- [[Variation of Parameters]]
-- [[Linear First-Order Equations]]
+- [Variation of Parameters](../Topics/Variation%20of%20Parameters.md)
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)

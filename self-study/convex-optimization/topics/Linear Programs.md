@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-4]
 source: Boyd & Vandenberghe §4.3 (pp. 146–152)
 ---
 # Linear Programs
-Back to [[self-study/convex-optimization/Index|Index]] · Section 4.3
+Back to [Index](../Index.md) · Section 4.3
 
 ## Forms
 $$
@@ -27,4 +27,4 @@ $$
 ## Linear-fractional programs
 Minimizing $(c^{\top}x + d)/(e^{\top}x + f)$ over a polyhedron is quasiconvex. The substitution $y = x/(e^{\top}x + f)$ turns it into an LP.
 
-See also: [[Least-Squares and Linear Programming]], [[Quadratic Programs]]
+See also: [Least-Squares and Linear Programming](Least-Squares%20and%20Linear%20Programming.md), [Quadratic Programs](Quadratic%20Programs.md)

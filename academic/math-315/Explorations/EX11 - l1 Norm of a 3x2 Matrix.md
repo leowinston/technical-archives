@@ -4,7 +4,7 @@ source: Lecture 3 handout, p. 19 (B.13.2 Matrix Norms, Part 3)
 topics: ["[[Matrix Norms]]", "[[Vector Norms]]"]
 ---
 # EX11 — ℓ1 Norm of a 3×2 Matrix
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let
@@ -105,5 +105,5 @@ norm_fro = sqrt(sum(a[i][j]^2 for all i, j))
 - The $\infty$-norm is the max **row** sum, attained at a vector of $\pm1$ entries.
 
 ## Related topics
-- [[Matrix Norms]]
-- [[Vector Norms]]
+- [Matrix Norms](../Topics/Matrix%20Norms.md)
+- [Vector Norms](../Topics/Vector%20Norms.md)

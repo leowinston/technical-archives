@@ -3,7 +3,7 @@ tags: [probability, problem, part-5, lab]
 topics: ["[[Law of Large Numbers]]", "[[Central Limit Theorem]]", "[[Independence of Random Variables]]", "[[Limits of Expected Value]]"]
 ---
 # P26 — Simulation and SPY Returns Lab
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 Two simulations check this unit's answers by brute force. Then the same ideas are applied to ten years of real daily SPY (S&P 500 ETF) returns. The real-data half asks whether daily returns are **independent**, which almost every textbook market model quietly assumes. **Q8 is the one to read most carefully.**
 
@@ -93,9 +93,9 @@ for lag in (1, 2, 5, 10):
 ```
 
 ## What to look for
-**Q1–Q3** should reproduce the exact answers: $3.5$ ([[P23 - Expected Value of a Die]]), $1/3$ and $1/2$ ([[P13 - The Two-Child Problem]]), and $0.25$ ([[P12 - Recession and Falling Stocks]]). The running average in Q1 wanders early on and then gets pinned down. That is the [[Law of Large Numbers]].
+**Q1–Q3** should reproduce the exact answers: $3.5$ ([P23 - Expected Value of a Die](P23%20-%20Expected%20Value%20of%20a%20Die.md)), $1/3$ and $1/2$ ([P13 - The Two-Child Problem](P13%20-%20The%20Two-Child%20Problem.md)), and $0.25$ ([P12 - Recession and Falling Stocks](P12%20-%20Recession%20and%20Falling%20Stocks.md)). The running average in Q1 wanders early on and then gets pinned down. That is the [Law of Large Numbers](../Notes/Law%20of%20Large%20Numbers.md).
 
-**Q4.** The dice sums are independent with finite variance, so $\P(\abs{Z} > 3)$ should be close to the normal $0.27\%$ ([[Central Limit Theorem]]). For the bet, the median is near $0.9^{50} \approx 0.005$. The simulated mean is usually far **below** the theoretical $1.05^{100} \approx 131$. The rare paths that carry the expectation almost never show up among 10,000 players, which is another way of seeing [[Limits of Expected Value]].
+**Q4.** The dice sums are independent with finite variance, so $\P(\abs{Z} > 3)$ should be close to the normal $0.27\%$ ([Central Limit Theorem](../Notes/Central%20Limit%20Theorem.md)). For the bet, the median is near $0.9^{50} \approx 0.005$. The simulated mean is usually far **below** the theoretical $1.05^{100} \approx 131$. The rare paths that carry the expectation almost never show up among 10,000 players, which is another way of seeing [Limits of Expected Value](../Notes/Limits%20of%20Expected%20Value.md).
 
 **Q5–Q6.** Equity returns typically have fat tails. Expect several times more $3\sigma$ days than the normal model predicts, and an excess kurtosis far above 0. The CLT's "finite, stable variance" condition is where this breaks down.
 
@@ -106,8 +106,8 @@ for lag in (1, 2, 5, 10):
 Returns can be close to **uncorrelated** and still **far from independent**. Independence requires $\P(X = x, Y = y) = \P(X = x)\P(Y = y)$ for every pair of values, including the sizes, not just a zero correlation of the signs. Any model that treats daily returns as i.i.d. (a random walk with constant volatility, or normal sums via the CLT) will understate how often large losses come in runs.
 
 ## Related topics
-- [[Law of Large Numbers]]
-- [[Central Limit Theorem]]
-- [[Independence of Random Variables]]
-- [[Conditional Probability]]
-- [[Limits of Expected Value]]
+- [Law of Large Numbers](../Notes/Law%20of%20Large%20Numbers.md)
+- [Central Limit Theorem](../Notes/Central%20Limit%20Theorem.md)
+- [Independence of Random Variables](../Notes/Independence%20of%20Random%20Variables.md)
+- [Conditional Probability](../Notes/Conditional%20Probability.md)
+- [Limits of Expected Value](../Notes/Limits%20of%20Expected%20Value.md)

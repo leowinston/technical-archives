@@ -4,7 +4,7 @@ source: Constructed from ✎ margin sketches on pp. 75, 95–96
 topics: ["[[Quasiconvex Functions]]", "[[Sublevel Sets and Epigraph]]"]
 ---
 # EX03 — Sublevel Sets of a Quasiconvex Function
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let $f(x) = 1 - e^{-x^2}$ (the valley shape you sketched).
@@ -50,5 +50,5 @@ y=0.2212+0.5071(x-0.5)|x>0.5|x<2|#c74440
 - Flat tails break convexity but not quasiconvexity.
 
 ## Related topics
-- [[Quasiconvex Functions]]
-- [[Sublevel Sets and Epigraph]]
+- [Quasiconvex Functions](../topics/Quasiconvex%20Functions.md)
+- [Sublevel Sets and Epigraph](../topics/Sublevel%20Sets%20and%20Epigraph.md)

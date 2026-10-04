@@ -9,7 +9,7 @@ topic: knapsack
 seed: 1
 ---
 # 0/1 Knapsack Problem
-Back to [[archive/dsa-problem-generator/Index|Index]] · `dynamic_programming` · seed 1 · `--topic knapsack --seed 1`
+Back to [Index](../../Index.md) · `dynamic_programming` · seed 1 · `--topic knapsack --seed 1`
 
 > [!question] Problem · 0/1 Knapsack
 > Given a knapsack of capacity $C = 10$ with weights $w = \{4, 6, 1, 5, 2\}$ and values $v = \{14, 9, 9, 10, 5\}$, complete the 0/1 knapsack dynamic-programming table and determine the optimal value.
@@ -45,7 +45,7 @@ Greedy fills 7 of the 10 units for a value of **28**. Item 5 fills a gap that bl
 
 ## Solution
 
-![[archive/dsa-problem-generator/generated-problems/dynamic_programming/knapsack-seed1-solution.svg]]
+![knapsack-seed1-solution.svg](knapsack-seed1-solution.svg)
 
 > [!success] Answer
 > Optimal value $\mathrm{dp}[5][10] = \mathbf{33}$, using items $\{1, 3, 4\}$: weight $4 + 1 + 5 = 10$, value $14 + 9 + 10 = 33$.
@@ -55,17 +55,17 @@ Greedy fills 7 of the 10 units for a value of **28**. Item 5 fills a gap that bl
 
 ## Connections
 This instance is a small example of **relaxation**, an idea that comes up across the vault.
-- [[self-study/convex-optimization/topics/Linear Programs|Linear Programs]]: allow fractions $x_i \in [0, 1]$ and knapsack becomes an LP. Greedy by ratio solves that LP *exactly*, filling the gap with $\tfrac35$ of item 4:
+- [Linear Programs](../../../../self-study/convex-optimization/topics/Linear%20Programs.md): allow fractions $x_i \in [0, 1]$ and knapsack becomes an LP. Greedy by ratio solves that LP *exactly*, filling the gap with $\tfrac35$ of item 4:
 $$
 \underbrace{28}_{\text{greedy}} \ \le\ \underbrace{33}_{\text{0/1 optimum}} \ \le\ \underbrace{28 + \tfrac35 \cdot 10 = 34}_{\text{LP relaxation}}
 $$
 The LP optimum sits at a vertex of the feasible polyhedron with at most one fractional item. Greedy is that LP solution with the fractional item dropped, and here that costs 5 against the true optimum.
-- [[self-study/convex-optimization/explorations/EX10 - Relaxation Gap on a 10-Node Graph|EX10 – Relaxation Gap on a 10-Node Graph]]: the same sandwich with the sparsest cut.
-- [[self-study/ergodic-theory/Theory/Prefix Codes and Huffman Coding|Prefix Codes and Huffman Coding]]: the same idea for codes. Dropping integrality from the codeword lengths gives the entropy bound. See also the [[archive/dsa-problem-generator/generated-problems/text_processing/Huffman Coding Problem|Huffman Coding Problem]].
+- [EX10 – Relaxation Gap on a 10-Node Graph](../../../../self-study/convex-optimization/explorations/EX10%20-%20Relaxation%20Gap%20on%20a%2010-Node%20Graph.md): the same sandwich with the sparsest cut.
+- [Prefix Codes and Huffman Coding](../../../../self-study/ergodic-theory/Theory/Prefix%20Codes%20and%20Huffman%20Coding.md): the same idea for codes. Dropping integrality from the codeword lengths gives the entropy bound. See also the [Huffman Coding Problem](../text_processing/Huffman%20Coding%20Problem.md).
 - The generator's test checks the DP against brute force over all $2^n$ subsets.
 - Other generator topics in `dynamic_programming`: `lcs`, `edit_distance`.
 
 ## Files
 - Source: `knapsack-seed1.tex` (generator output, unchanged)
-- Compiled: [[archive/dsa-problem-generator/generated-problems/dynamic_programming/knapsack-seed1.pdf|knapsack-seed1.pdf]]
+- Compiled: [knapsack-seed1.pdf](knapsack-seed1.pdf)
 - Regenerate: `python3 cs253_problem_generator.py --topic knapsack --seed 1 --with-solution`

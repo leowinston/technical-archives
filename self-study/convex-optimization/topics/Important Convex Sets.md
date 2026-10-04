@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-2]
 source: Boyd & Vandenberghe §2.2 (pp. 27–35)
 ---
 # Important Convex Sets
-Back to [[self-study/convex-optimization/Index|Index]] · Section 2.2
+Back to [Index](../Index.md) · Section 2.2
 
 | Set | Definition |
 |---|---|
@@ -21,4 +21,4 @@ Back to [[self-study/convex-optimization/Index|Index]] · Section 2.2
 - A **simplex** is the convex hull of $k+1$ affinely independent points. The probability simplex is $\{x \succeq 0,\ \ones^{\top}x = 1\}$.
 - $\Spsd{n}$ is a convex cone: if $A, B \succeq 0$ and $\theta_1, \theta_2 \ge 0$ then $x^{\top}(\theta_1A + \theta_2B)x \ge 0$.
 
-See also: [[Positive Semidefinite Matrices]], [[Affine and Convex Sets]]
+See also: [Positive Semidefinite Matrices](Positive%20Semidefinite%20Matrices.md), [Affine and Convex Sets](Affine%20and%20Convex%20Sets.md)

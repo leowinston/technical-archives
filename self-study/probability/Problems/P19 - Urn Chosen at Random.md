@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Law of Total Probability]]"]
 ---
 # P19 — Urn Chosen at Random
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Three urns each hold 5 balls. Urn 1 has 2 green, urn 2 has 3 green, and urn 3 has 1 green. Pick an urn uniformly at random and draw one ball. Let $X = 1$ if it is green and $X = 0$ otherwise.
@@ -27,6 +27,6 @@ Of the 6 equally likely green "slots", 3 are in urn 2.
 LOTP is a weighted average. Because the urns are equally likely and equally sized, $\P(\text{green})$ is just the overall fraction of green balls, $6/15$.
 
 ## Related topics
-- [[Law of Total Probability]]
-- [[Bayes' Rule]]
-- [[Bernoulli and Binomial]]
+- [Law of Total Probability](../Notes/Law%20of%20Total%20Probability.md)
+- [Bayes' Rule](../Notes/Bayes%27%20Rule.md)
+- [Bernoulli and Binomial](../Notes/Bernoulli%20and%20Binomial.md)

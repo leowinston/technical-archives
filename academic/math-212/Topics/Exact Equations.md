@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-2]
 ---
 # Exact Equations
-Back to [[academic/math-212/Index|Index]] · Chapter 2.6
+Back to [Index](../Index.md) · Chapter 2.6
 
 ## Definition
 $M(x, y)\,dx + N(x, y)\,dy = 0$ is **exact** if there is a potential function $\psi$ with
@@ -26,8 +26,8 @@ $$
 You can also start from $\int N\,dy + g(x)$ when that integral is easier.
 
 ## Workbook problems
-- [[WB1 P17 - Exact Equation 1]]
-- [[WB1 P18 - Exact Equation 2]]
-- [[WB1 P19 - Non-Exact Equation Made Exact by x]]
+- [WB1 P17 - Exact Equation 1](../Workbook%201/WB1%20P17%20-%20Exact%20Equation%201.md)
+- [WB1 P18 - Exact Equation 2](../Workbook%201/WB1%20P18%20-%20Exact%20Equation%202.md)
+- [WB1 P19 - Non-Exact Equation Made Exact by x](../Workbook%201/WB1%20P19%20-%20Non-Exact%20Equation%20Made%20Exact%20by%20x.md)
 
-See also: [[Integrating Factors for Exact Equations]]
+See also: [Integrating Factors for Exact Equations](Integrating%20Factors%20for%20Exact%20Equations.md)

@@ -2,7 +2,7 @@
 tags: [probability, topic, part-2]
 ---
 # Inclusion-Exclusion
-Back to [[self-study/probability/Index|Index]] · Part 2
+Back to [Index](../Index.md) · Part 2
 
 ## Formula
 $$
@@ -25,6 +25,6 @@ $$
 $$
 
 ## Problems
-- [[P08 - de Montmort's Matching Problem]]
-- [[P09 - A Die Rolled n Times with a Missing Face]]
-- [[P07 - Chocolate Bars, Gummy Bears, and Bootstrap Samples]] (part d)
+- [P08 - de Montmort's Matching Problem](../Problems/P08%20-%20de%20Montmort%27s%20Matching%20Problem.md)
+- [P09 - A Die Rolled n Times with a Missing Face](../Problems/P09%20-%20A%20Die%20Rolled%20n%20Times%20with%20a%20Missing%20Face.md)
+- [P07 - Chocolate Bars, Gummy Bears, and Bootstrap Samples](../Problems/P07%20-%20Chocolate%20Bars%2C%20Gummy%20Bears%2C%20and%20Bootstrap%20Samples.md) (part d)

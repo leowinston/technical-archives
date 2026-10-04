@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-2]
 source: Boyd & Vandenberghe §2.4 (pp. 43–46)
 ---
 # Generalized Inequalities and Minimal Elements
-Back to [[self-study/convex-optimization/Index|Index]] · Section 2.4
+Back to [Index](../Index.md) · Section 2.4
 
 ## Proper cones
 A cone $K$ is **proper** if it is convex, closed, solid (nonempty interior), and pointed (contains no line). It defines
@@ -22,6 +22,6 @@ Unlike $\le$ on $\R$, $\preceq_K$ is only a **partial** order: two points need n
 A minimum is unique if it exists. There can be many minimal elements (a Pareto front).
 
 ## Explorations
-- [[EX01 - Minimum Versus Minimal Elements in R2]]
+- [EX01 - Minimum Versus Minimal Elements in R2](../explorations/EX01%20-%20Minimum%20Versus%20Minimal%20Elements%20in%20R2.md)
 
-See also: [[Dual Cones]]
+See also: [Dual Cones](Dual%20Cones.md)

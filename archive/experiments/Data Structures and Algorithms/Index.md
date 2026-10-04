@@ -12,9 +12,9 @@ My CS 253 experimental analyses, one report per note. The wording is exactly as 
 
 | # | Experiment | Date | Question |
 |---|---|---|---|
-| 1 | [[archive/experiments/Data Structures and Algorithms/Hashmap Experimental Analysis\|HashMap Experimental Analysis]] | February 2026 | How the max load factor affects chain length, collisions, and resizes |
-| 2 | [[archive/experiments/Data Structures and Algorithms/Best Sorting Algorithm Experimental Analysis\|BestSort Experimental Analysis]] | April 2026 | A hybrid sort choosing Insertion, Merge, or Radix Sort from array features |
-| 3 | [[archive/experiments/Data Structures and Algorithms/Autocomplete Experimental Analysis\|Trie-Based Autocomplete Experimental Analysis]] | April 2026 | List vs. Trie autocomplete query time by prefix length |
+| 1 | [HashMap Experimental Analysis](Hashmap%20Experimental%20Analysis.md) | February 2026 | How the max load factor affects chain length, collisions, and resizes |
+| 2 | [BestSort Experimental Analysis](Best%20Sorting%20Algorithm%20Experimental%20Analysis.md) | April 2026 | A hybrid sort choosing Insertion, Merge, or Radix Sort from array features |
+| 3 | [Trie-Based Autocomplete Experimental Analysis](Autocomplete%20Experimental%20Analysis.md) | April 2026 | List vs. Trie autocomplete query time by prefix length |
 
 ---
 

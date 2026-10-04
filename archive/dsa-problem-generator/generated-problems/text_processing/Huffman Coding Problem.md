@@ -10,7 +10,7 @@ topic: huffman
 seed: 1
 ---
 # Huffman Coding Problem
-Back to [[archive/dsa-problem-generator/Index|Index]] · `text_processing` · seed 1 · `--topic huffman --seed 1`
+Back to [Index](../../Index.md) · `text_processing` · seed 1 · `--topic huffman --seed 1`
 
 > [!question] Problem · Huffman Coding
 > Consider the string `onongigohciigojgohoo` of length 20.
@@ -53,7 +53,7 @@ Huffman's algorithm builds an optimal **prefix-free** code greedily. It keeps me
 
 ## Solution
 
-![[archive/dsa-problem-generator/generated-problems/text_processing/huffman-seed1-solution.svg]]
+![huffman-seed1-solution.svg](huffman-seed1-solution.svg)
 
 **(c) Codewords**, read from the root down
 
@@ -76,17 +76,17 @@ Huffman's algorithm builds an optimal **prefix-free** code greedily. It keeps me
 
 ## Connections
 The ergodic theory notes prove *why* Huffman is optimal. This problem shows it on real data.
-- [[self-study/ergodic-theory/Theory/Prefix Codes and Huffman Coding|Prefix Codes and Huffman Coding]]: the greedy proof (Lemmas 1–2 and optimal substructure) and the entropy bound. Check them here with $p = \tfrac{1}{20}(1, 4, 2, 3, 1, 2, 7)$:
+- [Prefix Codes and Huffman Coding](../../../../self-study/ergodic-theory/Theory/Prefix%20Codes%20and%20Huffman%20Coding.md): the greedy proof (Lemmas 1–2 and optimal substructure) and the entropy bound. Check them here with $p = \tfrac{1}{20}(1, 4, 2, 3, 1, 2, 7)$:
 $$
 H(p) = -\sum_a p_a \log_2 p_a \approx 2.502 \ \le\ \E[L] = \tfrac{51}{20} = 2.55 \ <\ H(p) + 1
 $$
 Across the whole string that is $51$ bits against the lower bound $20\,H(p) \approx 50.03$, so the code is within one bit of the entropy limit. Kraft holds with equality, $2 \cdot 2^{-2} + 3 \cdot 2^{-3} + 2 \cdot 2^{-4} = 1$, so the tree is full.
-- [[self-study/ergodic-theory/Examples/EX01 - Huffman Code and the Entropy Bound|EX01 – Huffman Code and the Entropy Bound]]: the same check on my notebook's six-symbol code.
-- [[self-study/ergodic-theory/Theory/Noiseless and Memoryless Channels|Noiseless and Memoryless Channels]]: treating the string as draws from a memoryless source is the model under which $H(p)$ is the right benchmark.
-- The generator's own test compares every Huffman cost against a brute-force search over all code-length vectors that satisfy Kraft. That is the optimality theorem checked by computer (see [[archive/dsa-problem-generator/Testing and Reproducibility|Testing and Reproducibility]]).
+- [EX01 – Huffman Code and the Entropy Bound](../../../../self-study/ergodic-theory/Examples/EX01%20-%20Huffman%20Code%20and%20the%20Entropy%20Bound.md): the same check on my notebook's six-symbol code.
+- [Noiseless and Memoryless Channels](../../../../self-study/ergodic-theory/Theory/Noiseless%20and%20Memoryless%20Channels.md): treating the string as draws from a memoryless source is the model under which $H(p)$ is the right benchmark.
+- The generator's own test compares every Huffman cost against a brute-force search over all code-length vectors that satisfy Kraft. That is the optimality theorem checked by computer (see [Testing and Reproducibility](../../Testing%20and%20Reproducibility.md)).
 - Other generator topics in `text_processing`: `kmp`, `boyer_moore`, `trie`.
 
 ## Files
 - Source: `huffman-seed1.tex` (generator output, unchanged)
-- Compiled: [[archive/dsa-problem-generator/generated-problems/text_processing/huffman-seed1.pdf|huffman-seed1.pdf]]
+- Compiled: [huffman-seed1.pdf](huffman-seed1.pdf)
 - Regenerate: `python3 cs253_problem_generator.py --topic huffman --seed 1 --with-solution`

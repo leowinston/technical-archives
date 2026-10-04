@@ -3,9 +3,9 @@ tags: [graph-theory, theory, spectral-graph-theory, background]
 source: Handwritten notes "Continuous functions" (Laplacian column)
 ---
 # Laplace Operator and the Graph Laplacian
-Back to [[self-study/graph-theory/Index|Index]] · Handwritten notes
+Back to [Index](../Index.md) · Handwritten notes
 
-The gradient, Jacobian, and Hessian recap lives in [[Gradient, Jacobian, and Hessian]] (convex opt). This note keeps only the piece that explains the name $L_G$.
+The gradient, Jacobian, and Hessian recap lives in [Gradient, Jacobian, and Hessian](../../convex-optimization/topics/Gradient%2C%20Jacobian%2C%20and%20Hessian.md) (convex opt). This note keeps only the piece that explains the name $L_G$.
 
 ## Continuous Laplacian
 ✎ "A scalar value containing the non-mixed second partials":
@@ -23,6 +23,6 @@ $$
 - Watch the notation: this $\Delta$ is not the max degree $\Delta(G)$.
 
 ## Examples
-- [[EX05 - Continuous and Discrete Laplacians]]
+- [EX05 - Continuous and Discrete Laplacians](../Examples/EX05%20-%20Continuous%20and%20Discrete%20Laplacians.md)
 
-See also: [[Laplacian of a Graph]]
+See also: [Laplacian of a Graph](Laplacian%20of%20a%20Graph.md)

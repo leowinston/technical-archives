@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3]
 ---
 # LDLT Factorization
-Back to [[academic/math-315/Index|Index]] · Section 3.3.2
+Back to [Index](../Index.md) · Section 3.3.2
 
 ## Setup
 $A$ is **symmetric** if $A = A^{\top}$. Pull the pivots out of $U$:
@@ -33,6 +33,6 @@ $$
 $$
 
 ## Explorations
-- [[EX07 - LDLT Factorization of a 2x2 Symmetric Matrix]]
+- [EX07 - LDLT Factorization of a 2x2 Symmetric Matrix](../Explorations/EX07%20-%20LDLT%20Factorization%20of%20a%202x2%20Symmetric%20Matrix.md)
 
-See also: [[LU Decomposition]], [[Cholesky Factorization]]
+See also: [LU Decomposition](LU%20Decomposition.md), [Cholesky Factorization](Cholesky%20Factorization.md)

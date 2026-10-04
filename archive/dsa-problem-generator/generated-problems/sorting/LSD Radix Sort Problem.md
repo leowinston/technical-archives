@@ -9,7 +9,7 @@ topic: radix_sort
 seed: 1
 ---
 # LSD Radix Sort Problem
-Back to [[archive/dsa-problem-generator/Index|Index]] · `sorting` · seed 1 · `--topic radix --seed 1`
+Back to [Index](../../Index.md) · `sorting` · seed 1 · `--topic radix --seed 1`
 
 > [!question] Problem · LSD Radix Sort
 > Use least significant digit (LSD) radix sort on the array
@@ -43,7 +43,7 @@ Stability is doing the work in the last pass. $1043$ and $1941$ tie on the thous
 
 ## Solution
 
-![[archive/dsa-problem-generator/generated-problems/sorting/radix_sort-seed1-solution.svg]]
+![radix_sort-seed1-solution.svg](radix_sort-seed1-solution.svg)
 
 > [!success] Answer
 > $$[\,1043,\ 1941,\ 3449,\ 4189,\ 6229,\ 7374,\ 7747,\ 8127,\ 9335\,]$$
@@ -52,11 +52,11 @@ Stability is doing the work in the last pass. $1043$ and $1941$ tie on the thous
 ---
 
 ## Connections
-- [[archive/experiments/Data Structures and Algorithms/Best Sorting Algorithm Experimental Analysis|BestSort Experimental Analysis]]: my hybrid sort uses this same LSD radix sort. It chooses radix when the $O(d \cdot N)$ cost beats $O(N\log N)$ on bounded integers. This problem is that algorithm traced by hand.
-- [[archive/proofs/Foundations of Math/Proof by Induction|Proof by Induction]]: the correctness argument above is an induction on the number of passes.
+- [BestSort Experimental Analysis](../../../experiments/Data%20Structures%20and%20Algorithms/Best%20Sorting%20Algorithm%20Experimental%20Analysis.md): my hybrid sort uses this same LSD radix sort. It chooses radix when the $O(d \cdot N)$ cost beats $O(N\log N)$ on bounded integers. This problem is that algorithm traced by hand.
+- [Proof by Induction](../../../proofs/Foundations%20of%20Math/Proof%20by%20Induction.md): the correctness argument above is an induction on the number of passes.
 - Other generator topics in `sorting`: `counting_sort`, the stable single-digit subroutine used in every pass.
 
 ## Files
 - Source: `radix_sort-seed1.tex` (generator output, unchanged)
-- Compiled: [[archive/dsa-problem-generator/generated-problems/sorting/radix_sort-seed1.pdf|radix_sort-seed1.pdf]]
+- Compiled: [radix_sort-seed1.pdf](radix_sort-seed1.pdf)
 - Regenerate: `python3 cs253_problem_generator.py --topic radix --seed 1 --with-solution`

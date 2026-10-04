@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 17 (p. 12)
 topics: ["[[Exact Equations]]"]
 ---
 # Problem 17 — $(4x^3y^3 + 3x^2)\,dx + (3x^4y^2 + 6y^2)\,dy = 0$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Find the general solution of $(4x^3y^3 + 3x^2)\,dx + (3x^4y^2 + 6y^2)\,dy = 0$.
@@ -54,4 +54,4 @@ c=[-4,-1,0,1,4]
 ```
 
 ## Related topics
-- [[Exact Equations]]
+- [Exact Equations](../Topics/Exact%20Equations.md)

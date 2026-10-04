@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-3, ml-notebook]
 source: Boyd & Vandenberghe §3.1.8 (p. 77); ML notebook "Jensen's Inequality"
 ---
 # Jensen's Inequality
-Back to [[self-study/convex-optimization/Index|Index]] · Section 3.1.8
+Back to [Index](../Index.md) · Section 3.1.8
 
 ## Statement
 For convex $f$ and a random variable $X$ with $X \in \dom f$:
@@ -25,6 +25,6 @@ $$
 - Hölder's inequality follows from the concavity of $\log$.
 
 ## Explorations
-- [[EX04 - Jensen and Dithering]]
+- [EX04 - Jensen and Dithering](../explorations/EX04%20-%20Jensen%20and%20Dithering.md)
 
-See also: [[Convex Functions]], [[Bias-Variance Tradeoff]]
+See also: [Convex Functions](Convex%20Functions.md), [Bias-Variance Tradeoff](Bias-Variance%20Tradeoff.md)

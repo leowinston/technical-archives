@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3]
 ---
 # Singular Value Decomposition
-Back to [[academic/math-315/Index|Index]] · Section 3.3 (SVD)
+Back to [Index](../Index.md) · Section 3.3 (SVD)
 
 ## Statement
 **Every** $A \in \mathbb{R}^{m\times n}$ can be factored as
@@ -33,7 +33,7 @@ A = \begin{bmatrix} 3 & 0 \\ 4 & 5 \end{bmatrix}: \quad
 $$
 
 ## Explorations
-- [[EX10 - SVD and Condition Number of a 2x2 Matrix]]
-- [[EX12 - Four Norms of a 3x3 Matrix]]
+- [EX10 - SVD and Condition Number of a 2x2 Matrix](../Explorations/EX10%20-%20SVD%20and%20Condition%20Number%20of%20a%202x2%20Matrix.md)
+- [EX12 - Four Norms of a 3x3 Matrix](../Explorations/EX12%20-%20Four%20Norms%20of%20a%203x3%20Matrix.md)
 
-See also: [[Matrix Norms]], [[Condition Number]]
+See also: [Matrix Norms](Matrix%20Norms.md), [Condition Number](Condition%20Number.md)

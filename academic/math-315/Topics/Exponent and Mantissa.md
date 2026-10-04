@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-2]
 ---
 # Exponent and Mantissa
-Back to [[academic/math-315/Index|Index]] · Section 2.2 (slides 26–28)
+Back to [Index](../Index.md) · Section 2.2 (slides 26–28)
 
 Goal: given $x > 0$, find the normalized $E$ and $m$ with $x = m\beta^{E}$, $1 \le m < \beta$.
 
@@ -33,6 +33,6 @@ $x = 0$ is stored with $m = 0$. Very small nonzero values may be **subnormal**, 
 $x = 117$, $\beta = 2$: $E = \lfloor \log_2 117 \rfloor = 6$, $m = 117/64 = 1.828125 = (1.110101)_2$.
 
 ## Explorations
-- [[EX16 - Base-2 Representation of -117 and 0.1]]
+- [EX16 - Base-2 Representation of -117 and 0.1](../Explorations/EX16%20-%20Base-2%20Representation%20of%20-117%20and%200.1.md)
 
-See also: [[Floating-Point Number Systems]], [[Rounding and Machine Precision]]
+See also: [Floating-Point Number Systems](Floating-Point%20Number%20Systems.md), [Rounding and Machine Precision](Rounding%20and%20Machine%20Precision.md)

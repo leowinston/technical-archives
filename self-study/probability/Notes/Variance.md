@@ -2,7 +2,7 @@
 tags: [probability, topic, part-5]
 ---
 # Variance
-Back to [[self-study/probability/Index|Index]] · Part 5
+Back to [Index](../Index.md) · Part 5
 
 ## Definition
 With $\mu = \E[X]$,
@@ -21,6 +21,6 @@ Variance measures spread around the mean, in squared units.
 - **Fair die:** $\E[X^2] = 91/6$, so $\Var(X) = \tfrac{91}{6} - \tfrac{49}{4} = \tfrac{35}{12} \approx 2.92$.
 
 ## Problems
-- [[P23 - Expected Value of a Die]]
+- [P23 - Expected Value of a Die](../Problems/P23%20-%20Expected%20Value%20of%20a%20Die.md)
 
-See also: [[Law of Large Numbers]], [[Central Limit Theorem]]
+See also: [Law of Large Numbers](Law%20of%20Large%20Numbers.md), [Central Limit Theorem](Central%20Limit%20Theorem.md)

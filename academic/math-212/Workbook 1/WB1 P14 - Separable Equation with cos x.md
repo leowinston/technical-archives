@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 14 (p. 9)
 topics: ["[[Separable Equations]]"]
 ---
 # Problem 14 — $y' = \dfrac{(y - 3)\cos x}{1 + 2y^2}$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Classify the equation $y' = \dfrac{(y - 3)\cos x}{1 + 2y^2}$ and find its general solution.
@@ -51,5 +51,5 @@ y=3|dashed|#000000
 ```
 
 ## Related topics
-- [[Separable Equations]]
-- [[Autonomous Equations and Phase Lines]] (equilibrium solutions)
+- [Separable Equations](../Topics/Separable%20Equations.md)
+- [Autonomous Equations and Phase Lines](../Topics/Autonomous%20Equations%20and%20Phase%20Lines.md) (equilibrium solutions)

@@ -3,7 +3,7 @@ tags: [ergodic-theory, topic, measure-theory]
 source: Measure theory notes (April 2026) §1–2
 ---
 # Sequence Spaces and Sigma-Fields
-Back to [[self-study/ergodic-theory/Index|Index]] · Sections 1–2
+Back to [Index](../Index.md) · Sections 1–2
 
 ## The big picture
 Ergodic theory models systems whose probability laws stay constant over time. Fix a **state space** $\rho$ (e.g. $\{1, \dots, 6\}$ for a die) and run a **doubly infinite sequence** of experiments:
@@ -25,4 +25,4 @@ $$
 $$
 Each $A_i^c \in \mathscr F$ by (2), so their union is in $\mathscr F$ by (3), and so is its complement by (2).
 
-See also: [[Measures, Semirings, and Rings]]
+See also: [Measures, Semirings, and Rings](Measures%2C%20Semirings%2C%20and%20Rings.md)

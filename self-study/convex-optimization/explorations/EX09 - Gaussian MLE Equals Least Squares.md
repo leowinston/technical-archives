@@ -4,7 +4,7 @@ source: ML notebook "Maximum Likelihood Estimation"
 topics: ["[[Maximum Likelihood Estimation]]", "[[Least Squares by Gradient Descent]]", "[[Log-Concave and Log-Convex Functions]]"]
 ---
 # EX09 — Gaussian MLE Equals Least Squares
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Simulate $n = 50$ points from $y_i = 1 + 2x_i + \epsilon_i$ with $\epsilon_i \sim \Normal(0, 0.5^2)$. Maximize the log-likelihood numerically and compare with least squares.
@@ -44,5 +44,5 @@ The negative log-likelihood is $36.12$ at $\hat w$, lower than $36.73$ at the tr
 - The Gaussian is log-concave, so $-\log L$ is convex and the MLE is a convex problem. Laplacian noise would give $\ell_1$ regression, which is also convex.
 
 ## Related topics
-- [[Maximum Likelihood Estimation]]
-- [[Log-Concave and Log-Convex Functions]]
+- [Maximum Likelihood Estimation](../topics/Maximum%20Likelihood%20Estimation.md)
+- [Log-Concave and Log-Convex Functions](../topics/Log-Concave%20and%20Log-Convex%20Functions.md)

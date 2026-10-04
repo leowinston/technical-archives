@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-2]
 ---
 # IEEE Floating-Point Standard
-Back to [[academic/math-315/Index|Index]] · Section 2.2 (slide 35)
+Back to [Index](../Index.md) · Section 2.2 (slide 35)
 
 Most computers follow the IEEE standard, with $\beta = 2$ and two main formats.
 
@@ -28,6 +28,6 @@ $p$ is one more than the stored mantissa bits because the leading $1$ of a norma
 So double precision carries about 16 significant decimal digits, and single about 7.
 
 ## Explorations
-- [[EX18 - Exploration 2.2.9 - Overflow Level of IEEE Double Precision]]
+- [EX18 - Exploration 2.2.9 - Overflow Level of IEEE Double Precision](../Explorations/EX18%20-%20Exploration%202.2.9%20-%20Overflow%20Level%20of%20IEEE%20Double%20Precision.md)
 
-See also: [[Overflow and Underflow]], [[Rounding and Machine Precision]]
+See also: [Overflow and Underflow](Overflow%20and%20Underflow.md), [Rounding and Machine Precision](Rounding%20and%20Machine%20Precision.md)

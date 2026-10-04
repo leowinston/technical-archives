@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-1]
 ---
 # Mathematical Models
-Back to [[academic/math-212/Index|Index]] · Chapter 1.1
+Back to [Index](../Index.md) · Chapter 1.1
 
 A differential equation relates an unknown quantity to its rate of change. Modeling means translating a physical law into that relationship.
 
@@ -25,6 +25,6 @@ v &= \frac{dx}{dt}, & a &= \frac{dv}{dt} = \frac{d^2x}{dt^2}
 $$
 
 ## Workbook problems
-- [[WB1 P01 - Car Slowing Down to a Stop]]
+- [WB1 P01 - Car Slowing Down to a Stop](../Workbook%201/WB1%20P01%20-%20Car%20Slowing%20Down%20to%20a%20Stop.md)
 
-See also: [[Modeling with First-Order Equations]]
+See also: [Modeling with First-Order Equations](Modeling%20with%20First-Order%20Equations.md)

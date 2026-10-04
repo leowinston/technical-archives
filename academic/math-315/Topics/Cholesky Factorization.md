@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3]
 ---
 # Cholesky Factorization
-Back to [[academic/math-315/Index|Index]] · Section 3.3.3
+Back to [Index](../Index.md) · Section 3.3.3
 
 ## Statement
 For SPD $A$, the pivots are positive, so $D^{1/2}$ is real:
@@ -36,6 +36,6 @@ GG^{\top} = \begin{bmatrix} 4 & -1 & 1 \\ -1 & 4.25 & 2.75 \\ 1 & 2.75 & 3.5 \en
 $$
 
 ## Explorations
-- [[EX08 - Cholesky Factorization of a 3x3 SPD Matrix]]
+- [EX08 - Cholesky Factorization of a 3x3 SPD Matrix](../Explorations/EX08%20-%20Cholesky%20Factorization%20of%20a%203x3%20SPD%20Matrix.md)
 
-See also: [[Symmetric Positive Definite Matrices]], [[LDLT Factorization]], [[self-study/convex-optimization/explorations/EX11 - Log Det via Cholesky|Log det via Cholesky]] (convex opt)
+See also: [Symmetric Positive Definite Matrices](Symmetric%20Positive%20Definite%20Matrices.md), [LDLT Factorization](LDLT%20Factorization.md), [Log det via Cholesky](../../../self-study/convex-optimization/explorations/EX11%20-%20Log%20Det%20via%20Cholesky.md) (convex opt)

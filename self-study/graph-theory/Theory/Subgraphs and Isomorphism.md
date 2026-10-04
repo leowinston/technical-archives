@@ -3,7 +3,7 @@ tags: [graph-theory, theory, ch-1]
 source: Kelly, Graph Theory §1.1.2–1.1.3 (pp. 4–5)
 ---
 # Subgraphs and Isomorphism
-Back to [[self-study/graph-theory/Index|Index]] · Sections 1.1.2–1.1.3
+Back to [Index](../Index.md) · Sections 1.1.2–1.1.3
 
 ## Subgraph
 $H = (V', E')$ is a **subgraph** of $G = (V, E)$ if $V' \subseteq V$ and $E' \subseteq E$: delete some vertices and edges.
@@ -24,4 +24,4 @@ $$
 $$
 ✎ Map every vertex of $V$ through $f$. Then $f(u)f(v)$ is an edge of $E'$ exactly when $uv$ is an edge of $E$. Isomorphic graphs are the same graph with the vertices relabeled.
 
-See also: [[Graphs and Common Graphs]], [[Trees and Leaves]] (acyclic is defined through subgraphs)
+See also: [Graphs and Common Graphs](Graphs%20and%20Common%20Graphs.md), [Trees and Leaves](Trees%20and%20Leaves.md) (acyclic is defined through subgraphs)

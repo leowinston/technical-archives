@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-2, population-model]
 ---
 # Harvesting
-Back to [[academic/math-212/Index|Index]] · Chapter 2.5 · [[Autonomous Equations and Phase Lines]]
+Back to [Index](../Index.md) · Chapter 2.5 · [Autonomous Equations and Phase Lines](Autonomous%20Equations%20and%20Phase%20Lines.md)
 
 ## Schaefer model (effort harvesting)
 $$
@@ -31,7 +31,7 @@ y=K|dotted|#c74440
 $$
 \frac{dy}{dt} = r\left(1 - \frac{y}{K}\right)y - h
 $$
-If $h > rK/4$, there are no equilibria and the population collapses (see [[Bifurcations|saddle-node bifurcation]]).
+If $h > rK/4$, there are no equilibria and the population collapses (see [saddle-node bifurcation](Bifurcations.md)).
 
 When $h < rK/4$, the equilibria $a < b$ are the roots of $r\left(1 - \frac{y}{K}\right)y = h$. Writing $k = r(b-a)/K$ and $C = \frac{y_0 - b}{y_0 - a}$, the solution is
 $$

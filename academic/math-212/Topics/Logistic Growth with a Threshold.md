@@ -2,9 +2,9 @@
 tags: [math-212, topic, chapter-2, population-model]
 ---
 # Logistic Growth with a Threshold
-Back to [[academic/math-212/Index|Index]] · Chapter 2.5 · [[Autonomous Equations and Phase Lines]]
+Back to [Index](../Index.md) · Chapter 2.5 · [Autonomous Equations and Phase Lines](Autonomous%20Equations%20and%20Phase%20Lines.md)
 
-This model combines [[Threshold Growth]] with [[Logistic Growth]].
+This model combines [Threshold Growth](Threshold%20Growth.md) with [Logistic Growth](Logistic%20Growth.md).
 $$
 \frac{dy}{dt} = -r\left(1 - \frac{y}{T}\right)\left(1 - \frac{y}{K}\right)y, \qquad r > 0,\ 0 < T < K
 $$
@@ -35,4 +35,4 @@ y=K|dashed|#c74440
 ```
 
 ## Workbook problems
-- [[WB1 P27 - Logistic Growth with a Threshold]]
+- [WB1 P27 - Logistic Growth with a Threshold](../Workbook%201/WB1%20P27%20-%20Logistic%20Growth%20with%20a%20Threshold.md)

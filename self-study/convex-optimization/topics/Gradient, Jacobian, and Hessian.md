@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ml-notebook, background]
 source: ML notebook "Spectral Graph Theory + Multivariable Review"; Boyd & Vandenberghe App. A.4
 ---
 # Gradient, Jacobian, and Hessian
-Back to [[self-study/convex-optimization/Index|Index]] · ML notebook
+Back to [Index](../Index.md) · ML notebook
 
 | Object | Map | Entries |
 |---|---|---|
@@ -27,6 +27,6 @@ $$
 $$
 f(x + v) \approx f(x) + \nabla f(x)^{\top}v + \tfrac12 v^{\top}\nabla^2 f(x)\,v
 $$
-The sign of the quadratic term is what [[Second-Order Conditions]] checks.
+The sign of the quadratic term is what [Second-Order Conditions](Second-Order%20Conditions.md) checks.
 
-See also: [[Least Squares by Gradient Descent]], [[Laplace Operator and the Graph Laplacian]] (graph theory)
+See also: [Least Squares by Gradient Descent](Least%20Squares%20by%20Gradient%20Descent.md), [Laplace Operator and the Graph Laplacian](../../graph-theory/Theory/Laplace%20Operator%20and%20the%20Graph%20Laplacian.md) (graph theory)

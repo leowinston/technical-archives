@@ -3,7 +3,7 @@ tags: [probability, problem, part-1]
 topics: ["[[Binomial Coefficients]]", "[[Naive Definition of Probability]]"]
 ---
 # P02 — Full House and the Newton–Pepys Problem
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) A 5-card hand is dealt from a shuffled 52-card deck. Find $\P(\text{full house})$: three cards of one rank and two of another.
@@ -32,6 +32,6 @@ $$
 $$
 
 ## Related topics
-- [[Binomial Coefficients]]
-- [[Naive Definition of Probability]]
-- [[Bernoulli and Binomial]]: $B$ and $C$ are Binomial tail probabilities.
+- [Binomial Coefficients](../Notes/Binomial%20Coefficients.md)
+- [Naive Definition of Probability](../Notes/Naive%20Definition%20of%20Probability.md)
+- [Bernoulli and Binomial](../Notes/Bernoulli%20and%20Binomial.md): $B$ and $C$ are Binomial tail probabilities.

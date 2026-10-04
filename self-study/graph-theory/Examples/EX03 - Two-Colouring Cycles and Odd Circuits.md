@@ -4,7 +4,7 @@ source: Constructed from ✎ the coloured C_2k (top of p. 12), the C_5 argument 
 topics: ["[[Bipartite Graphs and Odd Cycles]]"]
 ---
 # EX03 — Two-Colouring Cycles and Odd Circuits
-Back to [[self-study/graph-theory/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) Two-colour $C_6$.
@@ -31,4 +31,4 @@ The lengths add: $4 + 3 = 7$. So exactly one piece is odd, and $C''$ is the odd 
 - Splitting an odd circuit keeps an odd piece, because odd = even + odd.
 
 ## Related topics
-- [[Bipartite Graphs and Odd Cycles]]
+- [Bipartite Graphs and Odd Cycles](../Theory/Bipartite%20Graphs%20and%20Odd%20Cycles.md)

@@ -2,7 +2,7 @@
 tags: [probability, topic, part-4]
 ---
 # Independence of Random Variables
-Back to [[self-study/probability/Index|Index]] · Part 4
+Back to [Index](../Index.md) · Part 4
 
 ## Definition
 $X$ and $Y$ are **independent** if, for all $x, y \in \mathbb{R}$,
@@ -23,7 +23,7 @@ Two players each flip a fair penny. $X = 1$ if A's penny is Heads and $-1$ other
 - Given $Z = 1$, $X = Y$, so they are completely dependent. Given $Z = -1$, $Y = -X$.
 
 ## Problems
-- [[P22 - Matching Pennies and Mystery Opponents]]
-- [[P26 - Simulation and SPY Returns Lab]], which tests whether daily returns are independent
+- [P22 - Matching Pennies and Mystery Opponents](../Problems/P22%20-%20Matching%20Pennies%20and%20Mystery%20Opponents.md)
+- [P26 - Simulation and SPY Returns Lab](../Problems/P26%20-%20Simulation%20and%20SPY%20Returns%20Lab.md), which tests whether daily returns are independent
 
-See also: [[Independence of Events]], [[Conditional Independence]]
+See also: [Independence of Events](Independence%20of%20Events.md), [Conditional Independence](Conditional%20Independence.md)

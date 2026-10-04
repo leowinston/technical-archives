@@ -2,12 +2,12 @@
 tags: [math-212, topic, chapter-2, stability]
 ---
 # Semistable Equilibrium
-Back to [[academic/math-212/Index|Index]] · Chapter 2.5 · [[Autonomous Equations and Phase Lines]]
+Back to [Index](../Index.md) · Chapter 2.5 · [Autonomous Equations and Phase Lines](Autonomous%20Equations%20and%20Phase%20Lines.md)
 
 An equilibrium $y_1$ of $y' = f(y)$ is **semistable** if solutions approach it from one side and move away on the other.
 - Test: $f$ has the **same sign** on both sides of $y_1$. Then $f'(y_1) = 0$, so the derivative test is inconclusive.
 - On the phase line one arrow points toward $y_1$ and the other points away.
-- Typical form: a repeated root, as in $f(y) = (y - 1)^2$. Semistable points appear at a saddle-node [[Bifurcations|bifurcation]].
+- Typical form: a repeated root, as in $f(y) = (y - 1)^2$. Semistable points appear at a saddle-node [bifurcation](Bifurcations.md).
 
 Example $y' = (y - 1)^2$ with $y_1 = 1$. Solutions below rise toward $1$. Solutions above blow up.
 ```desmos-graph
@@ -30,4 +30,4 @@ y=\left(x-1\right)^{2}|#6042a6
 (1,0)|#fa7e19
 ```
 
-See also: [[Stable Equilibrium]], [[Unstable Equilibrium]]
+See also: [Stable Equilibrium](Stable%20Equilibrium.md), [Unstable Equilibrium](Unstable%20Equilibrium.md)

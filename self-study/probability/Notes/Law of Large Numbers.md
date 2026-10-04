@@ -2,7 +2,7 @@
 tags: [probability, topic, part-5]
 ---
 # Law of Large Numbers
-Back to [[self-study/probability/Index|Index]] · Part 5
+Back to [Index](../Index.md) · Part 5
 
 ## Statement
 Let $X_1, X_2, \dots$ be i.i.d. with finite mean $\mu$, and let $\bar X_n = \tfrac1n(X_1 + \cdots + X_n)$. Then
@@ -16,9 +16,9 @@ $\Var(\bar X_n) = \sigma^2/n \to 0$, so the average concentrates at $\mu$ (by Ch
 
 ## Notes
 - **No gambler's fallacy.** Early deviations are **swamped** by later data, not **corrected**. After 10 Heads, the coin is still 50-50.
-- The law describes an average over **many independent repetitions**. If you play once, or your wealth compounds, $\mu$ may not describe what happens to you (see [[Limits of Expected Value]]).
+- The law describes an average over **many independent repetitions**. If you play once, or your wealth compounds, $\mu$ may not describe what happens to you (see [Limits of Expected Value](Limits%20of%20Expected%20Value.md)).
 
 ## Example
-Average of $n$ die rolls $\to 3.5$. See the simulation in [[P26 - Simulation and SPY Returns Lab]].
+Average of $n$ die rolls $\to 3.5$. See the simulation in [P26 - Simulation and SPY Returns Lab](../Problems/P26%20-%20Simulation%20and%20SPY%20Returns%20Lab.md).
 
-See also: [[Central Limit Theorem]]
+See also: [Central Limit Theorem](Central%20Limit%20Theorem.md)

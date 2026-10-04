@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-4]
 source: Boyd & Vandenberghe §4.5 (pp. 160–165)
 ---
 # Geometric Programming
-Back to [[self-study/convex-optimization/Index|Index]] · Section 4.5
+Back to [Index](../Index.md) · Section 4.5
 
 ## Monomials and posynomials
 For $x \in \R^n_{++}$:
@@ -30,4 +30,4 @@ This is convex, so the GP becomes a convex problem.
 ## Example: cantilever beam
 Choose segment widths $w_i$ and heights $h_i$ to minimize the weight $\sum w_ih_i$, subject to stress, aspect-ratio, and tip-deflection limits. Each constraint is a posynomial, so the design is a GP.
 
-See also: [[Examples of Convex Functions]], [[Log-Concave and Log-Convex Functions]]
+See also: [Examples of Convex Functions](Examples%20of%20Convex%20Functions.md), [Log-Concave and Log-Convex Functions](Log-Concave%20and%20Log-Convex%20Functions.md)

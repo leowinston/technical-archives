@@ -6,7 +6,7 @@ course: CS 253
 date: 2026-02
 ---
 # HashMap Experimental Analysis
-Back to [[archive/experiments/Data Structures and Algorithms/Index|Index]]
+Back to [Index](Index.md)
 
 *CS 253* · Leo Winston · February 2026
 
@@ -14,7 +14,7 @@ Back to [[archive/experiments/Data Structures and Algorithms/Index|Index]]
 > This project details an experimental analysis of a separate-chaining HashMap, investigating how altering the maximum load factor influences collision resolution, table resizing, and lookup efficiency. By simulating up to $50,000$ insertions, we tracked average chain lengths, total collisions, and resize frequencies across three distinct maximum load factor thresholds: $0.50$, $1.00$, and $2.00$. The data demonstrates that lower load factors aggressively trigger capacity doubling to maintain sparser tables and near $\mathcal{O}(1)$ lookup times, whereas higher load factors tolerate greater bucket density, pushing average chain lengths well above $2.0$. Ultimately, this experiment highlights the fundamental trade-off in hash table design between optimizing for lookup efficiency via strict load constraints versus minimizing the computational and memory overhead of frequent rehashing.
 
 ## Plot
-![[archive/assets/avgchain-plot.pdf]]
+![avgchain-plot](../../assets/avgchain-plot.svg)
 
 *Average chain length vs. number of inserts for maximum load factors 0.50, 1.00, and 2.00. (Graph produced through MATLAB)*
 

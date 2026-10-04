@@ -4,7 +4,7 @@ source: Lecture 2 slides, slides 36–38 (Example 2.2.11 and the associativity q
 topics: ["[[Floating-Point Arithmetic]]", "[[Rounding and Machine Precision]]"]
 ---
 # EX19 — Absorption and Non-Associativity
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) In a system with $\beta = 10$, $p = 10$, $L = -20$, $U = 20$, compute $\operatorname{fl}(x + y)$ for $x = 2 \times 10^{4}$ and $y = 3 \times 10^{-10}$.
@@ -91,9 +91,9 @@ Each single operation is "compute exactly, then round", and $x + y$ and $y + x$ 
 ## Takeaways
 - Floating-point addition is commutative but **not** associative.
 - When adding numbers of very different sizes, combine the ones of similar size first. A common rule: sum from smallest magnitude to largest.
-- (C) is only safe here because $x + z$ is exact. In general, subtracting nearly equal numbers causes [[Cancellation Error]].
+- (C) is only safe here because $x + z$ is exact. In general, subtracting nearly equal numbers causes [Cancellation Error](../Topics/Cancellation%20Error.md).
 
 ## Related topics
-- [[Floating-Point Arithmetic]]
-- [[Rounding and Machine Precision]]
-- [[Cancellation Error]]
+- [Floating-Point Arithmetic](../Topics/Floating-Point%20Arithmetic.md)
+- [Rounding and Machine Precision](../Topics/Rounding%20and%20Machine%20Precision.md)
+- [Cancellation Error](../Topics/Cancellation%20Error.md)

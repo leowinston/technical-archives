@@ -2,7 +2,7 @@
 tags: [probability, topic, part-3]
 ---
 # Conditioning on Extra Evidence
-Back to [[self-study/probability/Index|Index]] · Part 3
+Back to [Index](../Index.md) · Part 3
 
 > Conditional probabilities are probabilities, and all probabilities are conditional.
 
@@ -23,5 +23,5 @@ $$
 $$
 
 ## Problems
-- [[P14 - Random Coin, Fair or Biased]]
-- [[P15 - Six-Fingered Man]]
+- [P14 - Random Coin, Fair or Biased](../Problems/P14%20-%20Random%20Coin%2C%20Fair%20or%20Biased.md)
+- [P15 - Six-Fingered Man](../Problems/P15%20-%20Six-Fingered%20Man.md)

@@ -2,10 +2,10 @@
 tags: [math-212, topic, chapter-2]
 ---
 # Homogeneous Substitution
-Back to [[academic/math-212/Index|Index]] · Chapter 2.2
+Back to [Index](../Index.md) · Chapter 2.2
 
 > [!warning] Two meanings of "homogeneous"
-> This note uses **homogeneous** to mean $f(x, y)$ depends only on $y/x$. That is different from a homogeneous *linear* equation, where $g = 0$ (see [[Classification of Differential Equations]]).
+> This note uses **homogeneous** to mean $f(x, y)$ depends only on $y/x$. That is different from a homogeneous *linear* equation, where $g = 0$ (see [Classification of Differential Equations](Classification%20of%20Differential%20Equations.md)).
 
 $$
 \frac{dy}{dx} = F\!\left(\frac{y}{x}\right)
@@ -18,4 +18,4 @@ v + x\frac{dv}{dx} &= F(v) \\
 \frac{dv}{F(v) - v} &= \frac{dx}{x}
 \end{align*}
 $$
-The result is separable (see [[Separable Equations]]). Solve for $v$, then substitute back $v = y/x$.
+The result is separable (see [Separable Equations](Separable%20Equations.md)). Solve for $v$, then substitute back $v = y/x$.

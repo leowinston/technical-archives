@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3]
 ---
 # Symmetric Positive Definite Matrices
-Back to [[academic/math-315/Index|Index]] · Section 3.3.3
+Back to [Index](../Index.md) · Section 3.3.3
 
 ## Definition
 $A$ is **SPD** if $A = A^{\top}$ and
@@ -29,6 +29,6 @@ $$
 It is symmetric with pivots $4, 4, 1$, all positive, so it is SPD.
 
 ## Explorations
-- [[EX08 - Cholesky Factorization of a 3x3 SPD Matrix]]
+- [EX08 - Cholesky Factorization of a 3x3 SPD Matrix](../Explorations/EX08%20-%20Cholesky%20Factorization%20of%20a%203x3%20SPD%20Matrix.md)
 
-See also: [[Cholesky Factorization]], [[LDLT Factorization]]
+See also: [Cholesky Factorization](Cholesky%20Factorization.md), [LDLT Factorization](LDLT%20Factorization.md)

@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-1]
 ---
 # Classification of Differential Equations
-Back to [[academic/math-212/Index|Index]] · Chapter 1.3
+Back to [Index](../Index.md) · Chapter 1.3
 
 ## Checklist
 1. **Type:** ordinary (ODE, one independent variable) or partial (PDE)
@@ -10,7 +10,7 @@ Back to [[academic/math-212/Index|Index]] · Chapter 1.3
 3. **Linearity:** linear or nonlinear
 4. **Homogeneity (linear only):** homogeneous if $g = 0$, otherwise nonhomogeneous
 5. **Coefficients:** constant or variable
-6. **Single equation or system** (see [[Systems of Differential Equations]])
+6. **Single equation or system** (see [Systems of Differential Equations](Systems%20of%20Differential%20Equations.md))
 
 ## General forms
 $$
@@ -42,5 +42,5 @@ $$
 $$
 
 ## Workbook problems
-- [[WB1 P02 - Direct Integration of y'' = 3x + 1]]
-- [[WB1 P03 - Classifying Linear and Nonlinear Equations]]
+- [WB1 P02 - Direct Integration of y'' = 3x + 1](../Workbook%201/WB1%20P02%20-%20Direct%20Integration%20of%20y%27%27%20%3D%203x%20%2B%201.md)
+- [WB1 P03 - Classifying Linear and Nonlinear Equations](../Workbook%201/WB1%20P03%20-%20Classifying%20Linear%20and%20Nonlinear%20Equations.md)

@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-1]
 source: Boyd & Vandenberghe §1.3–1.5 (pp. 7–14)
 ---
 # Convex Optimization Overview
-Back to [[self-study/convex-optimization/Index|Index]] · Sections 1.3–1.5
+Back to [Index](../Index.md) · Sections 1.3–1.5
 
 ## The problem
 $$
@@ -26,4 +26,4 @@ Least-squares and LPs are ✎ **special cases**.
 - **Part I (Theory):** convex sets, convex functions, convex problems, and ✎ **Lagrangian duality**, which plays a ✎ **central role**.
 - **Part II:** applications. **Part III:** algorithms.
 
-See also: [[Convex Functions]], [[Convex Optimization Problems]]
+See also: [Convex Functions](Convex%20Functions.md), [Convex Optimization Problems](Convex%20Optimization%20Problems.md)

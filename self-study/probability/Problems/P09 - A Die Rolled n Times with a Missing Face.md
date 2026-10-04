@@ -3,7 +3,7 @@ tags: [probability, problem, part-2]
 topics: ["[[Inclusion-Exclusion]]"]
 ---
 # P09 — A Die Rolled $n$ Times with a Missing Face
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > A fair die is rolled $n$ times. What is the probability that at least one of the 6 faces never appears?
@@ -29,5 +29,5 @@ The first term alone, $6(5/6)^n = 6 \cdot 5^n/6^n$, is a quick upper bound.
 So you need about 13 rolls before seeing all six faces is more likely than not.
 
 ## Related topics
-- [[Inclusion-Exclusion]]
-- [[Naive Definition of Probability]]
+- [Inclusion-Exclusion](../Notes/Inclusion-Exclusion.md)
+- [Naive Definition of Probability](../Notes/Naive%20Definition%20of%20Probability.md)

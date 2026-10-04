@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 23 (p. 18)
 topics: ["[[Exponential Growth]]", "[[Autonomous Equations and Phase Lines]]"]
 ---
 # Problem 23 — Exponential Growth
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let $y = \phi(t)$ be the population of a species at time $t$. Assume the rate of change of the population is proportional to $y$, with constant of proportionality $r$: a growth rate ($r > 0$) or decline rate ($r < 0$).
@@ -19,7 +19,7 @@ Back to [[academic/math-212/Index|Index]]
 
 ## Strategy
 1. Translate "rate of change proportional to $y$" into $\dfrac{dy}{dt} = ry$.
-2. Separate the variables, or use the result of [[WB1 P05 - The Equation y' - ay = 0|Problem 5]].
+2. Separate the variables, or use the result of [Problem 5](WB1%20P05%20-%20The%20Equation%20y%27%20-%20ay%20%3D%200.md).
 3. Apply $y(0) = y_0$.
 4. Sketch separate cases for $r > 0$ and $r < 0$.
 
@@ -58,6 +58,6 @@ y_{0}=[0.5,1,2,3]
 ```
 
 ## Related topics
-- [[Exponential Growth]]
-- [[Autonomous Equations and Phase Lines]]
-- [[Logistic Growth]] (adds a carrying capacity)
+- [Exponential Growth](../Topics/Exponential%20Growth.md)
+- [Autonomous Equations and Phase Lines](../Topics/Autonomous%20Equations%20and%20Phase%20Lines.md)
+- [Logistic Growth](../Topics/Logistic%20Growth.md) (adds a carrying capacity)

@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Bayes' Rule]]", "[[Conditioning on Extra Evidence]]"]
 ---
 # P14 — Random Coin, Fair or Biased
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > You have one fair coin and one coin that lands Heads with probability $3/4$. You pick one at random and flip it 3 times. It lands Heads all three times.
@@ -27,6 +27,6 @@ $$
 > After observing $A$, writing "$\P(A) = 1$ because we know $A$ happened" inside the Bayes calculation is **wrong**. $\P(A)$ and $\P(F)$ are the probabilities *before* the data. The update from $\P(\cdot)$ to $\P(\cdot \mid A)$ is what Bayes' rule computes.
 
 ## Related topics
-- [[Bayes' Rule]]
-- [[Conditioning on Extra Evidence]]
-- [[Conditional Independence]]: the flips are independent given the coin, but not unconditionally.
+- [Bayes' Rule](../Notes/Bayes%27%20Rule.md)
+- [Conditioning on Extra Evidence](../Notes/Conditioning%20on%20Extra%20Evidence.md)
+- [Conditional Independence](../Notes/Conditional%20Independence.md): the flips are independent given the coin, but not unconditionally.

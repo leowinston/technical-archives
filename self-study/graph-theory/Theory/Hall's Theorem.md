@@ -3,7 +3,7 @@ tags: [graph-theory, theory, ch-2]
 source: Kelly, Graph Theory §2.3–2.4 (pp. 15–18)
 ---
 # Hall's Theorem
-Back to [[self-study/graph-theory/Index|Index]] · Sections 2.3–2.4
+Back to [Index](../Index.md) · Sections 2.3–2.4
 
 Let $G = (A \cup B, E)$ be bipartite. Then
 $$
@@ -21,6 +21,6 @@ $$
 - Sets $S_1, \dots, S_n$ have distinct representatives $\iff \card{\bigcup_{i \in I} S_i} \ge \card{I}$ for all $I$.
 
 ## Examples
-- [[EX04 - When Hall's Condition Fails]]
+- [EX04 - When Hall's Condition Fails](../Examples/EX04%20-%20When%20Hall%27s%20Condition%20Fails.md)
 
-See also: [[Matchings and Augmenting Paths]]
+See also: [Matchings and Augmenting Paths](Matchings%20and%20Augmenting%20Paths.md)

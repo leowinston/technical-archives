@@ -2,7 +2,7 @@
 tags: [probability, topic, part-4]
 ---
 # Hypergeometric Distribution
-Back to [[self-study/probability/Index|Index]] · Part 4
+Back to [Index](../Index.md) · Part 4
 
 ## Story
 An urn has $w$ white and $b$ black balls. Draw $n$ **without replacement**, with all samples equally likely. The number of white balls drawn is $X \sim \HGeom(w, b, n)$.
@@ -22,4 +22,4 @@ When $w + b$ is large compared to $n$, the two are nearly the same.
 Capture–recapture (tagged vs untagged animals), card hands (aces vs non-aces), quality inspection.
 
 ## Problems
-- [[P21 - Random Slips of Paper]]
+- [P21 - Random Slips of Paper](../Problems/P21%20-%20Random%20Slips%20of%20Paper.md)

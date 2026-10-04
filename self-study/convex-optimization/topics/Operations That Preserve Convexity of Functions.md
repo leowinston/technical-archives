@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-3]
 source: Boyd & Vandenberghe §3.2 (pp. 79–90)
 ---
 # Operations That Preserve Convexity of Functions
-Back to [[self-study/convex-optimization/Index|Index]] · Section 3.2
+Back to [Index](../Index.md) · Section 3.2
 
 > [!important] ✎ Highlighted section heading
 
@@ -24,6 +24,6 @@ Back to [[self-study/convex-optimization/Index|Index]] · Section 3.2
 - $e^{g(x)}$ is convex for convex $g$.
 
 ## Explorations
-- [[EX05 - Pointwise Max of Affine Functions]]
+- [EX05 - Pointwise Max of Affine Functions](../explorations/EX05%20-%20Pointwise%20Max%20of%20Affine%20Functions.md)
 
-See also: [[Operations That Preserve Convexity of Sets]], [[Examples of Convex Functions]]
+See also: [Operations That Preserve Convexity of Sets](Operations%20That%20Preserve%20Convexity%20of%20Sets.md), [Examples of Convex Functions](Examples%20of%20Convex%20Functions.md)

@@ -4,7 +4,7 @@ source: Lecture 3 handout, pp. 13–14 (Section 3.3.3 Example)
 topics: ["[[Cholesky Factorization]]", "[[Symmetric Positive Definite Matrices]]", "[[LDLT Factorization]]"]
 ---
 # EX08 — Cholesky Factorization of a 3×3 SPD Matrix
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Determine the Cholesky factorization $GG^{\top}$ of
@@ -132,6 +132,6 @@ Cholesky does half the work because it only computes the lower triangle. Symmetr
 - A failed square root is a free test that $A$ is **not** SPD.
 
 ## Related topics
-- [[Cholesky Factorization]]
-- [[Symmetric Positive Definite Matrices]]
-- [[LDLT Factorization]]
+- [Cholesky Factorization](../Topics/Cholesky%20Factorization.md)
+- [Symmetric Positive Definite Matrices](../Topics/Symmetric%20Positive%20Definite%20Matrices.md)
+- [LDLT Factorization](../Topics/LDLT%20Factorization.md)

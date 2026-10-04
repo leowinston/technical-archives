@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-3]
 source: Boyd & Vandenberghe §3.1.4 (p. 71)
 ---
 # Second-Order Conditions
-Back to [[self-study/convex-optimization/Index|Index]] · Section 3.1.4
+Back to [Index](../Index.md) · Section 3.1.4
 
 > [!important] ✎ Highlighted section heading
 
@@ -20,6 +20,6 @@ On $\R$ this is $f''(x) \ge 0$: the derivative is nondecreasing, the graph curve
 $f(x) = \tfrac12 x^{\top}Px + q^{\top}x + r$ has $\nabla^2 f = P$, so it is convex iff $P \succeq 0$.
 
 ## Explorations
-- [[EX02 - Checking Convexity with the Hessian]]
+- [EX02 - Checking Convexity with the Hessian](../explorations/EX02%20-%20Checking%20Convexity%20with%20the%20Hessian.md)
 
-See also: [[Gradient, Jacobian, and Hessian]], [[Positive Semidefinite Matrices]]
+See also: [Gradient, Jacobian, and Hessian](Gradient%2C%20Jacobian%2C%20and%20Hessian.md), [Positive Semidefinite Matrices](Positive%20Semidefinite%20Matrices.md)

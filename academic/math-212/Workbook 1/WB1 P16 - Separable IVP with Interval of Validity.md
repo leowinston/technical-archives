@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 16 (p. 11)
 topics: ["[[Separable Equations]]", "[[Existence and Uniqueness Theorems]]"]
 ---
 # Problem 16 — $y' = \dfrac{3x^2 + 4x + 2}{2(y - 1)}$, $y(0) = -1$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Classify the equation $y' = \dfrac{3x^2 + 4x + 2}{2(y - 1)}$ and find its general solution. Then solve the IVP with $y(0) = -1$.
@@ -67,5 +67,5 @@ x=-2|dotted|#000000
 ```
 
 ## Related topics
-- [[Separable Equations]]
-- [[Existence and Uniqueness Theorems]] (the interval of existence depends on the initial condition)
+- [Separable Equations](../Topics/Separable%20Equations.md)
+- [Existence and Uniqueness Theorems](../Topics/Existence%20and%20Uniqueness%20Theorems.md) (the interval of existence depends on the initial condition)

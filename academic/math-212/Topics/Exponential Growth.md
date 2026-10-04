@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-2, population-model]
 ---
 # Exponential Growth
-Back to [[academic/math-212/Index|Index]] · Chapter 2.5 · [[Autonomous Equations and Phase Lines]]
+Back to [Index](../Index.md) · Chapter 2.5 · [Autonomous Equations and Phase Lines](Autonomous%20Equations%20and%20Phase%20Lines.md)
 
 This is the Malthusian model. The rate of change is proportional to the current population.
 $$
@@ -27,5 +27,5 @@ r_0=0.5
 Solid curves have rate $r$, and dashed curves have rate $-r$.
 
 ## Workbook problems
-- [[WB1 P05 - The Equation y' - ay = 0]]
-- [[WB1 P23 - Exponential Growth]]
+- [WB1 P05 - The Equation y' - ay = 0](../Workbook%201/WB1%20P05%20-%20The%20Equation%20y%27%20-%20ay%20%3D%200.md)
+- [WB1 P23 - Exponential Growth](../Workbook%201/WB1%20P23%20-%20Exponential%20Growth.md)

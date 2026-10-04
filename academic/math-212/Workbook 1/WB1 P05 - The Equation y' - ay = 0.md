@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 5 (p. 4)
 topics: ["[[Linear First-Order Equations]]", "[[Exponential Growth]]"]
 ---
 # Problem 5 — The Equation $y' - ay = 0$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let $a$ be a constant.
@@ -41,7 +41,7 @@ $$
 - **General solution:** $y(x) = Ce^{ax}$, $C \in \mathbb{R}$, $x \in \mathbb{R}$.
 - **IVP:** $C = y_0e^{-ax_0}$, which can be any real number, so every IVP is covered.
 - **Constant solutions:** $y \equiv 0$, included at $C = 0$. If $a = 0$, every constant $y \equiv C$ is a solution.
-- **Note:** solving by separation instead gives $C = \pm e^{c} \neq 0$ at first. $y \equiv 0$ is lost when dividing by $y$ and put back as $C = 0$ (same situation as [[WB1 P15 - Separable Equation with an Explicit Solution|Problem 15]]).
+- **Note:** solving by separation instead gives $C = \pm e^{c} \neq 0$ at first. $y \equiv 0$ is lost when dividing by $y$ and put back as $C = 0$ (same situation as [Problem 15](WB1%20P15%20-%20Separable%20Equation%20with%20an%20Explicit%20Solution.md)).
 
 ## Graph
 Solutions through $(x_0, y_0) = (1, 1)$ for $a \in \{-1, -0.5, 0, 0.5, 1\}$:
@@ -56,5 +56,5 @@ y_{0}=1
 ```
 
 ## Related topics
-- [[Linear First-Order Equations]]
-- [[Exponential Growth]]
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)
+- [Exponential Growth](../Topics/Exponential%20Growth.md)

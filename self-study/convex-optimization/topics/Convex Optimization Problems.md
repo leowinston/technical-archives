@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-4]
 source: Boyd & Vandenberghe §4.2.1 (pp. 136–138)
 ---
 # Convex Optimization Problems
-Back to [[self-study/convex-optimization/Index|Index]] · Section 4.2.1
+Back to [Index](../Index.md) · Section 4.2.1
 
 ## Standard form
 $$
@@ -22,4 +22,4 @@ with $f_0, \dots, f_m$ **convex** and the equality constraints **affine**. The f
 ## Abstract vs standard form
 Convexity is a property of the **description**, not only of the feasible set. With $f_1(x) = x_1/(1 + x_2^2) \le 0$ and $h_1(x) = (x_1 + x_2)^2 = 0$, the feasible set $\{x_1 \le 0,\ x_1 = -x_2\}$ is convex, but the problem is not in convex form. Rewriting $f_1$ as $x_1 \le 0$ and $h_1$ as $x_1 + x_2 = 0$ fixes it.
 
-See also: [[Local and Global Optima]], [[Optimality Criterion for Differentiable Objectives]]
+See also: [Local and Global Optima](Local%20and%20Global%20Optima.md), [Optimality Criterion for Differentiable Objectives](Optimality%20Criterion%20for%20Differentiable%20Objectives.md)

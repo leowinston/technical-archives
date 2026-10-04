@@ -2,7 +2,7 @@
 tags: [probability, topic, part-3]
 ---
 # Conditional Independence
-Back to [[self-study/probability/Index|Index]] · Part 3
+Back to [Index](../Index.md) · Part 3
 
 ## Definition
 $A$ and $B$ are **conditionally independent given $E$** if
@@ -24,6 +24,6 @@ $$
 If the baby is crying and not hungry, it must be tired, so $H$ and $T$ are dependent given $C$.
 
 ## Problems
-- [[P22 - Matching Pennies and Mystery Opponents]]
+- [P22 - Matching Pennies and Mystery Opponents](../Problems/P22%20-%20Matching%20Pennies%20and%20Mystery%20Opponents.md)
 
-See also: [[Independence of Events]]
+See also: [Independence of Events](Independence%20of%20Events.md)

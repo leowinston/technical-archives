@@ -4,7 +4,7 @@ source: Constructed example for Section 3.1.1
 topics: ["[[Triangular Systems]]"]
 ---
 # EX01 — Back Substitution on a 3×3 System
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Solve $U\mathbf{x} = \mathbf{y}$ by back substitution and count the floating-point operations:
@@ -95,9 +95,9 @@ $$
 
 ## Takeaways
 - Each row brings in exactly **one** new unknown. That is why triangular systems are easy.
-- The cost is $O(n^2)$. The expensive part of a general solve is getting to triangular form ([[Gaussian Elimination]]), not this step.
+- The cost is $O(n^2)$. The expensive part of a general solve is getting to triangular form ([Gaussian Elimination](../Topics/Gaussian%20Elimination.md)), not this step.
 - A zero on the diagonal would make the division impossible. For triangular matrices, "nonsingular" means exactly "no zero diagonal entries".
 
 ## Related topics
-- [[Triangular Systems]]
-- [[LU Decomposition]]
+- [Triangular Systems](../Topics/Triangular%20Systems.md)
+- [LU Decomposition](../Topics/LU%20Decomposition.md)

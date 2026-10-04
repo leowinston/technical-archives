@@ -4,10 +4,10 @@ source: Workbook Part 1, Problem 26 (p. 22)
 topics: ["[[Threshold Growth]]", "[[Existence and Uniqueness Theorems]]"]
 ---
 # Problem 26 — A Critical Threshold (continued)
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
-> Consider the IVP $y' = -r\left(1 - \dfrac{y}{T}\right)y$, $y(0) = y_0$ (from [[WB1 P25 - A Critical Threshold|Problem 25]]).
+> Consider the IVP $y' = -r\left(1 - \dfrac{y}{T}\right)y$, $y(0) = y_0$ (from [Problem 25](WB1%20P25%20-%20A%20Critical%20Threshold.md)).
 > (a) Verify that
 > $$y = \frac{y_0T}{y_0 + (T - y_0)e^{rt}}$$
 > is the solution of the IVP. Observe that the population becomes unbounded in finite time.
@@ -77,6 +77,6 @@ y=T|dotted|#2d70b3
 ```
 
 ## Related topics
-- [[WB1 P25 - A Critical Threshold]]
-- [[Existence and Uniqueness Theorems]] (the interval of existence depends on the initial value)
-- [[Autonomous Equations and Phase Lines]]
+- [WB1 P25 - A Critical Threshold](WB1%20P25%20-%20A%20Critical%20Threshold.md)
+- [Existence and Uniqueness Theorems](../Topics/Existence%20and%20Uniqueness%20Theorems.md) (the interval of existence depends on the initial value)
+- [Autonomous Equations and Phase Lines](../Topics/Autonomous%20Equations%20and%20Phase%20Lines.md)

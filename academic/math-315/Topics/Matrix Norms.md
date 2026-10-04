@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3, appendix-b]
 ---
 # Matrix Norms
-Back to [[academic/math-315/Index|Index]] · Appendix B.13.2
+Back to [Index](../Index.md) · Appendix B.13.2
 
 ## Definition
 A matrix norm satisfies the three vector-norm properties. It is **submultiplicative** if also
@@ -39,7 +39,7 @@ A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}: \quad
 $$
 
 ## Explorations
-- [[EX11 - l1 Norm of a 3x2 Matrix]]
-- [[EX12 - Four Norms of a 3x3 Matrix]]
+- [EX11 - l1 Norm of a 3x2 Matrix](../Explorations/EX11%20-%20l1%20Norm%20of%20a%203x2%20Matrix.md)
+- [EX12 - Four Norms of a 3x3 Matrix](../Explorations/EX12%20-%20Four%20Norms%20of%20a%203x3%20Matrix.md)
 
-See also: [[Vector Norms]], [[Condition Number]]
+See also: [Vector Norms](Vector%20Norms.md), [Condition Number](Condition%20Number.md)

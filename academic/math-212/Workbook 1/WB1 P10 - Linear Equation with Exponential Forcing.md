@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 10 (p. 7)
 topics: ["[[Linear First-Order Equations]]"]
 ---
 # Problem 10 — $y' + 2y = x^3e^{-2x}$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Given $y' + 2y = x^3e^{-2x}$:
@@ -45,5 +45,5 @@ c=[-1,0,1,2]
 ```
 
 ## Related topics
-- [[Linear First-Order Equations]]
-- [[WB1 P12 - Problem 10 by Variation of Parameters]] (the same equation solved another way)
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)
+- [WB1 P12 - Problem 10 by Variation of Parameters](WB1%20P12%20-%20Problem%2010%20by%20Variation%20of%20Parameters.md) (the same equation solved another way)

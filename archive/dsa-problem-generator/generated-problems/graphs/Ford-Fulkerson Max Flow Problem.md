@@ -9,12 +9,12 @@ topic: ford_fulkerson
 seed: 1
 ---
 # Ford-Fulkerson Max Flow Problem
-Back to [[archive/dsa-problem-generator/Index|Index]] · `graphs` · seed 1 · `--topic ff --seed 1`
+Back to [Index](../../Index.md) · `graphs` · seed 1 · `--topic ff --seed 1`
 
 > [!question] Problem · Ford-Fulkerson Maximum Flow
 > Starting with an initial flow of 0 on every edge, perform the Ford-Fulkerson algorithm to find the maximum flow from $s$ to $t$. For each iteration, show the augmenting path, its bottleneck capacity, and the updated flow values.
 >
-> ![[archive/dsa-problem-generator/generated-problems/graphs/ford_fulkerson-seed1-network.svg]]
+> ![ford_fulkerson-seed1-network.svg](ford_fulkerson-seed1-network.svg)
 
 > [!info]- Why the generator kept this instance
 > **Rule:** max flow $\ge 10$, at least **3 augmenting paths**, and at least 5 edges carrying flow at the end.
@@ -50,7 +50,7 @@ After step 4, both edges out of $s$ are **saturated** ($4/4$ and $11/11$). The r
 
 ## Solution
 
-![[archive/dsa-problem-generator/generated-problems/graphs/ford_fulkerson-seed1-solution.svg]]
+![ford_fulkerson-seed1-solution.svg](ford_fulkerson-seed1-solution.svg)
 
 > [!success] Answer
 > **Maximum flow $= 15$.** Final flows, as flow/capacity:
@@ -67,16 +67,16 @@ In the figure, blue edges are saturated, dashed gray edges carry nothing, and th
 ---
 
 ## Connections
-- [[self-study/graph-theory/Theory/Matchings and Augmenting Paths|Matchings and Augmenting Paths]]: the same idea on a different structure. There, $M$ is maximum exactly when no $M$-augmenting path exists. Here, $f$ is maximum exactly when the residual graph has no augmenting path. Bipartite matching is max flow with unit capacities.
-- [[self-study/graph-theory/Theory/Hall's Theorem|Hall's Theorem]]: Hall's condition can be proved from max-flow min-cut applied to that unit-capacity network.
-- [[self-study/graph-theory/Theory/Cuts and Cut Density|Cuts and Cut Density]]: both notes rank cuts $(S, V - S)$. Here the score is total capacity crossing from $S$ to $T$, not density.
-- [[self-study/graph-theory/Theory/Paths, Connectivity, and Distance|Paths, Connectivity, and Distance]]: Edmonds–Karp always augments along a *shortest* residual path, which is what bounds it to $O(VE^2)$ time.
-- [[self-study/convex-optimization/topics/Linear Programs|Linear Programs]]: max flow is an LP, and min cut is its dual.
+- [Matchings and Augmenting Paths](../../../../self-study/graph-theory/Theory/Matchings%20and%20Augmenting%20Paths.md): the same idea on a different structure. There, $M$ is maximum exactly when no $M$-augmenting path exists. Here, $f$ is maximum exactly when the residual graph has no augmenting path. Bipartite matching is max flow with unit capacities.
+- [Hall's Theorem](../../../../self-study/graph-theory/Theory/Hall%27s%20Theorem.md): Hall's condition can be proved from max-flow min-cut applied to that unit-capacity network.
+- [Cuts and Cut Density](../../../../self-study/graph-theory/Theory/Cuts%20and%20Cut%20Density.md): both notes rank cuts $(S, V - S)$. Here the score is total capacity crossing from $S$ to $T$, not density.
+- [Paths, Connectivity, and Distance](../../../../self-study/graph-theory/Theory/Paths%2C%20Connectivity%2C%20and%20Distance.md): Edmonds–Karp always augments along a *shortest* residual path, which is what bounds it to $O(VE^2)$ time.
+- [Linear Programs](../../../../self-study/convex-optimization/topics/Linear%20Programs.md): max flow is an LP, and min cut is its dual.
 - The generator's test checks every flow against a brute-force minimum over all $2^4$ cuts and checks conservation at every vertex.
-- Other generator topics in `graphs`: `dijkstra`, `topological_sort`, and `prim`/`kruskal` (see [[self-study/graph-theory/Theory/Spanning Trees|Spanning Trees]]).
+- Other generator topics in `graphs`: `dijkstra`, `topological_sort`, and `prim`/`kruskal` (see [Spanning Trees](../../../../self-study/graph-theory/Theory/Spanning%20Trees.md)).
 
 ## Files
 - Source: `ford_fulkerson-seed1.tex` (generator output, unchanged)
-- Compiled: [[archive/dsa-problem-generator/generated-problems/graphs/ford_fulkerson-seed1.pdf|ford_fulkerson-seed1.pdf]]
+- Compiled: [ford_fulkerson-seed1.pdf](ford_fulkerson-seed1.pdf)
 - Regenerate: `python3 cs253_problem_generator.py --topic ff --seed 1 --with-solution`
 - The solution figure is drawn from the generator's reference flows. The generator's own answer key for this topic is text only.

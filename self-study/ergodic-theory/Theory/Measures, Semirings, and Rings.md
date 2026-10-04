@@ -3,14 +3,14 @@ tags: [ergodic-theory, topic, measure-theory]
 source: Measure theory notes (April 2026) §3–4
 ---
 # Measures, Semirings, and Rings
-Back to [[self-study/ergodic-theory/Index|Index]] · Sections 3–4
+Back to [Index](../Index.md) · Sections 3–4
 
 ## Measures
 A **measure** on $(\Omega, \mathscr F)$ is $\mu : \mathscr F \to [0, \infty]$ with $\mu(\emptyset) = 0$ and **$\sigma$-additivity**: for disjoint $A_i$,
 $$
 \boxed{\,\mu\Big(\bigcup_{i=1}^\infty A_i\Big) = \sum_{i=1}^\infty \mu(A_i)\,}
 $$
-- $\mu(\Omega) = 1$: $(\Omega, \mathscr F, \mu)$ is a **probability space**. This is the same object as in [[self-study/probability/Notes/Axioms of Probability|Axioms of Probability]], with events restricted to $\mathscr F$.
+- $\mu(\Omega) = 1$: $(\Omega, \mathscr F, \mu)$ is a **probability space**. This is the same object as in [Axioms of Probability](../../probability/Notes/Axioms%20of%20Probability.md), with events restricted to $\mathscr F$.
 - $\mu(\Omega) < \infty$: $\mu$ is **finite**.
 - $\Omega = \bigcup A_i$ with every $\mu(A_i) < \infty$: $\mu$ is **$\sigma$-finite**.
 
@@ -25,4 +25,4 @@ Example: the half-open intervals $(a, b] \subseteq \R$.
 ## Rings
 A **ring** $\mathcal R$ is a semiring that is also closed under finite unions: $A, B \in \mathcal R \implies A \cup B \in \mathcal R$.
 
-See also: [[Sequence Spaces and Sigma-Fields]]
+See also: [Sequence Spaces and Sigma-Fields](Sequence%20Spaces%20and%20Sigma-Fields.md)

@@ -6,12 +6,12 @@ course: CS 253
 date: 2026-04
 ---
 # Trie-Based Autocomplete Experimental Analysis
-Back to [[archive/experiments/Data Structures and Algorithms/Index|Index]]
+Back to [Index](Index.md)
 
 *CS 253* · Leo Winston · April 2026
 
 ## Plot
-![[archive/assets/autocomplete-plot.pdf]]
+![autocomplete-plot](../../assets/autocomplete-plot.svg)
 
 *Comparison of average query times (in milliseconds) between the List-based and Trie-based autocomplete implementations across prefix lengths 1 through 5. (Graph produced via MATLAB)*
 

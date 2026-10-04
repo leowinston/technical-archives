@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 1 (p. 2)
 topics: ["[[Mathematical Models]]", "[[Linear First-Order Equations]]", "[[Modeling with First-Order Equations]]"]
 ---
 # Problem 1 — A Car Slowing Down to a Stop (with Friction)
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > A car moves at initial velocity $v_0$, then slows to a stop because of friction.
@@ -81,6 +81,6 @@ y=6|dashed|#c74440
 ```
 
 ## Related topics
-- [[Mathematical Models]]
-- [[Linear First-Order Equations]]
-- [[Systems of Differential Equations]] (the second-order equation as the system $x' = v$, $v' = -kv$)
+- [Mathematical Models](../Topics/Mathematical%20Models.md)
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)
+- [Systems of Differential Equations](../Topics/Systems%20of%20Differential%20Equations.md) (the second-order equation as the system $x' = v$, $v' = -kv$)

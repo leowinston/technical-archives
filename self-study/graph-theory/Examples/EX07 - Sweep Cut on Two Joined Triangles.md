@@ -4,7 +4,7 @@ source: Constructed from the two-cluster sketch and algorithm steps ①–④ in
 topics: ["[[Spectral Clustering Algorithm]]", "[[Sparsest Cut]]", "[[Cuts and Cut Density]]"]
 ---
 # EX07 — Sweep Cut on Two Joined Triangles
-Back to [[self-study/graph-theory/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Triangles $\{1, 2, 3\}$ and $\{4, 5, 6\}$ are joined by the bridge $3$–$4$, like the blue/red clusters in my sketch.
@@ -52,7 +52,7 @@ The sweep returns $A_3 = \{4, 5, 6\}$. It cuts only the bridge, and a brute-forc
 - The sweep checked 5 cuts instead of 62, and here it found the optimum.
 
 ## Related topics
-- [[Spectral Clustering Algorithm]]
-- [[Sparsest Cut]]
-- [[Spectral Gap and Fiedler Vector]]
-- [[EX08 - Whisker Cut Versus Regularized Clustering]] (a graph where this sweep fails)
+- [Spectral Clustering Algorithm](../Theory/Spectral%20Clustering%20Algorithm.md)
+- [Sparsest Cut](../Theory/Sparsest%20Cut.md)
+- [Spectral Gap and Fiedler Vector](../Theory/Spectral%20Gap%20and%20Fiedler%20Vector.md)
+- [EX08 - Whisker Cut Versus Regularized Clustering](EX08%20-%20Whisker%20Cut%20Versus%20Regularized%20Clustering.md) (a graph where this sweep fails)

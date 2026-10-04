@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 27 (p. 23)
 topics: ["[[Logistic Growth with a Threshold]]", "[[Autonomous Equations and Phase Lines]]"]
 ---
 # Problem 27 — Logistic Growth with a Threshold
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Given $y' = -r\left(1 - \dfrac{y}{T}\right)\left(1 - \dfrac{y}{K}\right)y$, where $r > 0$ and $0 < T < K$:
@@ -18,7 +18,7 @@ Back to [[academic/math-212/Index|Index]]
 ## Classification
 - **Type:** ODE, first order, **nonlinear** (cubic in $y$)
 - **Also:** **autonomous** and separable
-- **Method:** qualitative phase-line analysis. The model combines [[Threshold Growth]] (below $K$) with [[Logistic Growth]] (above $T$).
+- **Method:** qualitative phase-line analysis. The model combines [Threshold Growth](../Topics/Threshold%20Growth.md) (below $K$) with [Logistic Growth](../Topics/Logistic%20Growth.md) (above $T$).
 
 ## Strategy
 1. Find the roots of the cubic $f(y)$: $0$, $T$, and $K$.
@@ -128,7 +128,7 @@ r_0=1
 ```
 
 ## Related topics
-- [[Logistic Growth with a Threshold]]
-- [[Autonomous Equations and Phase Lines]]
-- [[Threshold Growth]]
-- [[Logistic Growth]]
+- [Logistic Growth with a Threshold](../Topics/Logistic%20Growth%20with%20a%20Threshold.md)
+- [Autonomous Equations and Phase Lines](../Topics/Autonomous%20Equations%20and%20Phase%20Lines.md)
+- [Threshold Growth](../Topics/Threshold%20Growth.md)
+- [Logistic Growth](../Topics/Logistic%20Growth.md)

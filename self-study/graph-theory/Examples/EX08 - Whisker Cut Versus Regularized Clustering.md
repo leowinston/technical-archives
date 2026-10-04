@@ -4,10 +4,10 @@ source: Constructed from the convex-opt EX10 graph with a dangling path added
 topics: ["[[Regularized Spectral Clustering]]", "[[Spectral Clustering Algorithm]]", "[[Cuts and Cut Density]]"]
 ---
 # EX08 — Whisker Cut Versus Regularized Clustering
-Back to [[self-study/graph-theory/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
-> Take the two 5-vertex clusters from [[EX10 - Relaxation Gap on a 10-Node Graph]], $\{1, \dots, 5\}$ and $\{6, \dots, 10\}$, joined by the bridge $5$–$6$. Hang the path $1$–$11$–$12$–$13$–$14$–$15$–$16$ off vertex 1. Split the graph at the sign of the second eigenvector using
+> Take the two 5-vertex clusters from [EX10 - Relaxation Gap on a 10-Node Graph](../../convex-optimization/explorations/EX10%20-%20Relaxation%20Gap%20on%20a%2010-Node%20Graph.md), $\{1, \dots, 5\}$ and $\{6, \dots, 10\}$, joined by the bridge $5$–$6$. Hang the path $1$–$11$–$12$–$13$–$14$–$15$–$16$ off vertex 1. Split the graph at the sign of the second eigenvector using
 > (a) vanilla $L_G$, (b) the normalized Laplacian ($\tau = 0$), and (c) the regularized $\mathcal L_\tau$ with $\tau$ equal to the average degree.
 
 ```mermaid
@@ -73,12 +73,12 @@ The density $\phi$ is lowest for the path, and the vanilla sweep agrees: it retu
 
 ## Takeaways
 - Vanilla spectral clustering is faithful to its objective. The failure is that sparsest cut rewards cutting off a long, thin tree.
-- The regularized objective charges about $\tau$ per vertex of the cut-off piece, which is the ridge term in [[Regularized Spectral Clustering]].
+- The regularized objective charges about $\tau$ per vertex of the cut-off piece, which is the ridge term in [Regularized Spectral Clustering](../Theory/Regularized%20Spectral%20Clustering.md).
 - $\lambda_2$ jumps from 0.07 to 0.52 because the added $\tfrac{\tau}{n}J$ makes the graph far better connected.
 
 ## Related topics
-- [[Regularized Spectral Clustering]]
-- [[Spectral Clustering Algorithm]]
-- [[Cuts and Cut Density]]
-- [[Trees and Leaves]]
-- [[EX07 - Sweep Cut on Two Joined Triangles]]
+- [Regularized Spectral Clustering](../Theory/Regularized%20Spectral%20Clustering.md)
+- [Spectral Clustering Algorithm](../Theory/Spectral%20Clustering%20Algorithm.md)
+- [Cuts and Cut Density](../Theory/Cuts%20and%20Cut%20Density.md)
+- [Trees and Leaves](../Theory/Trees%20and%20Leaves.md)
+- [EX07 - Sweep Cut on Two Joined Triangles](EX07%20-%20Sweep%20Cut%20on%20Two%20Joined%20Triangles.md)

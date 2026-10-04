@@ -8,7 +8,7 @@ portfolio: "Proof Portfolio- Foundations of Math- Spring 2026"
 date: 2026-02-27
 ---
 # Proof by Contrapositive
-Back to [[archive/proofs/Index|Index]]
+Back to [Index](../Index.md)
 
 *Proof Portfolio- Foundations of Math- Spring 2026* · Leo Winston · February 27, 2026
 

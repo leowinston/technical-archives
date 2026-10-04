@@ -4,7 +4,7 @@ source: Constructed example for Sections 3.1.2 and 3.2
 topics: ["[[Gaussian Elimination]]", "[[LU Decomposition]]", "[[Determinants via LU]]"]
 ---
 # EX03 — Gaussian Elimination and LU of a 3×3 Matrix
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let
@@ -150,6 +150,6 @@ The second right-hand side cost only $6 + 9 = 15$ flops, with no new factorizati
 - $\det(A)$ is the product of the pivots.
 
 ## Related topics
-- [[Gaussian Elimination]]
-- [[LU Decomposition]]
-- [[Determinants via LU]]
+- [Gaussian Elimination](../Topics/Gaussian%20Elimination.md)
+- [LU Decomposition](../Topics/LU%20Decomposition.md)
+- [Determinants via LU](../Topics/Determinants%20via%20LU.md)

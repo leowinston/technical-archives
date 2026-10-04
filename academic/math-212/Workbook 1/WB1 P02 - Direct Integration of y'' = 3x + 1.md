@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 2 (p. 3)
 topics: ["[[Solutions and Direction Fields]]", "[[Classification of Differential Equations]]"]
 ---
 # Problem 2 — Solve $y'' = 3x + 1$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Solve $y'' = 3x + 1$.
@@ -43,5 +43,5 @@ c_{1}=[-3,-1,0,1,3]
 ```
 
 ## Related topics
-- [[Solutions and Direction Fields]]
-- [[Classification of Differential Equations]]
+- [Solutions and Direction Fields](../Topics/Solutions%20and%20Direction%20Fields.md)
+- [Classification of Differential Equations](../Topics/Classification%20of%20Differential%20Equations.md)

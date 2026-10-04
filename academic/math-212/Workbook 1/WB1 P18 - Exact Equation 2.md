@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 18 (p. 13)
 topics: ["[[Exact Equations]]", "[[Separable Equations]]"]
 ---
 # Problem 18 — $6x^2y^2\,dx + 4x^3y\,dy = 0$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Find the general solution of $6x^2y^2\,dx + 4x^3y\,dy = 0$.
@@ -46,5 +46,5 @@ C=[-4,-1,1,4]
 ```
 
 ## Related topics
-- [[Exact Equations]]
-- [[Separable Equations]]
+- [Exact Equations](../Topics/Exact%20Equations.md)
+- [Separable Equations](../Topics/Separable%20Equations.md)

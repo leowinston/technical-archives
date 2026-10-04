@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 11 (p. 8)
 topics: ["[[Variation of Parameters]]"]
 ---
 # Problem 11 — Method of Variation of Parameters
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Given $y' + p(x)y = f(x)$, find the general solution in the form $y = y_1u$, where $y_1$ is a solution of the complementary equation.
@@ -14,7 +14,7 @@ Back to [[academic/math-212/Index|Index]]
 - **Kind of problem:** derivation
 
 ## Strategy
-1. Solve the complementary equation $y_1' + py_1 = 0$ (see [[WB1 P06 - General Solution of the Homogeneous Linear Equation|Problem 6]]).
+1. Solve the complementary equation $y_1' + py_1 = 0$ (see [Problem 6](WB1%20P06%20-%20General%20Solution%20of%20the%20Homogeneous%20Linear%20Equation.md)).
 2. Replace the constant $c$ in $cy_1$ by a function $u(x)$.
 3. Substitute $y = uy_1$. The $u$ terms cancel because $y_1$ solves the homogeneous equation.
 4. Solve the simple equation left over for $u'$ and integrate.
@@ -40,7 +40,7 @@ u &= \int \frac{f(x)}{y_1(x)}\,dx + c \\
 y &= y_1(x)\left[\int \frac{f(x)}{y_1(x)}\,dx + c\right]
 \end{align*}
 $$
-Since $1/y_1 = e^{\int p} = \mu$, this matches the integrating factor formula from [[WB1 P09 - Deriving the Integrating Factor|Problem 9]].
+Since $1/y_1 = e^{\int p} = \mu$, this matches the integrating factor formula from [Problem 9](WB1%20P09%20-%20Deriving%20the%20Integrating%20Factor.md).
 
 ## Solution set
 - **General solution:** $y(x) = y_1(x)\left[\displaystyle\int \dfrac{f(x)}{y_1(x)}\,dx + C\right]$, $C \in \mathbb{R}$, with $y_1 = e^{-\int p\,dx}$.
@@ -58,5 +58,5 @@ y=1|#000000
 ```
 
 ## Related topics
-- [[Variation of Parameters]]
-- [[Linear First-Order Equations]]
+- [Variation of Parameters](../Topics/Variation%20of%20Parameters.md)
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)

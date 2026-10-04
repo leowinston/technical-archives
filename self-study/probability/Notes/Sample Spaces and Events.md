@@ -2,7 +2,7 @@
 tags: [probability, topic, part-1]
 ---
 # Sample Spaces and Events
-Back to [[self-study/probability/Index|Index]] · Part 1
+Back to [Index](../Index.md) · Part 1
 
 ## Definitions
 - The **sample space** $S$ is the set of all possible outcomes of an experiment.
@@ -23,4 +23,4 @@ Back to [[self-study/probability/Index|Index]] · Part 1
 ## Example
 Flip a coin 3 times: $\card{S} = 2^3 = 8$. "At least one Heads" is $A = \{TTT\}^c$, so it is easier to describe through its complement.
 
-See also: [[Naive Definition of Probability]], [[Axioms of Probability]]
+See also: [Naive Definition of Probability](Naive%20Definition%20of%20Probability.md), [Axioms of Probability](Axioms%20of%20Probability.md)

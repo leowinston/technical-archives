@@ -4,7 +4,7 @@ source: Constructed, modelled on Figure 2.17 (p. 46, ✎ "Left"/"Right" highligh
 topics: ["[[Generalized Inequalities and Minimal Elements]]"]
 ---
 # EX01 — Minimum Versus Minimal Elements in $\R^2$
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Use $K = \R^2_+$ (componentwise $\le$).
@@ -50,5 +50,5 @@ y\le1|x<2|#2d70b3
 - Minimal elements form a Pareto front. That is the vector-optimization picture from §4.7.
 
 ## Related topics
-- [[Generalized Inequalities and Minimal Elements]]
-- [[Dual Cones]]
+- [Generalized Inequalities and Minimal Elements](../topics/Generalized%20Inequalities%20and%20Minimal%20Elements.md)
+- [Dual Cones](../topics/Dual%20Cones.md)

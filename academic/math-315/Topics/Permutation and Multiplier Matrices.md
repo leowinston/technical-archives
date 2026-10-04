@@ -3,7 +3,7 @@ tags: [math-315, topic, lecture-3]
 source: Math_315_Lecture_3_Partial_Pivoting.pdf
 ---
 # Permutation and Multiplier Matrices
-Back to [[academic/math-315/Index|Index]] · Section 3.2.5 (supplement)
+Back to [Index](../Index.md) · Section 3.2.5 (supplement)
 
 **Question:** how do we gather the swaps $P_j$ from elimination into one $P$ so that $PA = LU$?
 
@@ -22,7 +22,7 @@ $$
 There are only $n-1$ steps because $a_{nn}$ has nothing below it.
 
 > [!note] From lecture
-> ![[IMG_1784.jpg]]
+> ![IMG_1784.jpg](../Assets/IMG_1784.jpg)
 
 ## Shortcut
 Conjugating by a later swap only exchanges two multipliers in column $j$. So store the multipliers in $A$'s lower triangle and **swap whole rows, multipliers included**.
@@ -33,6 +33,6 @@ $$
 $$
 
 ## Explorations
-- [[EX06 - PA = LU for a Matrix with a Zero Pivot]]
+- [EX06 - PA = LU for a Matrix with a Zero Pivot](../Explorations/EX06%20-%20PA%20%3D%20LU%20for%20a%20Matrix%20with%20a%20Zero%20Pivot.md)
 
-See also: [[Partial Pivoting]], [[LU Decomposition]]
+See also: [Partial Pivoting](Partial%20Pivoting.md), [LU Decomposition](LU%20Decomposition.md)

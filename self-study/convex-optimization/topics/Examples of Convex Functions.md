@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-3]
 source: Boyd & Vandenberghe §3.1.5 (pp. 71–75)
 ---
 # Examples of Convex Functions
-Back to [[self-study/convex-optimization/Index|Index]] · Section 3.1.5
+Back to [Index](../Index.md) · Section 3.1.5
 
 ## On $\R$
 | Function | Convex / concave |
@@ -40,7 +40,7 @@ $$
 This is exact and costs $\tfrac13 n^3$ flops, versus $n!$ terms for cofactor expansion. The factorization succeeds iff $X \succ 0$, so it also checks the domain. Summing logs also avoids the overflow you get from forming $\det X$ first.
 
 ## Explorations
-- [[EX02 - Checking Convexity with the Hessian]]
-- [[EX11 - Log Det via Cholesky]]
+- [EX02 - Checking Convexity with the Hessian](../explorations/EX02%20-%20Checking%20Convexity%20with%20the%20Hessian.md)
+- [EX11 - Log Det via Cholesky](../explorations/EX11%20-%20Log%20Det%20via%20Cholesky.md)
 
-See also: [[Second-Order Conditions]], [[Operations That Preserve Convexity of Functions]], [[academic/math-315/Topics/Cholesky Factorization|Cholesky Factorization]]
+See also: [Second-Order Conditions](Second-Order%20Conditions.md), [Operations That Preserve Convexity of Functions](Operations%20That%20Preserve%20Convexity%20of%20Functions.md), [Cholesky Factorization](../../../academic/math-315/Topics/Cholesky%20Factorization.md)

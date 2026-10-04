@@ -2,7 +2,7 @@
 tags: [probability, topic, part-1]
 ---
 # Story Proofs
-Back to [[self-study/probability/Index|Index]] · Part 1
+Back to [Index](../Index.md) · Part 1
 
 A **story proof** shows an identity by showing that both sides count the same set.
 
@@ -16,7 +16,7 @@ A **story proof** shows an identity by showing that both sides count the same se
 | $\sum_{j=k}^{n} \binom{j}{k} = \binom{n+1}{k+1}$ | Line up $n+1$ people by age. Condition on the oldest person in a chosen group of $k+1$ (**hockey stick**). |
 
 ## Problems
-- [[P05 - Proof of the Binomial Theorem by Induction]]
-- [[P06 - Story Proofs for Binomial Identities]]
+- [P05 - Proof of the Binomial Theorem by Induction](../Problems/P05%20-%20Proof%20of%20the%20Binomial%20Theorem%20by%20Induction.md)
+- [P06 - Story Proofs for Binomial Identities](../Problems/P06%20-%20Story%20Proofs%20for%20Binomial%20Identities.md)
 
-See also: [[Binomial Coefficients]]
+See also: [Binomial Coefficients](Binomial%20Coefficients.md)

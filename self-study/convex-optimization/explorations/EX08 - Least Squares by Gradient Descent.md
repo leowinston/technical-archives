@@ -4,7 +4,7 @@ source: ML notebook "Gradient Descent"; Book §1.2.1
 topics: ["[[Least Squares by Gradient Descent]]", "[[Least-Squares and Linear Programming]]"]
 ---
 # EX08 — Least Squares by Gradient Descent
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Fit $\hat y = w_0 + w_1t$ to the points $(0,1), (1,2), (2,2), (3,4)$ by minimizing $L(w) = \tfrac1n\lVert Xw - y\rVert_2^2$.
@@ -69,6 +69,6 @@ y=0.9+0.9x|#2d70b3
 - The speed depends on the condition number of $X^{\top}X$, a Chapter 9 theme.
 
 ## Related topics
-- [[Least Squares by Gradient Descent]]
-- [[Least-Squares and Linear Programming]]
-- [[Gradient, Jacobian, and Hessian]]
+- [Least Squares by Gradient Descent](../topics/Least%20Squares%20by%20Gradient%20Descent.md)
+- [Least-Squares and Linear Programming](../topics/Least-Squares%20and%20Linear%20Programming.md)
+- [Gradient, Jacobian, and Hessian](../topics/Gradient%2C%20Jacobian%2C%20and%20Hessian.md)

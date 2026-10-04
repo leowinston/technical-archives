@@ -34,12 +34,12 @@ One problem from each of the six families, all from **seed 1**. Each note follow
 
 | Family | Problem | Why it is non-trivial | Connects to |
 |---|---|---|---|
-| `trees` | [[archive/dsa-problem-generator/generated-problems/trees/Red-Black Tree Problem\|Red-Black Tree]] | 5 rotations and 17 recolorings across 10 inserts and 2 deletes | [[self-study/graph-theory/Theory/Trees and Leaves\|Trees and Leaves]], [[archive/proofs/Foundations of Math/Proof by Induction\|Proof by Induction]] |
-| `data_structures` | [[archive/dsa-problem-generator/generated-problems/data_structures/Skip List Problem\|Skip List]] | prescribed tower heights up to 5, and deletes that need pointer updates | [[self-study/probability/Notes/Bernoulli and Binomial\|Bernoulli and Binomial]], [[self-study/probability/Notes/Expected Value\|Expected Value]] |
-| `sorting` | [[archive/dsa-problem-generator/generated-problems/sorting/LSD Radix Sort Problem\|LSD Radix Sort]] | repeated digits, so stability decides the order | [[archive/experiments/Data Structures and Algorithms/Best Sorting Algorithm Experimental Analysis\|BestSort experiment]] |
-| `text_processing` | [[archive/dsa-problem-generator/generated-problems/text_processing/Huffman Coding Problem\|Huffman Coding]] | forced frequency ties, and 3 distinct codeword lengths | [[self-study/ergodic-theory/Theory/Prefix Codes and Huffman Coding\|Prefix Codes and Huffman Coding]] |
-| `dynamic_programming` | [[archive/dsa-problem-generator/generated-problems/dynamic_programming/0-1 Knapsack Problem\|0/1 Knapsack]] | greedy by ratio gets 28, but the optimum is 33 | [[self-study/convex-optimization/topics/Linear Programs\|Linear Programs]] |
-| `graphs` | [[archive/dsa-problem-generator/generated-problems/graphs/Ford-Fulkerson Max Flow Problem\|Ford-Fulkerson Max Flow]] | 4 augmenting paths, certified by a min cut | [[self-study/graph-theory/Theory/Matchings and Augmenting Paths\|Matchings and Augmenting Paths]] |
+| `trees` | [Red-Black Tree](generated-problems/trees/Red-Black%20Tree%20Problem.md) | 5 rotations and 17 recolorings across 10 inserts and 2 deletes | [Trees and Leaves](../../self-study/graph-theory/Theory/Trees%20and%20Leaves.md), [Proof by Induction](../proofs/Foundations%20of%20Math/Proof%20by%20Induction.md) |
+| `data_structures` | [Skip List](generated-problems/data_structures/Skip%20List%20Problem.md) | prescribed tower heights up to 5, and deletes that need pointer updates | [Bernoulli and Binomial](../../self-study/probability/Notes/Bernoulli%20and%20Binomial.md), [Expected Value](../../self-study/probability/Notes/Expected%20Value.md) |
+| `sorting` | [LSD Radix Sort](generated-problems/sorting/LSD%20Radix%20Sort%20Problem.md) | repeated digits, so stability decides the order | [BestSort experiment](../experiments/Data%20Structures%20and%20Algorithms/Best%20Sorting%20Algorithm%20Experimental%20Analysis.md) |
+| `text_processing` | [Huffman Coding](generated-problems/text_processing/Huffman%20Coding%20Problem.md) | forced frequency ties, and 3 distinct codeword lengths | [Prefix Codes and Huffman Coding](../../self-study/ergodic-theory/Theory/Prefix%20Codes%20and%20Huffman%20Coding.md) |
+| `dynamic_programming` | [0/1 Knapsack](generated-problems/dynamic_programming/0-1%20Knapsack%20Problem.md) | greedy by ratio gets 28, but the optimum is 33 | [Linear Programs](../../self-study/convex-optimization/topics/Linear%20Programs.md) |
+| `graphs` | [Ford-Fulkerson Max Flow](generated-problems/graphs/Ford-Fulkerson%20Max%20Flow%20Problem.md) | 4 augmenting paths, certified by a min cut | [Matchings and Augmenting Paths](../../self-study/graph-theory/Theory/Matchings%20and%20Augmenting%20Paths.md) |
 
 ```mermaid
 flowchart LR
@@ -72,8 +72,8 @@ flowchart LR
 ---
 
 ## Project notes
-- [[archive/dsa-problem-generator/How the Generator Works|How the Generator Works]]: the pipeline from seed to PDF. Covers rejection sampling, canonical answers, instrumented solvers, and the TikZ layout engine.
-- [[archive/dsa-problem-generator/Testing and Reproducibility|Testing and Reproducibility]]: how I know the answer keys are right. Covers brute-force checks, rule checks over 40 seeds, compile tests, and byte-identical reruns.
+- [How the Generator Works](How%20the%20Generator%20Works.md): the pipeline from seed to PDF. Covers rejection sampling, canonical answers, instrumented solvers, and the TikZ layout engine.
+- [Testing and Reproducibility](Testing%20and%20Reproducibility.md): how I know the answer keys are right. Covers brute-force checks, rule checks over 40 seeds, compile tests, and byte-identical reruns.
 
 ## All 20 topics
 
@@ -115,4 +115,4 @@ dsa-problem-generator/
 ---
 
 ## Related
-- [[archive/experiments/Data Structures and Algorithms/Index|Data Structures and Algorithms experiments]]: my three CS 253 experimental analyses (HashMap, BestSort, trie autocomplete).
+- [Data Structures and Algorithms experiments](../experiments/Data%20Structures%20and%20Algorithms/Index.md): my three CS 253 experimental analyses (HashMap, BestSort, trie autocomplete).

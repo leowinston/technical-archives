@@ -4,7 +4,7 @@ source: Book §3.1.5 (p. 74, $\log\det X$ example); Boyd's lecture question on e
 topics: ["[[Examples of Convex Functions]]", "[[Convex Functions]]", "[[academic/math-315/Topics/Cholesky Factorization|Cholesky Factorization]]"]
 ---
 # EX11 — Log Det via Cholesky
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let
@@ -15,7 +15,7 @@ Back to [[self-study/convex-optimization/Index|Index]]
 > (b) With $V = \operatorname{diag}(1, -1, 0)$, check that $g(t) = \log\det(A + tV)$ is concave on $t \in [-1, 1]$.
 
 ## Strategy
-Reuse the factor $G$ from math-315 [[academic/math-315/Explorations/EX08 - Cholesky Factorization of a 3x3 SPD Matrix|EX08]]. Since $G$ is triangular, $\det G = \prod_k g_{kk}$, so $\det A = (\det G)^2$.
+Reuse the factor $G$ from math-315 [EX08](../../../academic/math-315/Explorations/EX08%20-%20Cholesky%20Factorization%20of%20a%203x3%20SPD%20Matrix.md). Since $G$ is triangular, $\det G = \prod_k g_{kk}$, so $\det A = (\det G)^2$.
 
 ## Solution
 **(a) From the Cholesky factor.**
@@ -55,6 +55,6 @@ for t in np.linspace(-1, 1, 5):
 - Eigenvalues also cost $O(n^3)$, but they need an iterative method with a larger constant. Cholesky is a finite direct method and doubles as the $X \succ 0$ test.
 
 ## Related topics
-- [[Examples of Convex Functions]]
-- [[Convex Functions]] (restriction to a line)
-- [[academic/math-315/Topics/Cholesky Factorization|Cholesky Factorization]]
+- [Examples of Convex Functions](../topics/Examples%20of%20Convex%20Functions.md)
+- [Convex Functions](../topics/Convex%20Functions.md) (restriction to a line)
+- [Cholesky Factorization](../../../academic/math-315/Topics/Cholesky%20Factorization.md)

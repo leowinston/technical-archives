@@ -4,7 +4,7 @@ source: Constructed from my modified proof of Proposition 1.17 (p. 6, ✎ "Note,
 topics: ["[[Paths, Connectivity, and Distance]]"]
 ---
 # EX01 — Short-Circuiting a Joined Path
-Back to [[self-study/graph-theory/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > In a graph with edges $ua$, $az$, $zv$, $vb$, $bz$, $zc$, $cw$, take the $uv$ path $P = u\,a\,z\,v$ and the $vw$ path $Q = v\,b\,z\,c\,w$.
@@ -38,4 +38,4 @@ This matches the general proof. For $w_1 \dots w_a\, z\, w_{a+2} \dots w_b\, z\,
 - This is why $\sim$ ("there is a path") is an equivalence relation.
 
 ## Related topics
-- [[Paths, Connectivity, and Distance]]
+- [Paths, Connectivity, and Distance](../Theory/Paths%2C%20Connectivity%2C%20and%20Distance.md)

@@ -3,7 +3,7 @@ tags: [graph-theory, theory, ch-1]
 source: Kelly, Graph Theory §1.2 (pp. 8–10)
 ---
 # Trees and Leaves
-Back to [[self-study/graph-theory/Index|Index]] · Section 1.2
+Back to [Index](../Index.md) · Section 1.2
 
 ## Acyclic graphs and trees
 $G$ is **acyclic** if no subgraph is isomorphic to a cycle $C_n$. ✎ That is, no $G_s = (V', E')$ with $V' \subseteq V$ and $E' \subseteq E$ is a $C_3$, $C_4$, $C_5$, ….
@@ -27,6 +27,6 @@ $$
 ✎ "$n$ vertices ⇒ $n - 1$ edges." ✎ Proof by induction: remove a leaf $x$. Then $T - x$ is still a tree, so $e(T) = e(T - x) + 1 = (n - 2) + 1$. Read backwards, "you can simply add a vertex!" (and one edge).
 
 ## Examples
-- [[EX02 - Checking a Graph for Trees]]
+- [EX02 - Checking a Graph for Trees](../Examples/EX02%20-%20Checking%20a%20Graph%20for%20Trees.md)
 
-See also: [[Spanning Trees]], [[Paths, Connectivity, and Distance]], [[Regularized Spectral Clustering]] (trees hanging off a graph by one edge fool vanilla spectral clustering)
+See also: [Spanning Trees](Spanning%20Trees.md), [Paths, Connectivity, and Distance](Paths%2C%20Connectivity%2C%20and%20Distance.md), [Regularized Spectral Clustering](Regularized%20Spectral%20Clustering.md) (trees hanging off a graph by one edge fool vanilla spectral clustering)

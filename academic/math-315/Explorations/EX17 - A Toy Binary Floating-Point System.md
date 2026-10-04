@@ -4,7 +4,7 @@ source: Constructed example for Section 2.2 (slides 23, 29–30, 33–34)
 topics: ["[[Floating-Point Number Systems]]", "[[Overflow and Underflow]]", "[[Rounding and Machine Precision]]"]
 ---
 # EX17 — A Toy Binary Floating-Point System
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let $F$ be the normalized system with $\beta = 2$, $p = 3$, $L = -1$, $U = 1$.
@@ -96,6 +96,6 @@ With chopping, $u = 2^{1-3} = 0.25$. For example $\operatorname{fl}(1.24) = 1$ w
 - The same picture scales to IEEE double, with $2^{52}$ numbers per exponent instead of 4.
 
 ## Related topics
-- [[Floating-Point Number Systems]]
-- [[Overflow and Underflow]]
-- [[Rounding and Machine Precision]]
+- [Floating-Point Number Systems](../Topics/Floating-Point%20Number%20Systems.md)
+- [Overflow and Underflow](../Topics/Overflow%20and%20Underflow.md)
+- [Rounding and Machine Precision](../Topics/Rounding%20and%20Machine%20Precision.md)

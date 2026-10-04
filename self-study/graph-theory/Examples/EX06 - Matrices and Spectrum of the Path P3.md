@@ -4,7 +4,7 @@ source: Constructed from the "Graphs" and "Laplacian of graph G" columns of my h
 topics: ["[[Degree and Adjacency Matrices]]", "[[Laplacian of a Graph]]", "[[Spectral Gap and Fiedler Vector]]"]
 ---
 # EX06 — Matrices and Spectrum of the Path $P_3$
-Back to [[self-study/graph-theory/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let $G = P_3$, with edges $12$ and $23$.
@@ -41,6 +41,6 @@ The Fiedler vector is $\tfrac{1}{\sqrt2}(-1, 0, 1)$. Sorting puts vertex $1$ fir
 - $\lambda_2 = 0$ is the algebraic test for "disconnected".
 
 ## Related topics
-- [[Degree and Adjacency Matrices]]
-- [[Laplacian of a Graph]]
-- [[Spectral Gap and Fiedler Vector]]
+- [Degree and Adjacency Matrices](../Theory/Degree%20and%20Adjacency%20Matrices.md)
+- [Laplacian of a Graph](../Theory/Laplacian%20of%20a%20Graph.md)
+- [Spectral Gap and Fiedler Vector](../Theory/Spectral%20Gap%20and%20Fiedler%20Vector.md)

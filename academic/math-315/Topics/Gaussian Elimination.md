@@ -2,10 +2,10 @@
 tags: [math-315, topic, lecture-3]
 ---
 # Gaussian Elimination
-Back to [[academic/math-315/Index|Index]] · Section 3.1.2
+Back to [Index](../Index.md) · Section 3.1.2
 
 ## Goal
-Reduce $A\mathbf{x} = \mathbf{b}$ to an equivalent upper triangular system, then back substitute ([[Triangular Systems]]).
+Reduce $A\mathbf{x} = \mathbf{b}$ to an equivalent upper triangular system, then back substitute ([Triangular Systems](Triangular%20Systems.md)).
 
 ## Row operations
 Work on the augmented matrix $[\,A \mid \mathbf{b}\,]$ with three moves:
@@ -18,7 +18,7 @@ With pivot $a_{jj}$, the multiplier $m_{ij} = a_{ij}/a_{jj}$ zeroes out $a_{ij}$
 $$
 a_{ik} \leftarrow a_{ik} - m_{ij}a_{jk}, \qquad b_i \leftarrow b_i - m_{ij}b_j
 $$
-If the pivot is $0$, this fails and you need [[Partial Pivoting]].
+If the pivot is $0$, this fails and you need [Partial Pivoting](Partial%20Pivoting.md).
 ```
 for j from 1 to n-1:
     for i from j+1 to n:
@@ -41,7 +41,7 @@ $$
 $$
 
 ## Explorations
-- [[EX03 - Gaussian Elimination and LU of a 3x3 Matrix]]
-- [[EX04 - Exploration 3.2.12 - A Matrix with No LU Decomposition]]
+- [EX03 - Gaussian Elimination and LU of a 3x3 Matrix](../Explorations/EX03%20-%20Gaussian%20Elimination%20and%20LU%20of%20a%203x3%20Matrix.md)
+- [EX04 - Exploration 3.2.12 - A Matrix with No LU Decomposition](../Explorations/EX04%20-%20Exploration%203.2.12%20-%20A%20Matrix%20with%20No%20LU%20Decomposition.md)
 
-See also: [[LU Decomposition]], [[Partial Pivoting]]
+See also: [LU Decomposition](LU%20Decomposition.md), [Partial Pivoting](Partial%20Pivoting.md)

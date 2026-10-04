@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3]
 ---
 # Condition Number
-Back to [[academic/math-315/Index|Index]] · Section 3.4.1
+Back to [Index](../Index.md) · Section 3.4.1
 
 ## Definition
 $$
@@ -32,8 +32,8 @@ $$
 $$
 
 ## Explorations
-- [[EX10 - SVD and Condition Number of a 2x2 Matrix]]
-- [[EX13 - Small Residual, Large Error]]
-- [[EX14 - Determinant Versus Condition Number]]
+- [EX10 - SVD and Condition Number of a 2x2 Matrix](../Explorations/EX10%20-%20SVD%20and%20Condition%20Number%20of%20a%202x2%20Matrix.md)
+- [EX13 - Small Residual, Large Error](../Explorations/EX13%20-%20Small%20Residual%2C%20Large%20Error.md)
+- [EX14 - Determinant Versus Condition Number](../Explorations/EX14%20-%20Determinant%20Versus%20Condition%20Number.md)
 
-See also: [[Forward and Backward Error]], [[Singular Value Decomposition]], [[Matrix Norms]]
+See also: [Forward and Backward Error](Forward%20and%20Backward%20Error.md), [Singular Value Decomposition](Singular%20Value%20Decomposition.md), [Matrix Norms](Matrix%20Norms.md)

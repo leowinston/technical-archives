@@ -2,11 +2,19 @@
 
 This is an Obsidian vault of math and CS notes: current courses in `academic/` (`math-212`, `math-315`), independent study in `self-study/` (`probability`, `convex-optimization`, `graph-theory`, `ergodic-theory`), and finished past work in `archive/`, kept as it was turned in. Follow these rules whenever you create or edit notes here.
 
+## Links
+
+- In note bodies, write standard Markdown links with a path relative to the current note and the `.md` extension: `[Condition Number](Topics/Condition%20Number.md)`. Never write `[[wikilinks]]` in a body, because GitHub shows them as plain text.
+- Encode spaces in the path as `%20`. Match the file name's exact capitalization, because GitHub paths are case-sensitive.
+- Link to a heading with GitHub's anchor form: lowercase, punctuation dropped, spaces turned into `-` (`#2--rejection-sampling-keeps-only-instructive-instances`).
+- Embed images and PDFs as `![file.png](../Assets/file.png)`.
+- Frontmatter properties such as `topics:` stay as quoted `"[[wikilinks]]"`, because Obsidian links properties only in that form.
+- Why: Markdown links work as note links in Obsidian and as clickable links in the GitHub code view.
+
 ## Index links
 
-- Link an index with its full vault path and an alias: `[[academic/math-315/Index|Index]]`, `[[self-study/probability/Index|Index]]`. Never write a bare `[[Index]]`.
-- Write the "Back to" line as `Back to [[<folder-path>/Index|Index]]`, using the note's own folder path from the vault root.
-- Why: each folder has its own `Index.md`, so a bare `[[Index]]` is ambiguous and can open the wrong index.
+- Write the "Back to" line as `Back to [Index](../Index.md)`, using the relative path to the note's own folder's `Index.md`.
+- Why: each folder has its own `Index.md`, so the link must be a path, never a bare name.
 
 ## Topic note length
 

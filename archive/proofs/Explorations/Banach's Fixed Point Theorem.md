@@ -4,7 +4,7 @@ date: 2026-04
 completed: 2026-09-28
 ---
 # Banach's Fixed Point Theorem
-Back to [[archive/proofs/Index|Index]]
+Back to [Index](../Index.md)
 
 Leo Winston · April 2026 (finished September 2026)
 
@@ -75,4 +75,4 @@ Therefore, $f$ has exactly one fixed point $p$, and the sequence $x_n = f(x_{n-1
 ---
 
 ## Connection: existence and uniqueness for ODEs
-The standard proof of the nonlinear existence and uniqueness theorem (Picard–Lindelöf) is this theorem. Take $X$ to be the continuous functions on $[t_0 - h, t_0 + h]$ with the max distance, which is complete. Take $f$ to be the map $\phi \mapsto y_0 + \int_{t_0}^{t} F(s, \phi(s))\,ds$. For small $h$ it is a contraction, and its unique fixed point is the unique solution of $y' = F(t, y)$, $y(t_0) = y_0$. See [[academic/math-212/Topics/Existence and Uniqueness Theorems|Existence and Uniqueness Theorems]].
+The standard proof of the nonlinear existence and uniqueness theorem (Picard–Lindelöf) is this theorem. Take $X$ to be the continuous functions on $[t_0 - h, t_0 + h]$ with the max distance, which is complete. Take $f$ to be the map $\phi \mapsto y_0 + \int_{t_0}^{t} F(s, \phi(s))\,ds$. For small $h$ it is a contraction, and its unique fixed point is the unique solution of $y' = F(t, y)$, $y(t_0) = y_0$. See [Existence and Uniqueness Theorems](../../../academic/math-212/Topics/Existence%20and%20Uniqueness%20Theorems.md).

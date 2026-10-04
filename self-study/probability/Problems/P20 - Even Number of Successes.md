@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Law of Total Probability]]", "[[Independence of Events]]"]
 ---
 # P20 — Even Number of Successes
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Run $n \ge 1$ independent trials. Trial $i$ succeeds with probability $p_i$. Let $q_i = 1 - p_i$ and $b_i = q_i - \tfrac12$. Let $A_n$ be the event that the number of successes is **even**.
@@ -42,6 +42,6 @@ $$
 - All $p_i = 1$: $b_i = -\tfrac12$, so $\P(A_n) = \tfrac12 + \tfrac12(-1)^n$. That is 1 for even $n$ and 0 for odd $n$. ✓
 
 ## Related topics
-- [[Law of Total Probability]]
-- [[Independence of Events]]
-- [[Bernoulli and Binomial]]
+- [Law of Total Probability](../Notes/Law%20of%20Total%20Probability.md)
+- [Independence of Events](../Notes/Independence%20of%20Events.md)
+- [Bernoulli and Binomial](../Notes/Bernoulli%20and%20Binomial.md)

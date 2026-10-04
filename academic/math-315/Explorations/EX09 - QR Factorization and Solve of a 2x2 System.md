@@ -4,7 +4,7 @@ source: Constructed example for Section 3.3 (QR Factorization)
 topics: ["[[QR Factorization]]"]
 ---
 # EX09 — QR Factorization and Solve of a 2×2 System
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let $A = \begin{bmatrix} 3 & 0 \\ 4 & 5 \end{bmatrix}$ and $\mathbf{b} = \begin{bmatrix} 3 \\ 9 \end{bmatrix}$.
@@ -106,6 +106,6 @@ Both factorizations work here. QR costs about twice as much ($\tfrac43n^3$ again
 - By hand Gram–Schmidt is fine. Software uses Householder reflections, which stay orthogonal in floating point.
 
 ## Related topics
-- [[QR Factorization]]
-- [[Singular Value Decomposition]]
-- [[Condition Number]]
+- [QR Factorization](../Topics/QR%20Factorization.md)
+- [Singular Value Decomposition](../Topics/Singular%20Value%20Decomposition.md)
+- [Condition Number](../Topics/Condition%20Number.md)

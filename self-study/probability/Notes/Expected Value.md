@@ -2,7 +2,7 @@
 tags: [probability, topic, part-5]
 ---
 # Expected Value
-Back to [[self-study/probability/Index|Index]] · Part 5
+Back to [Index](../Index.md) · Part 5
 
 ## Definition
 For discrete $X$,
@@ -21,7 +21,7 @@ Fair die: $\E[X] = \dfrac{1 + 2 + \cdots + 6}{6} = 3.5$.
 - The shortcut fails for uneven values. If the 6 is misread as a 9, the faces are $1, 2, 3, 4, 5, 9$, and $\E[X] = 24/6 = 4$, not $(1 + 9)/2 = 5$.
 
 ## Problems
-- [[P23 - Expected Value of a Die]]
-- [[P24 - Expected Present Value of a Risky Company]]
+- [P23 - Expected Value of a Die](../Problems/P23%20-%20Expected%20Value%20of%20a%20Die.md)
+- [P24 - Expected Present Value of a Risky Company](../Problems/P24%20-%20Expected%20Present%20Value%20of%20a%20Risky%20Company.md)
 
-See also: [[Variance]], [[Law of Large Numbers]], [[Limits of Expected Value]]
+See also: [Variance](Variance.md), [Law of Large Numbers](Law%20of%20Large%20Numbers.md), [Limits of Expected Value](Limits%20of%20Expected%20Value.md)

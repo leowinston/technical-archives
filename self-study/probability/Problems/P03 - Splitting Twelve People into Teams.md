@@ -3,7 +3,7 @@ tags: [probability, problem, part-1]
 topics: ["[[Binomial Coefficients]]"]
 ---
 # P03 — Splitting Twelve People into Teams
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) How many ways are there to split 12 people into 3 teams, one with 2 people and two with 5 people each?
@@ -27,4 +27,4 @@ $$
 > In (a), only the two teams of the **same size** can be swapped. The 2-person team is always distinguishable, so we divide by $2!$, not $3!$.
 
 ## Related topics
-- [[Binomial Coefficients]] (adjusting for overcounting)
+- [Binomial Coefficients](../Notes/Binomial%20Coefficients.md) (adjusting for overcounting)

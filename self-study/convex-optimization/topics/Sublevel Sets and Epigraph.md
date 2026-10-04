@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-3]
 source: Boyd & Vandenberghe §3.1.6–3.1.7 (p. 75)
 ---
 # Sublevel Sets and Epigraph
-Back to [[self-study/convex-optimization/Index|Index]] · Sections 3.1.6–3.1.7
+Back to [Index](../Index.md) · Sections 3.1.6–3.1.7
 
 ## Sublevel sets
 $$
@@ -24,6 +24,6 @@ $$
 This is the bridge between convex **sets** (Ch. 2) and convex **functions** (Ch. 3). Concave $\iff$ $\hypo f = \{(x, t) \mid t \le f(x)\}$ convex.
 
 ## Explorations
-- [[EX03 - Sublevel Sets of a Quasiconvex Function]]
+- [EX03 - Sublevel Sets of a Quasiconvex Function](../explorations/EX03%20-%20Sublevel%20Sets%20of%20a%20Quasiconvex%20Function.md)
 
-See also: [[Quasiconvex Functions]], [[Convex Functions]]
+See also: [Quasiconvex Functions](Quasiconvex%20Functions.md), [Convex Functions](Convex%20Functions.md)

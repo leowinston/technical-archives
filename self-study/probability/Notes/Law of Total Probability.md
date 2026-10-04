@@ -2,7 +2,7 @@
 tags: [probability, topic, part-3]
 ---
 # Law of Total Probability
-Back to [[self-study/probability/Index|Index]] · Part 3
+Back to [Index](../Index.md) · Part 3
 
 ## Statement
 If $A_1, \dots, A_n$ **partition** $S$ (disjoint, with union $S$) and each $\P(A_i) > 0$, then
@@ -23,9 +23,9 @@ $$
 $$
 
 ## Problems
-- [[P19 - Urn Chosen at Random]]
-- [[P16 - Monty Hall]]
-- [[P20 - Even Number of Successes]]
-- [[P12 - Recession and Falling Stocks]]
+- [P19 - Urn Chosen at Random](../Problems/P19%20-%20Urn%20Chosen%20at%20Random.md)
+- [P16 - Monty Hall](../Problems/P16%20-%20Monty%20Hall.md)
+- [P20 - Even Number of Successes](../Problems/P20%20-%20Even%20Number%20of%20Successes.md)
+- [P12 - Recession and Falling Stocks](../Problems/P12%20-%20Recession%20and%20Falling%20Stocks.md)
 
-See also: [[Bayes' Rule]]
+See also: [Bayes' Rule](Bayes%27%20Rule.md)

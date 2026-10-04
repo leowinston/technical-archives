@@ -4,7 +4,7 @@ source: ML notebook "Jensen's Inequality" (dithering sketch); Book §3.1.8
 topics: ["[[Jensen's Inequality]]"]
 ---
 # EX04 — Jensen and Dithering
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > A cost is $f(x) = e^{x}$ at the operating point $x_0 = 1$. Dither: use $x_0 \pm 0.5$ with probability $\tfrac12$ each.
@@ -46,7 +46,7 @@ y=1.6487+2.833(x-0.5)|x>0.5|x<1.5|#c74440
 
 ## Takeaways
 - The Jensen gap grows with the curvature $f''$ and with the noise variance. For small $z$, the gap is about $\tfrac12 f''(x_0)\Var z = \tfrac12 e \cdot 0.25 = 0.34$.
-- It is the same inequality behind "averaging predictions reduces squared error" in [[Bias-Variance Tradeoff]].
+- It is the same inequality behind "averaging predictions reduces squared error" in [Bias-Variance Tradeoff](../topics/Bias-Variance%20Tradeoff.md).
 
 ## Related topics
-- [[Jensen's Inequality]]
+- [Jensen's Inequality](../topics/Jensen%27s%20Inequality.md)

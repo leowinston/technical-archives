@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Conditional Probability]]"]
 ---
 # P13 — The Two-Child Problem
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > A family has two children. Each child is independently a boy or a girl with probability $1/2$. Find the probability that both are girls given
@@ -37,4 +37,4 @@ $$
 The answer depends on **exactly what was learned and how**. More specific information about one girl, such as "older" or "born in winter", picks out one child more sharply and pushes the answer from $1/3$ toward $1/2$. If you met one of the children **at random** and she was a girl, the answer would also be $1/2$.
 
 ## Related topics
-- [[Conditional Probability]]
+- [Conditional Probability](../Notes/Conditional%20Probability.md)

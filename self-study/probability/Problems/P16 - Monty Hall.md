@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Law of Total Probability]]"]
 ---
 # P16 — Monty Hall
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > There are 3 doors: one car and two goats. You pick a door. Monty, who knows where the car is, always opens a **different** door with a goat, choosing at random if he has two options, and offers you a switch. Should you switch?
@@ -22,5 +22,5 @@ You pick 1 door of 1,000,000. Monty opens 999,998 goat doors and leaves exactly 
 > The $2/3$ depends on Monty **always** opening a goat door and choosing at random between two goats. If he only opens doors when you've picked the car, switching is a disaster.
 
 ## Related topics
-- [[Law of Total Probability]]
-- [[Bayes' Rule]]
+- [Law of Total Probability](../Notes/Law%20of%20Total%20Probability.md)
+- [Bayes' Rule](../Notes/Bayes%27%20Rule.md)

@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Bayes' Rule]]"]
 ---
 # P18 — Spam Filter
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > 80% of email is spam. The phrase "free money" appears in 10% of spam and 1% of non-spam. A new email contains "free money". What is the probability that it is spam?
@@ -18,5 +18,5 @@ $$
 Prior odds are $0.8 : 0.2 = 4$, and the likelihood ratio is $0.1/0.01 = 10$. Posterior odds are $40$, so $\P = 40/41$. ✓
 
 ## Related topics
-- [[Bayes' Rule]]
-- [[Law of Total Probability]]
+- [Bayes' Rule](../Notes/Bayes%27%20Rule.md)
+- [Law of Total Probability](../Notes/Law%20of%20Total%20Probability.md)

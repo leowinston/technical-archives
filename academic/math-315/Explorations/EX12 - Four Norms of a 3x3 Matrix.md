@@ -4,7 +4,7 @@ source: Lecture 3 handout, p. 20 (Matrix Norms in Python Example)
 topics: ["[[Matrix Norms]]", "[[Singular Value Decomposition]]"]
 ---
 # EX12 — Four Norms of a 3×3 Matrix
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > By hand, compute $\|A\|_1$, $\|A\|_\infty$, $\|A\|_F$ and $\|A\|_2$ for
@@ -118,5 +118,5 @@ The singular values are $\sigma \approx 16.848,\ 1.068,\ 0$.
 - $\|A\|_F^2 = \sum\sigma_i^2$, and $\|A\|_2 = \sigma_1$.
 
 ## Related topics
-- [[Matrix Norms]]
-- [[Singular Value Decomposition]]
+- [Matrix Norms](../Topics/Matrix%20Norms.md)
+- [Singular Value Decomposition](../Topics/Singular%20Value%20Decomposition.md)

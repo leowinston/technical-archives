@@ -9,7 +9,7 @@ topic: red_black
 seed: 1
 ---
 # Red-Black Tree Problem
-Back to [[archive/dsa-problem-generator/Index|Index]] · `trees` · seed 1 · `--topic rb --seed 1`
+Back to [Index](../../Index.md) · `trees` · seed 1 · `--topic rb --seed 1`
 
 > [!question] Problem · Red-Black Tree Tracing Challenge
 > Start from an empty red-black tree. Insert the keys
@@ -63,7 +63,7 @@ The totals match the counts the generator stored with the problem: $4 + 1$ rotat
 
 ## Solution
 
-![[archive/dsa-problem-generator/generated-problems/trees/red_black-seed1-solution.svg]]
+![red_black-seed1-solution.svg](red_black-seed1-solution.svg)
 
 > [!success] Answer
 > Final tree (● black, ○ red):
@@ -76,15 +76,15 @@ The totals match the counts the generator stored with the problem: $4 + 1$ rotat
 ---
 
 ## Connections
-- [[self-study/graph-theory/Theory/Trees and Leaves|Trees and Leaves]]: a red-black tree is a tree in the graph sense. The final tree has 8 nodes and $e(T) = 8 - 1 = 7$ edges.
-- [[archive/proofs/Foundations of Math/Proof by Induction|Proof by Induction]]: the balance guarantee comes from an induction on height. A subtree with black height $b$ has at least $2^{b} - 1$ keys, and the red rule gives $b \ge h/2$, so
+- [Trees and Leaves](../../../../self-study/graph-theory/Theory/Trees%20and%20Leaves.md): a red-black tree is a tree in the graph sense. The final tree has 8 nodes and $e(T) = 8 - 1 = 7$ edges.
+- [Proof by Induction](../../../proofs/Foundations%20of%20Math/Proof%20by%20Induction.md): the balance guarantee comes from an induction on height. A subtree with black height $b$ has at least $2^{b} - 1$ keys, and the red rule gives $b \ge h/2$, so
 $$
 h \le 2\log_2(n + 1).
 $$
-- [[archive/experiments/Data Structures and Algorithms/Autocomplete Experimental Analysis|Trie-Based Autocomplete]]: another tree structure from CS 253, measured instead of traced.
+- [Trie-Based Autocomplete](../../../experiments/Data%20Structures%20and%20Algorithms/Autocomplete%20Experimental%20Analysis.md): another tree structure from CS 253, measured instead of traced.
 - Other generator topics in `trees`: `avl`, `two_four`, `rb_to_24`.
 
 ## Files
 - Source: `red_black-seed1.tex` (generator output, unchanged)
-- Compiled: [[archive/dsa-problem-generator/generated-problems/trees/red_black-seed1.pdf|red_black-seed1.pdf]]
+- Compiled: [red_black-seed1.pdf](red_black-seed1.pdf)
 - Regenerate: `python3 cs253_problem_generator.py --topic rb --seed 1 --with-solution`

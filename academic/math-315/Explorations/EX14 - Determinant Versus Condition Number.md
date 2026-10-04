@@ -4,7 +4,7 @@ source: Lecture 3 handout, p. 23 (Section 3.4.1 Condition Number, Part 5)
 topics: ["[[Condition Number]]", "[[Determinants via LU]]", "[[Singular Value Decomposition]]"]
 ---
 # EX14 — Determinant Versus Condition Number
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let $A \in \mathbb{R}^{10\times10}$ be upper triangular with $1$ on the diagonal and $-1$ everywhere above it:
@@ -96,7 +96,7 @@ Choose $\delta = 1/256 = 2^{-(n-2)}$. Then $\tilde A\mathbf{v} = \mathbf{0}$ wit
 $$
 \|A - \tilde A\|_2 = \|\delta\,\mathbf{e}_n\mathbf{e}_1^{\top}\|_2 = \delta = \frac{1}{256} \approx 0.0039
 $$
-Changing a single entry by $0.4\%$ makes the matrix singular. The **optimal** 2-norm perturbation has size $\sigma_{10} \approx 0.00293$, which is the handout's $0.0029$. It is obtained by removing the last SVD term, as in [[EX10 - SVD and Condition Number of a 2x2 Matrix|EX10]].
+Changing a single entry by $0.4\%$ makes the matrix singular. The **optimal** 2-norm perturbation has size $\sigma_{10} \approx 0.00293$, which is the handout's $0.0029$. It is obtained by removing the last SVD term, as in [EX10](EX10%20-%20SVD%20and%20Condition%20Number%20of%20a%202x2%20Matrix.md).
 
 *Kahan check:*
 $$
@@ -122,6 +122,6 @@ Scaling shows why the determinant fails. $\det(cA) = c^n\det A$ changes enormous
 - Innocent-looking triangular matrices can have exponentially large inverses.
 
 ## Related topics
-- [[Condition Number]]
-- [[Determinants via LU]]
-- [[Singular Value Decomposition]]
+- [Condition Number](../Topics/Condition%20Number.md)
+- [Determinants via LU](../Topics/Determinants%20via%20LU.md)
+- [Singular Value Decomposition](../Topics/Singular%20Value%20Decomposition.md)

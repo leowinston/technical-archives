@@ -3,7 +3,7 @@ tags: [probability, problem, part-1]
 topics: ["[[Binomial Coefficients]]", "[[Naive Definition of Probability]]"]
 ---
 # P10 — Mixed Practice Comparisons
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Fill in each blank with $=$, $<$, or $>$ and explain.
@@ -25,5 +25,5 @@ $$
 $$
 
 ## Related topics
-- [[Binomial Coefficients]]
-- [[Naive Definition of Probability]]
+- [Binomial Coefficients](../Notes/Binomial%20Coefficients.md)
+- [Naive Definition of Probability](../Notes/Naive%20Definition%20of%20Probability.md)

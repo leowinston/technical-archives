@@ -4,7 +4,7 @@ source: Book §4.2.2 (p. 138, ✎ "any locally optimal point is also globally op
 topics: ["[[Local and Global Optima]]", "[[Second-Order Conditions]]"]
 ---
 # EX06 — Local Versus Global Minima
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let $f(x) = x^4 - 3x^2 + x$.
@@ -47,5 +47,5 @@ Green: the global min. Red: the local min. The dashed chord between them passes 
 - For convex $f$, "stuck" is impossible, because every local min is global.
 
 ## Related topics
-- [[Local and Global Optima]]
-- [[Second-Order Conditions]]
+- [Local and Global Optima](../topics/Local%20and%20Global%20Optima.md)
+- [Second-Order Conditions](../topics/Second-Order%20Conditions.md)

@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-4]
 source: Boyd & Vandenberghe §4.2.3 (pp. 139–142)
 ---
 # Optimality Criterion for Differentiable Objectives
-Back to [[self-study/convex-optimization/Index|Index]] · Section 4.2.3
+Back to [Index](../Index.md) · Section 4.2.3
 
 For convex, differentiable $f_0$ and feasible set $X$:
 $$
@@ -24,6 +24,6 @@ The last row is a first look at **complementary slackness**.
 Unconstrained QP $f_0 = \tfrac12 x^{\top}Px + q^{\top}x$, $P \succeq 0$: optimal iff $Px^\star + q = 0$.
 
 ## Explorations
-- [[EX07 - Markowitz Three-Asset Portfolio]]
+- [EX07 - Markowitz Three-Asset Portfolio](../explorations/EX07%20-%20Markowitz%20Three-Asset%20Portfolio.md)
 
-See also: [[First-Order Condition]], [[Local and Global Optima]]
+See also: [First-Order Condition](First-Order%20Condition.md), [Local and Global Optima](Local%20and%20Global%20Optima.md)

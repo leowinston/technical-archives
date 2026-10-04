@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-2]
 ---
 # Linear First-Order Equations
-Back to [[academic/math-212/Index|Index]] · Chapter 2.1
+Back to [Index](../Index.md) · Chapter 2.1
 
 ## Standard form
 $$
@@ -31,13 +31,13 @@ y = c\,e^{-\int p(t)\,dt}
 $$
 
 ## Workbook problems
-- [[WB1 P01 - Car Slowing Down to a Stop]]
-- [[WB1 P05 - The Equation y' - ay = 0]]
-- [[WB1 P06 - General Solution of the Homogeneous Linear Equation]]
-- [[WB1 P07 - Linear Equation with an Exact Left Side]]
-- [[WB1 P08 - Linear Equation y' - 2y = 4 - x]]
-- [[WB1 P09 - Deriving the Integrating Factor]]
-- [[WB1 P10 - Linear Equation with Exponential Forcing]]
-- [[WB1 P22 - Rewriting as a Linear Equation]]
+- [WB1 P01 - Car Slowing Down to a Stop](../Workbook%201/WB1%20P01%20-%20Car%20Slowing%20Down%20to%20a%20Stop.md)
+- [WB1 P05 - The Equation y' - ay = 0](../Workbook%201/WB1%20P05%20-%20The%20Equation%20y%27%20-%20ay%20%3D%200.md)
+- [WB1 P06 - General Solution of the Homogeneous Linear Equation](../Workbook%201/WB1%20P06%20-%20General%20Solution%20of%20the%20Homogeneous%20Linear%20Equation.md)
+- [WB1 P07 - Linear Equation with an Exact Left Side](../Workbook%201/WB1%20P07%20-%20Linear%20Equation%20with%20an%20Exact%20Left%20Side.md)
+- [WB1 P08 - Linear Equation y' - 2y = 4 - x](../Workbook%201/WB1%20P08%20-%20Linear%20Equation%20y%27%20-%202y%20%3D%204%20-%20x.md)
+- [WB1 P09 - Deriving the Integrating Factor](../Workbook%201/WB1%20P09%20-%20Deriving%20the%20Integrating%20Factor.md)
+- [WB1 P10 - Linear Equation with Exponential Forcing](../Workbook%201/WB1%20P10%20-%20Linear%20Equation%20with%20Exponential%20Forcing.md)
+- [WB1 P22 - Rewriting as a Linear Equation](../Workbook%201/WB1%20P22%20-%20Rewriting%20as%20a%20Linear%20Equation.md)
 
-See also: [[Variation of Parameters]], [[Existence and Uniqueness Theorems]]
+See also: [Variation of Parameters](Variation%20of%20Parameters.md), [Existence and Uniqueness Theorems](Existence%20and%20Uniqueness%20Theorems.md)

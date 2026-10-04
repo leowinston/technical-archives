@@ -2,7 +2,7 @@
 tags: [probability, topic, part-5]
 ---
 # Central Limit Theorem
-Back to [[self-study/probability/Index|Index]] · Part 5
+Back to [Index](../Index.md) · Part 5
 
 ## Statement
 Let $X_1, X_2, \dots$ be **i.i.d.** with mean $\mu$ and **finite** variance $\sigma^2$. Then
@@ -22,6 +22,6 @@ Equivalently, $X_1 + \cdots + X_n \approx \Normal(n\mu, n\sigma^2)$ for large $n
 The result is **fat tails**. A normal model says a 3-SD day has probability about $0.27\%$, but real return series show such days far more often.
 
 ## Problems
-- [[P26 - Simulation and SPY Returns Lab]]
+- [P26 - Simulation and SPY Returns Lab](../Problems/P26%20-%20Simulation%20and%20SPY%20Returns%20Lab.md)
 
-See also: [[Law of Large Numbers]], [[Variance]]
+See also: [Law of Large Numbers](Law%20of%20Large%20Numbers.md), [Variance](Variance.md)

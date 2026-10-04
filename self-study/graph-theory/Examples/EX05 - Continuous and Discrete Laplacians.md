@@ -4,7 +4,7 @@ source: Constructed from the "Continuous functions" Laplacian column of my handw
 topics: ["[[Laplace Operator and the Graph Laplacian]]", "[[Laplacian of a Graph]]"]
 ---
 # EX05 — Continuous and Discrete Laplacians
-Back to [[self-study/graph-theory/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) Sample $f(x) = x^2$ on the path $P_5$ as $x = (1, 4, 9, 16, 25)$. Compute $L_Gx$ and compare it with $f''$.
@@ -31,5 +31,5 @@ So $g$ is harmonic on the graph too: the centre equals the average of its neighb
 - A harmonic function satisfies the mean-value property in both the continuous and the discrete setting.
 
 ## Related topics
-- [[Laplace Operator and the Graph Laplacian]]
-- [[Laplacian of a Graph]]
+- [Laplace Operator and the Graph Laplacian](../Theory/Laplace%20Operator%20and%20the%20Graph%20Laplacian.md)
+- [Laplacian of a Graph](../Theory/Laplacian%20of%20a%20Graph.md)

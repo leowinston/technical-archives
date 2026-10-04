@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 19 (pp. 13–14)
 topics: ["[[Exact Equations]]", "[[Integrating Factors for Exact Equations]]"]
 ---
 # Problem 19 — $(3x + 2y^2)\,dx + 2xy\,dy = 0$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Given $(3x + 2y^2)\,dx + 2xy\,dy = 0$:
@@ -70,5 +70,5 @@ c=[-4,-1,1,4,8]
 ```
 
 ## Related topics
-- [[Exact Equations]]
-- [[Integrating Factors for Exact Equations]]
+- [Exact Equations](../Topics/Exact%20Equations.md)
+- [Integrating Factors for Exact Equations](../Topics/Integrating%20Factors%20for%20Exact%20Equations.md)

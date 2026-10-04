@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-2]
 ---
 # Existence and Uniqueness Theorems
-Back to [[academic/math-212/Index|Index]] · Chapter 2.4
+Back to [Index](../Index.md) · Chapter 2.4
 
 ## Theorem 2.4.1 (linear)
 If $p$ and $g$ are continuous on an open interval $I = (\alpha, \beta)$ containing $t_0$, then the IVP
@@ -23,7 +23,7 @@ The IVP is equivalent to a fixed-point equation $\phi = T\phi$ for the map
 $$
 (T\phi)(t) = y_0 + \int_{t_0}^{t} f\big(s, \phi(s)\big)\,ds
 $$
-If $\lvert \partial f/\partial y \rvert \le K$, then $\max_t \lvert T\phi - T\psi \rvert \le Kh\,\max_t \lvert \phi - \psi \rvert$. For $Kh < 1$, $T$ is a contraction on the continuous functions on $[t_0 - h, t_0 + h]$, which form a complete space. [[archive/proofs/Explorations/Banach's Fixed Point Theorem|Banach's fixed point theorem]] then gives exactly one solution, and the iterates $\phi_{n+1} = T\phi_n$ converge to it. The requirement $h < 1/K$ is why the theorem only promises **some** interval.
+If $\lvert \partial f/\partial y \rvert \le K$, then $\max_t \lvert T\phi - T\psi \rvert \le Kh\,\max_t \lvert \phi - \psi \rvert$. For $Kh < 1$, $T$ is a contraction on the continuous functions on $[t_0 - h, t_0 + h]$, which form a complete space. [Banach's fixed point theorem](../../../archive/proofs/Explorations/Banach%27s%20Fixed%20Point%20Theorem.md) then gives exactly one solution, and the iterates $\phi_{n+1} = T\phi_n$ converge to it. The requirement $h < 1/K$ is why the theorem only promises **some** interval.
 
 Example: for $y' = y$, $y(0) = 1$, starting from $\phi_0 = 1$ gives $\phi_n = \sum_{k \le n} t^k/k!$, which converges to $e^t$.
 
@@ -36,9 +36,9 @@ Example: for $y' = y$, $y(0) = 1$, starting from $\phi_0 = 1$ gives $\phi_n = \s
 | Form of solution | explicit formula | often only implicit |
 
 ## Workbook problems
-- [[WB1 P06 - General Solution of the Homogeneous Linear Equation]]
-- [[WB1 P15 - Separable Equation with an Explicit Solution]] (the equilibrium $y = 1$ is missed by the formula)
-- [[WB1 P16 - Separable IVP with Interval of Validity]]
-- [[WB1 P26 - Critical Threshold Blow-Up]] (blow-up in finite time)
+- [WB1 P06 - General Solution of the Homogeneous Linear Equation](../Workbook%201/WB1%20P06%20-%20General%20Solution%20of%20the%20Homogeneous%20Linear%20Equation.md)
+- [WB1 P15 - Separable Equation with an Explicit Solution](../Workbook%201/WB1%20P15%20-%20Separable%20Equation%20with%20an%20Explicit%20Solution.md) (the equilibrium $y = 1$ is missed by the formula)
+- [WB1 P16 - Separable IVP with Interval of Validity](../Workbook%201/WB1%20P16%20-%20Separable%20IVP%20with%20Interval%20of%20Validity.md)
+- [WB1 P26 - Critical Threshold Blow-Up](../Workbook%201/WB1%20P26%20-%20Critical%20Threshold%20Blow-Up.md) (blow-up in finite time)
 
-See also: [[Bernoulli Equations]]
+See also: [Bernoulli Equations](Bernoulli%20Equations.md)

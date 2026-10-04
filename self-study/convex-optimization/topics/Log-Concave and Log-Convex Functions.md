@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-3]
 source: Boyd & Vandenberghe §3.5 (pp. 104–108)
 ---
 # Log-Concave and Log-Convex Functions
-Back to [[self-study/convex-optimization/Index|Index]] · Section 3.5
+Back to [Index](../Index.md) · Section 3.5
 
 ## Definition
 $f > 0$ is **log-concave** if $\log f$ is concave:
@@ -24,4 +24,4 @@ $$
 ## Why it matters
 If the noise density is log-concave, then **maximizing the log-likelihood is a convex problem**.
 
-See also: [[Maximum Likelihood Estimation]], [[Examples of Convex Functions]]
+See also: [Maximum Likelihood Estimation](Maximum%20Likelihood%20Estimation.md), [Examples of Convex Functions](Examples%20of%20Convex%20Functions.md)

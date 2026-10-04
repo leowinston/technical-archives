@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Bayes' Rule]]", "[[Law of Total Probability]]"]
 ---
 # P12 — Recession and Falling Stocks
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > A recession ($R$) happens with probability $0.1$. In a recession, stocks fall ($F$) with probability $0.9$. Otherwise they fall with probability $0.3$. Stocks just fell. What is the probability that a recession is underway?
@@ -27,5 +27,5 @@ $$
 - **Odds form:** prior odds $1:9$, likelihood ratio $0.9/0.3 = 3$, posterior odds $3:9 = 1:3$, so $\P = 1/4$. ✓
 
 ## Related topics
-- [[Bayes' Rule]]
-- [[Law of Total Probability]]
+- [Bayes' Rule](../Notes/Bayes%27%20Rule.md)
+- [Law of Total Probability](../Notes/Law%20of%20Total%20Probability.md)

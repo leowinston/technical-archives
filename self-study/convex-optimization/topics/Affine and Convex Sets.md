@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-2]
 source: Boyd & Vandenberghe §2.1 (pp. 21–27)
 ---
 # Affine and Convex Sets
-Back to [[self-study/convex-optimization/Index|Index]] · Section 2.1
+Back to [Index](../Index.md) · Section 2.1
 
 ## Affine sets
 $C$ is **affine** if the whole line through any two points stays in $C$:
@@ -28,4 +28,4 @@ $C$ is a **convex cone** if $\theta_1 x_1 + \theta_2 x_2 \in C$ for all $\theta_
 | convex | $\sum\theta_i = 1$, $\theta_i \ge 0$ | convex set |
 | conic | $\theta_i \ge 0$ | convex cone |
 
-See also: [[Important Convex Sets]], [[Operations That Preserve Convexity of Sets]]
+See also: [Important Convex Sets](Important%20Convex%20Sets.md), [Operations That Preserve Convexity of Sets](Operations%20That%20Preserve%20Convexity%20of%20Sets.md)

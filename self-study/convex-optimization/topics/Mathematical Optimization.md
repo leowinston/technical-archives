@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-1]
 source: Boyd & Vandenberghe §1.1 (pp. 1–3)
 ---
 # Mathematical Optimization
-Back to [[self-study/convex-optimization/Index|Index]] · Section 1.1
+Back to [Index](../Index.md) · Section 1.1
 
 ## Standard problem
 $$
@@ -25,4 +25,4 @@ and **convex** when this only has to hold as $\le$ for $\alpha + \beta = 1$, $\a
 > [!important] ✎ Highlighted: "exceptions"
 > The general problem is **hard**. Methods either take a very long time or may not find the solution. The *exceptions* are a few classes that can be solved reliably and efficiently: least-squares, linear programs, and convex problems.
 
-See also: [[Least-Squares and Linear Programming]], [[Convex Optimization Overview]]
+See also: [Least-Squares and Linear Programming](Least-Squares%20and%20Linear%20Programming.md), [Convex Optimization Overview](Convex%20Optimization%20Overview.md)

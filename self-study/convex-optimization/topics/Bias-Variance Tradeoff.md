@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ml-notebook]
 source: ML notebook "Bias-Variance tradeoff"
 ---
 # Bias-Variance Tradeoff
-Back to [[self-study/convex-optimization/Index|Index]] · ML notebook
+Back to [Index](../Index.md) · ML notebook
 
 ## Setup (from the notebook)
 A model $\hat f$ is trained on random data and evaluated at a fixed point $x_0$. The true relationship is
@@ -26,6 +26,6 @@ $$
 $$
 Larger $\delta$ shrinks $\beta$: more bias, less variance. This is Chapter 6.3 (regularized approximation) of the book.
 
-The same penalty appears in [[Regularized Spectral Clustering]]. There, $\tau\sum_i(x_i - \bar x)^2$ is added to the cut relaxation, and $\tau$ trades fitting fine structure against stability on sparse graphs.
+The same penalty appears in [Regularized Spectral Clustering](../../graph-theory/Theory/Regularized%20Spectral%20Clustering.md). There, $\tau\sum_i(x_i - \bar x)^2$ is added to the cut relaxation, and $\tau$ trades fitting fine structure against stability on sparse graphs.
 
-See also: [[Jensen's Inequality]], [[Least Squares by Gradient Descent]]
+See also: [Jensen's Inequality](Jensen%27s%20Inequality.md), [Least Squares by Gradient Descent](Least%20Squares%20by%20Gradient%20Descent.md)

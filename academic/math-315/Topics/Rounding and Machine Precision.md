@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-2]
 ---
 # Rounding and Machine Precision
-Back to [[academic/math-315/Index|Index]] · Section 2.2 (slides 33–34)
+Back to [Index](../Index.md) · Section 2.2 (slides 33–34)
 
 ## Rounding
 $\operatorname{fl}(x)$ is the machine number obtained by rounding the real number $x$.
@@ -25,8 +25,8 @@ $$
 IEEE double with rounding to nearest: $u = 2^{-53} \approx 1.11 \times 10^{-16}$. (MATLAB's `eps` $= 2^{-52}$ is the gap after $1$, which is $2u$.)
 
 ## Explorations
-- [[EX15 - Exploration 2.2.1 - Five-Digit Product of 100pi and 10e]]
-- [[EX17 - A Toy Binary Floating-Point System]]
-- [[EX05 - Four-Digit Arithmetic With and Without Pivoting]]
+- [EX15 - Exploration 2.2.1 - Five-Digit Product of 100pi and 10e](../Explorations/EX15%20-%20Exploration%202.2.1%20-%20Five-Digit%20Product%20of%20100pi%20and%2010e.md)
+- [EX17 - A Toy Binary Floating-Point System](../Explorations/EX17%20-%20A%20Toy%20Binary%20Floating-Point%20System.md)
+- [EX05 - Four-Digit Arithmetic With and Without Pivoting](../Explorations/EX05%20-%20Four-Digit%20Arithmetic%20With%20and%20Without%20Pivoting.md)
 
-See also: [[Floating-Point Number Systems]], [[Floating-Point Arithmetic]], [[IEEE Floating-Point Standard]]
+See also: [Floating-Point Number Systems](Floating-Point%20Number%20Systems.md), [Floating-Point Arithmetic](Floating-Point%20Arithmetic.md), [IEEE Floating-Point Standard](IEEE%20Floating-Point%20Standard.md)

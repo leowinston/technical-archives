@@ -4,7 +4,7 @@ source: Constructed for Book §4.4.1 (p. 155, ✎ your most-annotated page)
 topics: ["[[Markowitz Portfolio Optimization]]", "[[Quadratic Programs]]", "[[Optimality Criterion for Differentiable Objectives]]"]
 ---
 # EX07 — Markowitz Three-Asset Portfolio
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Three assets with mean returns and covariance
@@ -78,6 +78,6 @@ left=0; right=0.13; top=0.09; bottom=0.025
 - Nonnegativity switches on only at high $r_{\min}$. That is complementary slackness in action.
 
 ## Related topics
-- [[Markowitz Portfolio Optimization]]
-- [[Quadratic Programs]]
-- [[Optimality Criterion for Differentiable Objectives]]
+- [Markowitz Portfolio Optimization](../topics/Markowitz%20Portfolio%20Optimization.md)
+- [Quadratic Programs](../topics/Quadratic%20Programs.md)
+- [Optimality Criterion for Differentiable Objectives](../topics/Optimality%20Criterion%20for%20Differentiable%20Objectives.md)

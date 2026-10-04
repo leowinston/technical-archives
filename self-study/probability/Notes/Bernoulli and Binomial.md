@@ -2,7 +2,7 @@
 tags: [probability, topic, part-4]
 ---
 # Bernoulli and Binomial
-Back to [[self-study/probability/Index|Index]] · Part 4
+Back to [Index](../Index.md) · Part 4
 
 ## Bernoulli
 $X \sim \Bern(p)$ ("$X$ is distributed as Bernoulli $p$") if
@@ -24,7 +24,7 @@ The $\binom{n}{k}$ counts which trials succeed, and $p^k(1-p)^{n-k}$ is the prob
 - **Shape:** $\Bin(10, \tfrac12)$ is symmetric about 5. $\Bin(10, \tfrac18)$ peaks at 1. $\Bin(9, \tfrac45)$ peaks at 7 and 8.
 
 ## Problems
-- [[P21 - Random Slips of Paper]]
-- [[P20 - Even Number of Successes]]
+- [P21 - Random Slips of Paper](../Problems/P21%20-%20Random%20Slips%20of%20Paper.md)
+- [P20 - Even Number of Successes](../Problems/P20%20-%20Even%20Number%20of%20Successes.md)
 
-See also: [[Hypergeometric Distribution]]
+See also: [Hypergeometric Distribution](Hypergeometric%20Distribution.md)

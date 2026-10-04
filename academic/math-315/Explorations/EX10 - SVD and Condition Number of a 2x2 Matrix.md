@@ -4,10 +4,10 @@ source: Constructed example for Sections 3.3 (SVD) and 3.4.1 (Condition Number, 
 topics: ["[[Singular Value Decomposition]]", "[[Condition Number]]", "[[Matrix Norms]]"]
 ---
 # EX10 — SVD and Condition Number of a 2×2 Matrix
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
-> Let $A = \begin{bmatrix} 3 & 0 \\ 4 & 5 \end{bmatrix}$ (the same matrix as [[EX09 - QR Factorization and Solve of a 2x2 System|EX09]]).
+> Let $A = \begin{bmatrix} 3 & 0 \\ 4 & 5 \end{bmatrix}$ (the same matrix as [EX09](EX09%20-%20QR%20Factorization%20and%20Solve%20of%20a%202x2%20System.md)).
 > (a) Compute the full SVD $A = U\Sigma V^{\top}$.
 > (b) Prove $\kappa_2(A) = \sigma_1/\sigma_n$ in general, then evaluate it here.
 > (c) Compare with $\kappa_1$ and $\kappa_\infty$.
@@ -138,6 +138,6 @@ No smaller perturbation works. If $\|\Delta A\|_2 < \sigma_n$, then for every un
 - $\kappa_2 = 1$ exactly for orthogonal matrices, since all $\sigma_i = 1$.
 
 ## Related topics
-- [[Singular Value Decomposition]]
-- [[Condition Number]]
-- [[Matrix Norms]]
+- [Singular Value Decomposition](../Topics/Singular%20Value%20Decomposition.md)
+- [Condition Number](../Topics/Condition%20Number.md)
+- [Matrix Norms](../Topics/Matrix%20Norms.md)

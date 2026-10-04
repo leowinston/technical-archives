@@ -3,7 +3,7 @@ tags: [probability, problem, part-1]
 topics: ["[[Binomial Coefficients]]", "[[Multiplication Rule]]"]
 ---
 # P04 — Lattice Paths
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Each step goes one unit up or one unit right.
@@ -22,5 +22,5 @@ $$
 $$
 
 ## Related topics
-- [[Binomial Coefficients]]
-- [[Multiplication Rule]]
+- [Binomial Coefficients](../Notes/Binomial%20Coefficients.md)
+- [Multiplication Rule](../Notes/Multiplication%20Rule.md)

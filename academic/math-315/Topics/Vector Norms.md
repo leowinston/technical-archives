@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3, appendix-b]
 ---
 # Vector Norms
-Back to [[academic/math-315/Index|Index]] · Appendix B.13.1
+Back to [Index](../Index.md) · Appendix B.13.1
 
 ## Definition
 $\|\cdot\|: \mathbb{R}^n \to \mathbb{R}$ is a norm if it satisfies:
@@ -29,7 +29,7 @@ $$
 For $\mathbf{x} = (3, -4, 12)$: $\|\mathbf{x}\|_1 = 19$, $\|\mathbf{x}\|_2 = 13$, $\|\mathbf{x}\|_\infty = 12$.
 
 ## Explorations
-- [[EX11 - l1 Norm of a 3x2 Matrix]]
-- [[EX13 - Small Residual, Large Error]]
+- [EX11 - l1 Norm of a 3x2 Matrix](../Explorations/EX11%20-%20l1%20Norm%20of%20a%203x2%20Matrix.md)
+- [EX13 - Small Residual, Large Error](../Explorations/EX13%20-%20Small%20Residual%2C%20Large%20Error.md)
 
-See also: [[Matrix Norms]]
+See also: [Matrix Norms](Matrix%20Norms.md)

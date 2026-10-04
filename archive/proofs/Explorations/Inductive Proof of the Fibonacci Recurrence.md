@@ -2,7 +2,7 @@
 tags: [proof, exploration]
 ---
 # Inductive Proof of the Fibonacci Recurrence
-Back to [[archive/proofs/Index|Index]]
+Back to [Index](../Index.md)
 
 **Statement:** Let $P(n)$ be the property that the $n$-th Fibonacci number is defined by the relation $F_n = F_{n-1} + F_{n-2}$ for all integers $n \geq 2$.
 

@@ -2,7 +2,7 @@
 tags: [probability, topic, part-4]
 ---
 # Random Variables and PMFs
-Back to [[self-study/probability/Index|Index]] · Part 4
+Back to [Index](../Index.md) · Part 4
 
 ## Definitions
 - A **random variable** is a function $X : S \to \mathbb{R}$. It assigns a number to every outcome.
@@ -19,4 +19,4 @@ $$
 $$
 **Example:** for $2X$, **stretch the support** ($\{0,1,2\} \to \{0,2,4\}$) and keep the probabilities. Multiplying the PMF by 2 is wrong, because it would no longer sum to 1.
 
-See also: [[Bernoulli and Binomial]], [[Expected Value]]
+See also: [Bernoulli and Binomial](Bernoulli%20and%20Binomial.md), [Expected Value](Expected%20Value.md)

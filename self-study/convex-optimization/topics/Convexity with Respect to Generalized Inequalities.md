@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-3]
 source: Boyd & Vandenberghe §3.6 (pp. 108–112)
 ---
 # Convexity with Respect to Generalized Inequalities
-Back to [[self-study/convex-optimization/Index|Index]] · Section 3.6
+Back to [Index](../Index.md) · Section 3.6
 
 ## $K$-convexity
 $f : \R^n \to \R^m$ is **$K$-convex** for a proper cone $K \subseteq \R^m$ if
@@ -21,4 +21,4 @@ $f$ is **$K$-nondecreasing** if $x \preceq_K y \Rightarrow f(x) \le f(y)$. Examp
 
 For differentiable $f$ with convex domain, $f$ is $K$-nondecreasing iff $\nabla f(x) \succeq_{K^{*}} 0$.
 
-See also: [[Generalized Inequalities and Minimal Elements]], [[Dual Cones]]
+See also: [Generalized Inequalities and Minimal Elements](Generalized%20Inequalities%20and%20Minimal%20Elements.md), [Dual Cones](Dual%20Cones.md)

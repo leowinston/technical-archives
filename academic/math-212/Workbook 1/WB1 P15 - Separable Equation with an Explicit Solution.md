@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 15 (p. 10)
 topics: ["[[Separable Equations]]", "[[Existence and Uniqueness Theorems]]"]
 ---
 # Problem 15 — $y' = \tfrac{1}{2}x(1 - y^2)$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Classify the equation $y' = \tfrac{1}{2}x(1 - y^2)$ and find its general solution in explicit form.
@@ -64,5 +64,5 @@ y=-1|dashed|#000000
 ```
 
 ## Related topics
-- [[Separable Equations]]
-- [[Existence and Uniqueness Theorems]]
+- [Separable Equations](../Topics/Separable%20Equations.md)
+- [Existence and Uniqueness Theorems](../Topics/Existence%20and%20Uniqueness%20Theorems.md)

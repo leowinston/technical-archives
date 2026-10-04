@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Bayes' Rule]]"]
 ---
 # P17 — Defense Attorney's Fallacy
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > A woman was murdered, and her husband is on trial. He had a history of abusing her. The defense argues that abuse is irrelevant, since only 1 in 10,000 abusive husbands goes on to murder his wife. Assume:
@@ -30,5 +30,5 @@ $$
 Abuse raises the probability of guilt from $0.2$ to about $0.56$, so it is strongly relevant. The fallacy is conditioning on the wrong population: all abusive husbands, rather than those whose wives **were** murdered.
 
 ## Related topics
-- [[Bayes' Rule]]
-- [[Conditioning on Extra Evidence]]
+- [Bayes' Rule](../Notes/Bayes%27%20Rule.md)
+- [Conditioning on Extra Evidence](../Notes/Conditioning%20on%20Extra%20Evidence.md)

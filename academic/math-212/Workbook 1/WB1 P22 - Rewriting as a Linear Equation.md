@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 22 (p. 17)
 topics: ["[[Linear First-Order Equations]]"]
 ---
 # Problem 22 — $y' = e^{2x} + y - 1$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Find the general solution of $y' = e^{2x} + y - 1$.
@@ -46,4 +46,4 @@ y=1|dashed|#000000
 ```
 
 ## Related topics
-- [[Linear First-Order Equations]]
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)

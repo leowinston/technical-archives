@@ -4,7 +4,7 @@ source: Lecture 3 handout, pp. 9–10 (Section 3.2.5 Example); Partial Pivoting 
 topics: ["[[Partial Pivoting]]", "[[Permutation and Multiplier Matrices]]", "[[Determinants via LU]]"]
 ---
 # EX06 — PA = LU for a Matrix with a Zero Pivot
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let
@@ -152,6 +152,6 @@ Both factorizations are valid. **$PA = LU$ is not unique**: it depends on which 
 - $\det A = (-1)^p\prod u_{ii}$, where $p$ counts the swaps.
 
 ## Related topics
-- [[Partial Pivoting]]
-- [[Permutation and Multiplier Matrices]]
-- [[Determinants via LU]]
+- [Partial Pivoting](../Topics/Partial%20Pivoting.md)
+- [Permutation and Multiplier Matrices](../Topics/Permutation%20and%20Multiplier%20Matrices.md)
+- [Determinants via LU](../Topics/Determinants%20via%20LU.md)

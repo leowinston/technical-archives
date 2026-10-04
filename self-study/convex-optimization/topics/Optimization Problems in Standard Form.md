@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-4]
 source: Boyd & Vandenberghe §4.1 (pp. 127–136)
 ---
 # Optimization Problems in Standard Form
-Back to [[self-study/convex-optimization/Index|Index]] · Section 4.1
+Back to [Index](../Index.md) · Section 4.1
 
 ## Standard form
 $$
@@ -26,4 +26,4 @@ Two problems are **equivalent** if a solution of one gives a solution of the oth
 ## Feasibility problem
 Set $f_0 = 0$. Then $p^\star = 0$ if feasible and $\infty$ otherwise.
 
-See also: [[Convex Optimization Problems]]
+See also: [Convex Optimization Problems](Convex%20Optimization%20Problems.md)

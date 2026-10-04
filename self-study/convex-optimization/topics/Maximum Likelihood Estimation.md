@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ml-notebook]
 source: ML notebook "Maximum Likelihood Estimation"; Boyd & Vandenberghe §7.1 (preview)
 ---
 # Maximum Likelihood Estimation
-Back to [[self-study/convex-optimization/Index|Index]] · ML notebook
+Back to [Index](../Index.md) · ML notebook
 
 ## Model
 $$
@@ -27,6 +27,6 @@ $$
 $-\log L$ is convex in $w$ whenever the noise density is **log-concave** (Gaussian, Laplacian, uniform). Laplacian noise gives $\ell_1$ regression instead.
 
 ## Explorations
-- [[EX09 - Gaussian MLE Equals Least Squares]]
+- [EX09 - Gaussian MLE Equals Least Squares](../explorations/EX09%20-%20Gaussian%20MLE%20Equals%20Least%20Squares.md)
 
-See also: [[Log-Concave and Log-Convex Functions]], [[Least Squares by Gradient Descent]]
+See also: [Log-Concave and Log-Convex Functions](Log-Concave%20and%20Log-Convex%20Functions.md), [Least Squares by Gradient Descent](Least%20Squares%20by%20Gradient%20Descent.md)

@@ -3,7 +3,7 @@ tags: [probability, problem, part-2]
 topics: ["[[Inclusion-Exclusion]]"]
 ---
 # P08 — de Montmort's Matching Problem
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > A shuffled deck has $n$ cards labeled $1, \dots, n$. Flip them over one at a time, counting $1, 2, \dots, n$ as you go. You win if some card's label equals the number you say. Find $\P(\text{win})$.
@@ -27,4 +27,4 @@ $$
 $1 - \tfrac12 + \tfrac16 - \tfrac1{24} = \tfrac{15}{24} = 0.625$, already close to the limit. By brute force, 9 of the 24 orderings have no match, and $1 - \tfrac{9}{24} = \tfrac{15}{24}$. ✓
 
 ## Related topics
-- [[Inclusion-Exclusion]]
+- [Inclusion-Exclusion](../Notes/Inclusion-Exclusion.md)

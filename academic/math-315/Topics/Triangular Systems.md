@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3]
 ---
 # Triangular Systems
-Back to [[academic/math-315/Index|Index]] · Section 3.1.1
+Back to [Index](../Index.md) · Section 3.1.1
 
 ## Diagonal systems
 $$
@@ -41,7 +41,7 @@ $$
 $$
 
 ## Explorations
-- [[EX01 - Back Substitution on a 3x3 System]]
-- [[EX02 - Forward Substitution on a 3x3 System]]
+- [EX01 - Back Substitution on a 3x3 System](../Explorations/EX01%20-%20Back%20Substitution%20on%20a%203x3%20System.md)
+- [EX02 - Forward Substitution on a 3x3 System](../Explorations/EX02%20-%20Forward%20Substitution%20on%20a%203x3%20System.md)
 
-See also: [[Gaussian Elimination]], [[LU Decomposition]]
+See also: [Gaussian Elimination](Gaussian%20Elimination.md), [LU Decomposition](LU%20Decomposition.md)

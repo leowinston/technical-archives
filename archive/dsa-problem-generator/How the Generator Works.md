@@ -5,7 +5,7 @@ tags:
 course: CS 253
 ---
 # How the Generator Works
-Back to [[archive/dsa-problem-generator/Index|Index]] · design and architecture
+Back to [Index](Index.md) · design and architecture
 
 This note sits between the theory notes, which say *why* an algorithm works, and the source code, which says *exactly* what runs. It covers how a seed becomes a typeset, solved problem, and the design choices that make the output worth studying from.
 
@@ -130,4 +130,4 @@ One layout routine draws AVL, red-black, (2,4), trie, and Huffman trees. Only th
 - **Generated TikZ over images.** The output is text, diffable, and matches the rest of my LaTeX notes. The vault can't render TikZ, though, so the showcase notes embed SVGs compiled from the same TikZ.
 
 ## Related
-- [[archive/dsa-problem-generator/Testing and Reproducibility|Testing and Reproducibility]]: how each of these claims is checked.
+- [Testing and Reproducibility](Testing%20and%20Reproducibility.md): how each of these claims is checked.

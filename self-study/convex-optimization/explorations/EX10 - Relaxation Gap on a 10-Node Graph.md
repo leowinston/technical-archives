@@ -4,7 +4,7 @@ source: ML notebook "Spectral Clustering" / "Sparsest Cut" (two-cluster sketch)
 topics: ["[[Sparsest Cut as a Spectral Relaxation]]"]
 ---
 # EX10 — Relaxation Gap on a 10-Node Graph
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Two 5-node clusters, $\{1,\dots,5\}$ and $\{6,\dots,10\}$, are joined by a bridge $5$–$6$ of weight $t$ (like my sketch).
@@ -25,7 +25,7 @@ def lam2(t):
     return np.linalg.eigvalsh(np.diag(A.sum(1)) - A)[1]
 ```
 
-**(a)** At $t = 1$, the sweep (see [[Spectral Clustering Algorithm]]) returns $A = \{1,\dots,5\}$ with $\phi = 10 \cdot \frac{1}{5 \cdot 5} = 0.4$. Brute force over all $1022$ cuts confirms that this is $\phi_G$.
+**(a)** At $t = 1$, the sweep (see [Spectral Clustering Algorithm](../../graph-theory/Theory/Spectral%20Clustering%20Algorithm.md)) returns $A = \{1,\dots,5\}$ with $\phi = 10 \cdot \frac{1}{5 \cdot 5} = 0.4$. Brute force over all $1022$ cuts confirms that this is $\phi_G$.
 $$
 \underbrace{\lambda_2 = 0.266}_{\text{relaxation}} \ \le\ \underbrace{\phi_G = 0.4}_{\text{true optimum}} \ \le\ \underbrace{4\sqrt{4(0.266)} = 4.13}_{\text{rounding bound}}
 $$
@@ -45,6 +45,6 @@ The slopes decrease, as a concave function's must. $\lambda_2(0) = 0$ because th
 - Strengthening the bridge raises connectivity with diminishing returns, which is concavity in $w$.
 
 ## Related topics
-- [[Sparsest Cut as a Spectral Relaxation]]
-- [[Operations That Preserve Convexity of Functions]]
-- [[EX08 - Whisker Cut Versus Regularized Clustering]] (this graph with a dangling path added)
+- [Sparsest Cut as a Spectral Relaxation](../topics/Sparsest%20Cut%20as%20a%20Spectral%20Relaxation.md)
+- [Operations That Preserve Convexity of Functions](../topics/Operations%20That%20Preserve%20Convexity%20of%20Functions.md)
+- [EX08 - Whisker Cut Versus Regularized Clustering](../../graph-theory/Examples/EX08%20-%20Whisker%20Cut%20Versus%20Regularized%20Clustering.md) (this graph with a dangling path added)

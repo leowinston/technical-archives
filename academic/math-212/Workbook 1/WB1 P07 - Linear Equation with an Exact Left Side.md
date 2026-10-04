@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 7 (p. 6)
 topics: ["[[Linear First-Order Equations]]"]
 ---
 # Problem 7 — $(4 + x^2)y' + 2xy = 4x$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Given $(4 + x^2)y' + 2xy = 4x$:
@@ -46,5 +46,5 @@ y=2|dashed|#000000
 ```
 
 ## Related topics
-- [[Linear First-Order Equations]]
-- [[Existence and Uniqueness Theorems]]
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)
+- [Existence and Uniqueness Theorems](../Topics/Existence%20and%20Uniqueness%20Theorems.md)

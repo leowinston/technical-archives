@@ -4,7 +4,7 @@ source: Lecture 2 slides, slides 39 and 43 (Example 2.2.12 and Concept Check Q2)
 topics: ["[[Overflow and Underflow]]", "[[Floating-Point Arithmetic]]"]
 ---
 # EX20 — Overflow and Underflow in Base-10 Arithmetic
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Use a system with $\beta = 10$, $L = -20$, $U = 20$, and let $x = 4 \times 10^{18}$, $y = -2 \times 10^{-17}$.
@@ -86,6 +86,6 @@ never forms $x^2$. This is what `hypot` does, and why norm routines scale first.
 - Reorder or rescale so that intermediate results stay in range.
 
 ## Related topics
-- [[Overflow and Underflow]]
-- [[Floating-Point Arithmetic]]
-- [[Vector Norms]]
+- [Overflow and Underflow](../Topics/Overflow%20and%20Underflow.md)
+- [Floating-Point Arithmetic](../Topics/Floating-Point%20Arithmetic.md)
+- [Vector Norms](../Topics/Vector%20Norms.md)

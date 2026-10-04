@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Bayes' Rule]]", "[[Conditioning on Extra Evidence]]"]
 ---
 # P15 — Six-Fingered Man
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > One of the $n$ men in a country committed a crime. Initially each is equally likely to be the one. A witness reports that the perpetrator has six fingers on his right hand. Eyewitnesses aren't perfectly reliable, so the perpetrator has six fingers with probability $p_1 < 1$, while an innocent man has six fingers with probability $p_0 < p_1$. Let $a = p_0/p_1$ and $b = (1-p_1)/(1-p_0)$.
@@ -26,5 +26,5 @@ $$
 Since $b < 1$, learning that nobody else matches **raises** the probability of guilt.
 
 ## Related topics
-- [[Bayes' Rule]]
-- [[Conditioning on Extra Evidence]]
+- [Bayes' Rule](../Notes/Bayes%27%20Rule.md)
+- [Conditioning on Extra Evidence](../Notes/Conditioning%20on%20Extra%20Evidence.md)

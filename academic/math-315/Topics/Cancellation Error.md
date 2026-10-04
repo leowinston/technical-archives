@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-2]
 ---
 # Cancellation Error
-Back to [[academic/math-315/Index|Index]] · Section 2.2 (slides 40–42)
+Back to [Index](../Index.md) · Section 2.2 (slides 40–42)
 
 **Catastrophic cancellation** happens when two nearly equal numbers are subtracted. The leading digits cancel, and what is left is mostly roundoff.
 
@@ -27,6 +27,6 @@ When $b < 0$, the same problem hits $x_2$.
 Avoid computing small values by subtracting nearly equal numbers. Rearrange the formula instead.
 
 ## Explorations
-- [[EX21 - Cancellation in the Quadratic Formula]]
+- [EX21 - Cancellation in the Quadratic Formula](../Explorations/EX21%20-%20Cancellation%20in%20the%20Quadratic%20Formula.md)
 
-See also: [[Floating-Point Arithmetic]], [[Rounding and Machine Precision]]
+See also: [Floating-Point Arithmetic](Floating-Point%20Arithmetic.md), [Rounding and Machine Precision](Rounding%20and%20Machine%20Precision.md)

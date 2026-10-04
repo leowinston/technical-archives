@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-2]
 source: Boyd & Vandenberghe §2.3 (pp. 35–43)
 ---
 # Operations That Preserve Convexity of Sets
-Back to [[self-study/convex-optimization/Index|Index]] · Section 2.3
+Back to [Index](../Index.md) · Section 2.3
 
 To show $C$ is convex, build it from simple convex sets with these operations.
 
@@ -20,4 +20,4 @@ $\Spsd{n} = \bigcap_{z \ne 0} \{X \in \Sym{n} \mid z^{\top}Xz \ge 0\}$ is an int
 
 Projection, scaling, translation, and sums $S_1 + S_2$ are all special affine maps.
 
-See also: [[Operations That Preserve Convexity of Functions]], [[Important Convex Sets]]
+See also: [Operations That Preserve Convexity of Functions](Operations%20That%20Preserve%20Convexity%20of%20Functions.md), [Important Convex Sets](Important%20Convex%20Sets.md)

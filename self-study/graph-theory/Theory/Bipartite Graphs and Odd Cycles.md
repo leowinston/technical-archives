@@ -3,7 +3,7 @@ tags: [graph-theory, theory, ch-1]
 source: Kelly, Graph Theory §1.3 (pp. 11–13)
 ---
 # Bipartite Graphs and Odd Cycles
-Back to [[self-study/graph-theory/Index|Index]] · Section 1.3
+Back to [Index](../Index.md) · Section 1.3
 
 ## Bipartite
 $G$ is **bipartite** if $V = A \cup B$ with $A \cap B = \emptyset$ and every edge has one end in $A$ and one in $B$.
@@ -27,6 +27,6 @@ $$
 For (⇐), work in one component. Fix $v$, and let $A = \{u \mid d(u, v) \text{ odd}\}$ and $B = \{u \mid d(u, v) \text{ even}\}$. An edge inside $A$ or inside $B$ would close an odd circuit.
 
 ## Examples
-- [[EX03 - Two-Colouring Cycles and Odd Circuits]]
+- [EX03 - Two-Colouring Cycles and Odd Circuits](../Examples/EX03%20-%20Two-Colouring%20Cycles%20and%20Odd%20Circuits.md)
 
-See also: [[Matchings and Augmenting Paths]]
+See also: [Matchings and Augmenting Paths](Matchings%20and%20Augmenting%20Paths.md)

@@ -4,7 +4,7 @@ source: Constructed example for Section 3.1.2 (Lower Triangular Systems)
 topics: ["[[Triangular Systems]]", "[[LU Decomposition]]"]
 ---
 # EX02 — Forward Substitution on a 3×3 System
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) Solve $L\mathbf{x} = \mathbf{y}$ by forward substitution:
@@ -62,7 +62,7 @@ $$
 $$
 \text{flops} = \sum_{i=1}^{n} 2(i-1) = n^2 - n
 $$
-For $n = 3$ this is $6$. Here is an example with the unit $L$ from [[EX03 - Gaussian Elimination and LU of a 3x3 Matrix]]:
+For $n = 3$ this is $6$. Here is an example with the unit $L$ from [EX03 - Gaussian Elimination and LU of a 3x3 Matrix](EX03%20-%20Gaussian%20Elimination%20and%20LU%20of%20a%203x3%20Matrix.md):
 $$
 \begin{bmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ 4 & 3 & 1 \end{bmatrix}\mathbf{y} = \begin{bmatrix} 4 \\ 10 \\ 24 \end{bmatrix}
 \implies
@@ -90,5 +90,5 @@ $$
 - With a unit diagonal the cost drops to $n^2 - n$. This is the $L\mathbf{y} = \mathbf{b}$ half of an LU solve.
 
 ## Related topics
-- [[Triangular Systems]]
-- [[LU Decomposition]]
+- [Triangular Systems](../Topics/Triangular%20Systems.md)
+- [LU Decomposition](../Topics/LU%20Decomposition.md)

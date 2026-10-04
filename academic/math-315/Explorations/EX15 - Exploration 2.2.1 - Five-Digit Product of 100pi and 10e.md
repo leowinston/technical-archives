@@ -4,7 +4,7 @@ source: Lecture 2 slides, slide 22 (Exploration 2.2.1)
 topics: ["[[Rounding and Machine Precision]]", "[[Floating-Point Arithmetic]]"]
 ---
 # EX15 — Exploration 2.2.1: Five-Digit Product of 100π and 10e
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Use scientific notation to write approximations of $100\pi$ and $10e$ with five significant digits. Multiply these approximations, keep only five significant digits, and write the result in the same notation. How accurate is this approximation of $1000e\pi$? What is the percentage error?
@@ -74,8 +74,8 @@ $$
 ## Takeaways
 - Multiplication does not amplify relative errors: they add, to first order.
 - Every intermediate result is rounded, so even a single product carries three rounding errors.
-- Compare with [[EX21 - Cancellation in the Quadratic Formula|EX21]], where subtraction **does** amplify relative error.
+- Compare with [EX21](EX21%20-%20Cancellation%20in%20the%20Quadratic%20Formula.md), where subtraction **does** amplify relative error.
 
 ## Related topics
-- [[Rounding and Machine Precision]]
-- [[Floating-Point Arithmetic]]
+- [Rounding and Machine Precision](../Topics/Rounding%20and%20Machine%20Precision.md)
+- [Floating-Point Arithmetic](../Topics/Floating-Point%20Arithmetic.md)

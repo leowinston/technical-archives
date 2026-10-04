@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-3]
 source: Boyd & Vandenberghe §3.3 (pp. 90–95)
 ---
 # Conjugate Function
-Back to [[self-study/convex-optimization/Index|Index]] · Section 3.3
+Back to [Index](../Index.md) · Section 3.3
 
 ## Definition
 $$
@@ -25,4 +25,4 @@ $f^{*}$ is always convex (a sup of affine functions of $y$), even if $f$ is not.
 - **Legendre transform:** for differentiable convex $f$, $f^{*}(y) = x^{\star\top}\nabla f(x^\star) - f(x^\star)$ where $y = \nabla f(x^\star)$.
 - $f^{**} = f$ for closed convex $f$.
 
-See also: [[Operations That Preserve Convexity of Functions]]
+See also: [Operations That Preserve Convexity of Functions](Operations%20That%20Preserve%20Convexity%20of%20Functions.md)

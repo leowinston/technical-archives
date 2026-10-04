@@ -3,7 +3,7 @@ tags: [graph-theory, theory, ch-2]
 source: Kelly, Graph Theory §2.1–2.2 (pp. 13–15)
 ---
 # Matchings and Augmenting Paths
-Back to [[self-study/graph-theory/Index|Index]] · Sections 2.1–2.2 · ✎ "Marriage"
+Back to [Index](../Index.md) · Sections 2.1–2.2 · ✎ "Marriage"
 
 ## Matching
 A **matching** is $M \subseteq E$ with $e_1 \cap e_2 = \emptyset$ for all $e_1 \ne e_2 \in M$.
@@ -21,4 +21,4 @@ $$
 \boxed{\,M \text{ maximum} \implies \text{no } M\text{-augmenting path}\,}
 $$
 
-See also: [[Hall's Theorem]], [[EX04 - When Hall's Condition Fails]]
+See also: [Hall's Theorem](Hall%27s%20Theorem.md), [EX04 - When Hall's Condition Fails](../Examples/EX04%20-%20When%20Hall%27s%20Condition%20Fails.md)

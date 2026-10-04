@@ -4,7 +4,7 @@ source: Lecture 3 handout, pp. 21–22 (Section 3.4.1 Condition Number, Parts 2�
 topics: ["[[Forward and Backward Error]]", "[[Condition Number]]", "[[Vector Norms]]"]
 ---
 # EX13 — Small Residual, Large Error
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > For
@@ -118,9 +118,9 @@ Both bounds hold. They are also very loose: with $\kappa \approx 1.7 \times 10^4
 
 ## Takeaways
 - relative error $\le \kappa \times$ relative residual. Only when $\kappa$ is small does a small residual mean a small error.
-- $\det A = 1.27 \times 10^{-4}$ happens to be small here, but see [[EX14 - Determinant Versus Condition Number|EX14]]. The determinant is not the right measure in general.
+- $\det A = 1.27 \times 10^{-4}$ happens to be small here, but see [EX14](EX14%20-%20Determinant%20Versus%20Condition%20Number.md). The determinant is not the right measure in general.
 
 ## Related topics
-- [[Forward and Backward Error]]
-- [[Condition Number]]
-- [[Vector Norms]]
+- [Forward and Backward Error](../Topics/Forward%20and%20Backward%20Error.md)
+- [Condition Number](../Topics/Condition%20Number.md)
+- [Vector Norms](../Topics/Vector%20Norms.md)

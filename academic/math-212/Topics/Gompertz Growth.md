@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-2, population-model]
 ---
 # Gompertz Growth
-Back to [[academic/math-212/Index|Index]] · Chapter 2.5 · [[Autonomous Equations and Phase Lines]]
+Back to [Index](../Index.md) · Chapter 2.5 · [Autonomous Equations and Phase Lines](Autonomous%20Equations%20and%20Phase%20Lines.md)
 
 $$
 \begin{align*}

@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3]
 ---
 # Forward and Backward Error
-Back to [[academic/math-315/Index|Index]] · Section 3.4 (recap from Chapter 2)
+Back to [Index](../Index.md) · Section 3.4 (recap from Chapter 2)
 
 ## Condition of a scalar problem
 For $y = f(x)$ with a perturbed input $\hat x$:
@@ -19,7 +19,7 @@ $$
 The error is unknown because $\mathbf{x}$ is unknown. The residual can always be computed.
 
 ## The catch
-A small residual does **not** guarantee a small error. The two are linked by $\mathbf{e} = A^{-1}\mathbf{r}$, and the size of $A^{-1}$ is what the [[Condition Number]] measures.
+A small residual does **not** guarantee a small error. The two are linked by $\mathbf{e} = A^{-1}\mathbf{r}$, and the size of $A^{-1}$ is what the [Condition Number](Condition%20Number.md) measures.
 
 ## Example
 $$
@@ -28,6 +28,6 @@ A = \begin{bmatrix} 0.913 & 0.659 \\ 0.457 & 0.330 \end{bmatrix}: \quad
 $$
 
 ## Explorations
-- [[EX13 - Small Residual, Large Error]]
+- [EX13 - Small Residual, Large Error](../Explorations/EX13%20-%20Small%20Residual%2C%20Large%20Error.md)
 
-See also: [[Condition Number]], [[Vector Norms]]
+See also: [Condition Number](Condition%20Number.md), [Vector Norms](Vector%20Norms.md)

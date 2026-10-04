@@ -4,7 +4,7 @@ source: Constructed from ✎ the a₁a₂a₃ / b₁…b₅ sketch under Hall's 
 topics: ["[[Hall's Theorem]]", "[[Matchings and Augmenting Paths]]"]
 ---
 # EX04 — When Hall's Condition Fails
-Back to [[self-study/graph-theory/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > $A = \{a_1, a_2, a_3\}$ and $B = \{b_1, \dots, b_5\}$.
@@ -41,5 +41,5 @@ $$
 - The proof of Hall's theorem is this example run in reverse: no augmenting path means a violating set $A'$.
 
 ## Related topics
-- [[Hall's Theorem]]
-- [[Matchings and Augmenting Paths]]
+- [Hall's Theorem](../Theory/Hall%27s%20Theorem.md)
+- [Matchings and Augmenting Paths](../Theory/Matchings%20and%20Augmenting%20Paths.md)

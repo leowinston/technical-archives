@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 9 (p. 7)
 topics: ["[[Linear First-Order Equations]]"]
 ---
 # Problem 9 — Method of Integrating Factors
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Given $y' + p(x)y = f(x)$, find a general formula for an integrating factor $\mu(x)$.
@@ -52,6 +52,6 @@ c=[-2,-1,0,1,2]
 ```
 
 ## Related topics
-- [[Linear First-Order Equations]]
-- [[Variation of Parameters]]
-- [[Integrating Factors for Exact Equations]] (the same idea for exact equations)
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)
+- [Variation of Parameters](../Topics/Variation%20of%20Parameters.md)
+- [Integrating Factors for Exact Equations](../Topics/Integrating%20Factors%20for%20Exact%20Equations.md) (the same idea for exact equations)

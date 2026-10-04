@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-3]
 ---
 # QR Factorization
-Back to [[academic/math-315/Index|Index]] · Section 3.3 (QR)
+Back to [Index](../Index.md) · Section 3.3 (QR)
 
 ## Statement
 $A = QR$, with $Q$ orthogonal and $R$ upper triangular. It exists whenever $A \in \mathbb{R}^{m\times n}$, $m \ge n$, has full column rank.
@@ -38,6 +38,6 @@ $$
 $$
 
 ## Explorations
-- [[EX09 - QR Factorization and Solve of a 2x2 System]]
+- [EX09 - QR Factorization and Solve of a 2x2 System](../Explorations/EX09%20-%20QR%20Factorization%20and%20Solve%20of%20a%202x2%20System.md)
 
-See also: [[Singular Value Decomposition]], [[Condition Number]]
+See also: [Singular Value Decomposition](Singular%20Value%20Decomposition.md), [Condition Number](Condition%20Number.md)

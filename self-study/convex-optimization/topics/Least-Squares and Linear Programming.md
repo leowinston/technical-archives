@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-1]
 source: Boyd & Vandenberghe §1.2 (pp. 4–7)
 ---
 # Least-Squares and Linear Programming
-Back to [[self-study/convex-optimization/Index|Index]] · Section 1.2
+Back to [Index](../Index.md) · Section 1.2
 
 ## Least-squares
 No constraints, and the objective is a sum of squares:
@@ -27,6 +27,6 @@ $$
 No closed form, but interior-point methods solve it in about $n^2m$ flops per iteration. **Chebyshev approximation** $\min_x \max_i \lvert a_i^{\top}x - b_i\rvert$ becomes an LP with one extra variable $t$.
 
 ## Explorations
-- [[EX08 - Least Squares by Gradient Descent]]
+- [EX08 - Least Squares by Gradient Descent](../explorations/EX08%20-%20Least%20Squares%20by%20Gradient%20Descent.md)
 
-See also: [[Least Squares by Gradient Descent]], [[Linear Programs]]
+See also: [Least Squares by Gradient Descent](Least%20Squares%20by%20Gradient%20Descent.md), [Linear Programs](Linear%20Programs.md)

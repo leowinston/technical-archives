@@ -3,7 +3,7 @@ tags: [graph-theory, theory, spectral-graph-theory]
 source: Handwritten notes "Spectral Clustering"
 ---
 # Cuts and Cut Density
-Back to [[self-study/graph-theory/Index|Index]] · Handwritten notes
+Back to [Index](../Index.md) · Handwritten notes
 
 Let $G = (V, E)$ be a connected graph with $n$ vertices.
 - **Cluster:** a set $A \subseteq V$.
@@ -20,6 +20,6 @@ $$
 
 Sanity check: in $K_n$ every possible edge is present, so every cut has density $n$.
 
-✎ Caveat: a long path hanging by one edge has a low density too, so density can prefer cutting off a thin tree over splitting real clusters ([[EX08 - Whisker Cut Versus Regularized Clustering]]).
+✎ Caveat: a long path hanging by one edge has a low density too, so density can prefer cutting off a thin tree over splitting real clusters ([EX08 - Whisker Cut Versus Regularized Clustering](../Examples/EX08%20-%20Whisker%20Cut%20Versus%20Regularized%20Clustering.md)).
 
-See also: [[Sparsest Cut]], [[Spectral Clustering Algorithm]], [[Regularized Spectral Clustering]]
+See also: [Sparsest Cut](Sparsest%20Cut.md), [Spectral Clustering Algorithm](Spectral%20Clustering%20Algorithm.md), [Regularized Spectral Clustering](Regularized%20Spectral%20Clustering.md)

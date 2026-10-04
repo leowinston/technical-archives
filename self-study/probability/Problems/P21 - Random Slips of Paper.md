@@ -3,7 +3,7 @@ tags: [probability, problem, part-4]
 topics: ["[[Bernoulli and Binomial]]", "[[Hypergeometric Distribution]]", "[[Discrete Uniform Distribution]]"]
 ---
 # P21 — Random Slips of Paper
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > A hat holds 100 slips numbered $1, \dots, 100$. Five are drawn one at a time.
@@ -32,6 +32,6 @@ $$
 Replacement changes the **count** distribution (Binomial vs Hypergeometric) but not the distribution of any **single** draw.
 
 ## Related topics
-- [[Bernoulli and Binomial]]
-- [[Hypergeometric Distribution]]
-- [[Discrete Uniform Distribution]]
+- [Bernoulli and Binomial](../Notes/Bernoulli%20and%20Binomial.md)
+- [Hypergeometric Distribution](../Notes/Hypergeometric%20Distribution.md)
+- [Discrete Uniform Distribution](../Notes/Discrete%20Uniform%20Distribution.md)

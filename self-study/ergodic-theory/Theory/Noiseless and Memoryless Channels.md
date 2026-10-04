@@ -3,7 +3,7 @@ tags: [ergodic-theory, topic, ml-notebook, information-theory]
 source: ML notebook "Noiseless Channel" / "Channel w/o Memory" / "Codes"
 ---
 # Noiseless and Memoryless Channels
-Back to [[self-study/ergodic-theory/Index|Index]] · ML notebook
+Back to [Index](../Index.md) · ML notebook
 
 ## Noiseless channel
 Source (alphabet $\rho$, size $r$) → coder → sender (alphabet $\sigma$, size $s$) → receiver → decoder → addressee.
@@ -25,4 +25,4 @@ $\nu_y$ is the **kernel** of the channel. With finite alphabets it is a matrix $
 ## Convexity link
 Channel capacity $\max_{p}\, I(p; C)$ maximizes mutual information, which is **concave** in the input distribution $p$ on the simplex. So it is a concave maximization, which is a convex problem.
 
-See also: [[Prefix Codes and Huffman Coding]], [[self-study/convex-optimization/topics/Convex Optimization Problems|Convex Optimization Problems]]
+See also: [Prefix Codes and Huffman Coding](Prefix%20Codes%20and%20Huffman%20Coding.md), [Convex Optimization Problems](../../convex-optimization/topics/Convex%20Optimization%20Problems.md)

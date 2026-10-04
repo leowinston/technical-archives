@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 6 (p. 5)
 topics: ["[[Linear First-Order Equations]]", "[[Existence and Uniqueness Theorems]]"]
 ---
 # Problem 6 — General Solution of $y' + p(x)y = 0$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Prove: if $p$ is continuous on $(a, b)$, then the general solution of the homogeneous equation $y' + p(x)y = 0$ on $(a, b)$ is
@@ -60,6 +60,6 @@ c=[-2,-1,0,1,2]
 ```
 
 ## Related topics
-- [[Linear First-Order Equations]]
-- [[Existence and Uniqueness Theorems]]
-- [[Variation of Parameters]] (uses this result as $y_1$)
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)
+- [Existence and Uniqueness Theorems](../Topics/Existence%20and%20Uniqueness%20Theorems.md)
+- [Variation of Parameters](../Topics/Variation%20of%20Parameters.md) (uses this result as $y_1$)

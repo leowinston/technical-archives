@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-2]
 ---
 # Overflow and Underflow
-Back to [[academic/math-315/Index|Index]] · Section 2.2 (slides 30–31, 39)
+Back to [Index](../Index.md) · Section 2.2 (slides 30–31, 39)
 
 ## Definitions
 The **underflow level** is the smallest positive number in $F$, and the **overflow level** is the largest:
@@ -31,8 +31,8 @@ $$
 Of the four operations on two positive numbers, only subtraction can never overflow.
 
 ## Explorations
-- [[EX18 - Exploration 2.2.9 - Overflow Level of IEEE Double Precision]]
-- [[EX20 - Overflow and Underflow in Base-10 Arithmetic]]
-- [[EX17 - A Toy Binary Floating-Point System]]
+- [EX18 - Exploration 2.2.9 - Overflow Level of IEEE Double Precision](../Explorations/EX18%20-%20Exploration%202.2.9%20-%20Overflow%20Level%20of%20IEEE%20Double%20Precision.md)
+- [EX20 - Overflow and Underflow in Base-10 Arithmetic](../Explorations/EX20%20-%20Overflow%20and%20Underflow%20in%20Base-10%20Arithmetic.md)
+- [EX17 - A Toy Binary Floating-Point System](../Explorations/EX17%20-%20A%20Toy%20Binary%20Floating-Point%20System.md)
 
-See also: [[Floating-Point Number Systems]], [[IEEE Floating-Point Standard]]
+See also: [Floating-Point Number Systems](Floating-Point%20Number%20Systems.md), [IEEE Floating-Point Standard](IEEE%20Floating-Point%20Standard.md)

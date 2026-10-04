@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 21 (p. 16)
 topics: ["[[Integrating Factors for Exact Equations]]", "[[Exact Equations]]"]
 ---
 # Problem 21 — $2xy^3\,dx + (3x^2y^2 + x^2y^3 + 1)\,dy = 0$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Find the general solution of $2xy^3\,dx + (3x^2y^2 + x^2y^3 + 1)\,dy = 0$.
@@ -62,5 +62,5 @@ c=[-2,-0.5,0.5,1,3]
 ```
 
 ## Related topics
-- [[Integrating Factors for Exact Equations]]
-- [[Exact Equations]]
+- [Integrating Factors for Exact Equations](../Topics/Integrating%20Factors%20for%20Exact%20Equations.md)
+- [Exact Equations](../Topics/Exact%20Equations.md)

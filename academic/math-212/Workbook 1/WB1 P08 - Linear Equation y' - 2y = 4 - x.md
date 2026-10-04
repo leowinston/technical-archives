@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 8 (p. 6)
 topics: ["[[Linear First-Order Equations]]"]
 ---
 # Problem 8 — $y' - 2y = 4 - x$
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Given $y' - 2y = 4 - x$:
@@ -63,4 +63,4 @@ y=\frac{x}{2}-\frac{7}{4}|dashed|#000000
 ```
 
 ## Related topics
-- [[Linear First-Order Equations]]
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)

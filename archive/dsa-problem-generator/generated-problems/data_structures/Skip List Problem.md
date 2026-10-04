@@ -9,7 +9,7 @@ topic: skip_list
 seed: 1
 ---
 # Skip List Problem
-Back to [[archive/dsa-problem-generator/Index|Index]] · `data_structures` · seed 1 · `--topic skip-list --seed 1`
+Back to [Index](../../Index.md) · `data_structures` · seed 1 · `--topic skip-list --seed 1`
 
 > [!question] Problem · Skip List Tracing Challenge
 > Construct a skip list by inserting the keys in the order below. Use the prescribed tower heights to remove coin-flip ambiguity. After the structure is built, remove the keys $36,\ 75,\ 91$, showing each pointer update.
@@ -54,7 +54,7 @@ The search for 91 skips from $-\infty$ straight to 56 on the top level. Tall tow
 
 ## Solution
 
-![[archive/dsa-problem-generator/generated-problems/data_structures/skip_list-seed1-solution.svg]]
+![skip_list-seed1-solution.svg](skip_list-seed1-solution.svg)
 
 > [!success] Answer
 > $L_5 = L_4 = \{56\}$ · $L_3 = L_2 = \{51, 56\}$ · $L_1 = \{27, 51, 56, 58, 66, 90, 94\}$, each level between the sentinels $-\infty$ and $+\infty$.
@@ -62,16 +62,16 @@ The search for 91 skips from $-\infty$ straight to 56 on the top level. Tall tow
 ---
 
 ## Connections
-- [[self-study/probability/Notes/Bernoulli and Binomial|Bernoulli and Binomial]]: each promotion is a $\Bern(\tfrac12)$ trial, so the number of keys reaching level $k$ is $\Bin\!\big(n,\ 2^{-(k-1)}\big)$.
-- [[self-study/probability/Notes/Expected Value|Expected Value]]: with the height capped at 5, the expected number of promotions per key is
+- [Bernoulli and Binomial](../../../../self-study/probability/Notes/Bernoulli%20and%20Binomial.md): each promotion is a $\Bern(\tfrac12)$ trial, so the number of keys reaching level $k$ is $\Bin\!\big(n,\ 2^{-(k-1)}\big)$.
+- [Expected Value](../../../../self-study/probability/Notes/Expected%20Value.md): with the height capped at 5, the expected number of promotions per key is
 $$
 \sum_{k=2}^{5} 2^{-(k-1)} = \tfrac12 + \tfrac14 + \tfrac18 + \tfrac1{16} = \tfrac{15}{16},
 $$
 so about $9.4$ for 10 keys. This instance has 6, and the rule's floor is 5.
-- [[archive/experiments/Data Structures and Algorithms/Hashmap Experimental Analysis|HashMap Experimental Analysis]]: the other randomized dictionary from CS 253. There the randomness is in the hash, not the structure.
+- [HashMap Experimental Analysis](../../../experiments/Data%20Structures%20and%20Algorithms/Hashmap%20Experimental%20Analysis.md): the other randomized dictionary from CS 253. There the randomness is in the hash, not the structure.
 - Other generator topics in `data_structures`: `hashing`.
 
 ## Files
 - Source: `skip_list-seed1.tex` (generator output, unchanged)
-- Compiled: [[archive/dsa-problem-generator/generated-problems/data_structures/skip_list-seed1.pdf|skip_list-seed1.pdf]]
+- Compiled: [skip_list-seed1.pdf](skip_list-seed1.pdf)
 - Regenerate: `python3 cs253_problem_generator.py --topic skip-list --seed 1 --with-solution`

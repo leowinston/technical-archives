@@ -3,7 +3,7 @@ tags: [probability, problem, part-3]
 topics: ["[[Conditional Probability]]"]
 ---
 # P11 — Two Cards, a Heart and a Red
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Two cards are drawn without replacement from a shuffled deck. $A$: the first card is a heart. $B$: the second card is red. Find $\P(A \mid B)$ and $\P(B \mid A)$.
@@ -25,4 +25,4 @@ $$
 - Conditioning on the **later** card is fine. Time order doesn't limit what you can condition on.
 
 ## Related topics
-- [[Conditional Probability]]
+- [Conditional Probability](../Notes/Conditional%20Probability.md)

@@ -2,7 +2,7 @@
 tags: [math-212, topic, chapter-2]
 ---
 # Autonomous Equations and Phase Lines
-Back to [[academic/math-212/Index|Index]] · Chapter 2.5
+Back to [Index](../Index.md) · Chapter 2.5
 
 ## Definition
 $$
@@ -21,25 +21,25 @@ $$
    Solutions are concave up where $f'f > 0$ and concave down where $f'f < 0$. Inflection points occur where $f'(y) = 0$.
 5. **Sketch** solutions in the $ty$-plane. Solutions never cross an equilibrium, and a solution shifted in time is still a solution.
 6. **Classify each equilibrium $y_1$:**
-   - [[Stable Equilibrium|Asymptotically stable]] if $f'(y_1) < 0$ (arrows point toward it)
-   - [[Unstable Equilibrium|Unstable]] if $f'(y_1) > 0$ (arrows point away)
-   - [[Semistable Equilibrium|Semistable]] if $f$ has the same sign on both sides of $y_1$
+   - [Asymptotically stable](Stable%20Equilibrium.md) if $f'(y_1) < 0$ (arrows point toward it)
+   - [Unstable](Unstable%20Equilibrium.md) if $f'(y_1) > 0$ (arrows point away)
+   - [Semistable](Semistable%20Equilibrium.md) if $f$ has the same sign on both sides of $y_1$
 
 ## Standard population models
 
 | Model | Equation | Behavior |
 |---|---|---|
-| [[Exponential Growth]] | $y' = ry$ | $y = y_0 e^{rt}$ |
-| [[Logistic Growth]] | $y' = r\left(1 - \frac{y}{K}\right)y$ | $K$ stable, $0$ unstable |
-| [[Threshold Growth]] | $y' = -r\left(1 - \frac{y}{T}\right)y$ | $T$ unstable, $0$ stable |
-| [[Logistic Growth with a Threshold]] | $y' = -r\left(1 - \frac{y}{T}\right)\left(1 - \frac{y}{K}\right)y$ | $0, K$ stable; $T$ unstable |
-| [[Gompertz Growth]] | $y' = ry\ln\frac{K}{y}$ | $K$ stable |
-| [[Harvesting]] | $y' = r\left(1 - \frac{y}{K}\right)y - Ey$ | $K(1 - E/r)$ stable |
+| [Exponential Growth](Exponential%20Growth.md) | $y' = ry$ | $y = y_0 e^{rt}$ |
+| [Logistic Growth](Logistic%20Growth.md) | $y' = r\left(1 - \frac{y}{K}\right)y$ | $K$ stable, $0$ unstable |
+| [Threshold Growth](Threshold%20Growth.md) | $y' = -r\left(1 - \frac{y}{T}\right)y$ | $T$ unstable, $0$ stable |
+| [Logistic Growth with a Threshold](Logistic%20Growth%20with%20a%20Threshold.md) | $y' = -r\left(1 - \frac{y}{T}\right)\left(1 - \frac{y}{K}\right)y$ | $0, K$ stable; $T$ unstable |
+| [Gompertz Growth](Gompertz%20Growth.md) | $y' = ry\ln\frac{K}{y}$ | $K$ stable |
+| [Harvesting](Harvesting.md) | $y' = r\left(1 - \frac{y}{K}\right)y - Ey$ | $K(1 - E/r)$ stable |
 
 ## Workbook problems
-- [[WB1 P23 - Exponential Growth]]
-- [[WB1 P24 - Logistic Growth]]
-- [[WB1 P25 - A Critical Threshold]]
-- [[WB1 P27 - Logistic Growth with a Threshold]]
+- [WB1 P23 - Exponential Growth](../Workbook%201/WB1%20P23%20-%20Exponential%20Growth.md)
+- [WB1 P24 - Logistic Growth](../Workbook%201/WB1%20P24%20-%20Logistic%20Growth.md)
+- [WB1 P25 - A Critical Threshold](../Workbook%201/WB1%20P25%20-%20A%20Critical%20Threshold.md)
+- [WB1 P27 - Logistic Growth with a Threshold](../Workbook%201/WB1%20P27%20-%20Logistic%20Growth%20with%20a%20Threshold.md)
 
-See also: [[Bifurcations]]
+See also: [Bifurcations](Bifurcations.md)

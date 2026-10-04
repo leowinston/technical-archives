@@ -4,7 +4,7 @@ source: Lecture 2 slides, slide 31 (Exploration 2.2.9), with slide 35 (IEEE tabl
 topics: ["[[Overflow and Underflow]]", "[[IEEE Floating-Point Standard]]"]
 ---
 # EX18 — Exploration 2.2.9: Overflow Level of IEEE Double Precision
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Determine OFL for a floating-point system with $\beta = 2$, $p = 53$, and $U = 1023$.
@@ -77,6 +77,6 @@ $$
 - Subnormals go below UFL, down to $2^{-1074} \approx 4.9 \times 10^{-324}$ in double, at reduced precision.
 
 ## Related topics
-- [[Overflow and Underflow]]
-- [[IEEE Floating-Point Standard]]
-- [[Rounding and Machine Precision]]
+- [Overflow and Underflow](../Topics/Overflow%20and%20Underflow.md)
+- [IEEE Floating-Point Standard](../Topics/IEEE%20Floating-Point%20Standard.md)
+- [Rounding and Machine Precision](../Topics/Rounding%20and%20Machine%20Precision.md)

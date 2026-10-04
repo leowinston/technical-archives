@@ -4,7 +4,7 @@ source: Book §3.1.4–3.1.5 (pp. 71–74, ✎ "Second-order conditions" highlig
 topics: ["[[Second-Order Conditions]]", "[[Examples of Convex Functions]]", "[[Positive Semidefinite Matrices]]"]
 ---
 # EX02 — Checking Convexity with the Hessian
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) Show $f(x, y) = x^2/y$ is convex on $y > 0$, and evaluate $\nabla^2 f(1, 2)$.
@@ -48,6 +48,6 @@ print(np.linalg.eigvalsh(H_lse))             # [0.     0.1186 0.3709]
 - Each has a zero eigenvalue. $x^2/y$ is flat along rays $(x, y) = t(x_0, y_0)$, and log-sum-exp is flat along $\ones$: $f(z + t\ones) = f(z) + t$.
 
 ## Related topics
-- [[Second-Order Conditions]]
-- [[Examples of Convex Functions]]
-- [[Positive Semidefinite Matrices]]
+- [Second-Order Conditions](../topics/Second-Order%20Conditions.md)
+- [Examples of Convex Functions](../topics/Examples%20of%20Convex%20Functions.md)
+- [Positive Semidefinite Matrices](../topics/Positive%20Semidefinite%20Matrices.md)

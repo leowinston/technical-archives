@@ -4,7 +4,7 @@ source: ML notebook "Huffman Coding" (symbols a–f, codes 10, 000, 110, 01, 001
 topics: ["[[Prefix Codes and Huffman Coding]]"]
 ---
 # EX01 — Huffman Code and the Entropy Bound
-Back to [[self-study/ergodic-theory/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Your notebook code is $a{:}\,10,\ b{:}\,000,\ c{:}\,110,\ d{:}\,01,\ e{:}\,001,\ f{:}\,111$. Take
@@ -46,5 +46,5 @@ Rounding forces integer lengths, and that costs only $0.015$ bits here.
 - The **continuous** relaxation is convex, and its value (the entropy) is the lower bound.
 
 ## Related topics
-- [[Prefix Codes and Huffman Coding]]
-- [[Noiseless and Memoryless Channels]]
+- [Prefix Codes and Huffman Coding](../Theory/Prefix%20Codes%20and%20Huffman%20Coding.md)
+- [Noiseless and Memoryless Channels](../Theory/Noiseless%20and%20Memoryless%20Channels.md)

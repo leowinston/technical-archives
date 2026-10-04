@@ -4,7 +4,7 @@ source: Constructed, modelled on the non-acyclic example (p. 8, ✎ "G′ is iso
 topics: ["[[Trees and Leaves]]", "[[Spanning Trees]]"]
 ---
 # EX02 — Checking a Graph for Trees
-Back to [[self-study/graph-theory/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > $G$ has $V = \{1, \dots, 6\}$ and $E = \{12, 23, 34, 41, 35, 26\}$.
@@ -51,5 +51,5 @@ Each step removes one vertex and one edge, so the gap $\card{T} - e(T) = 1$ neve
 - Spanning trees are not unique.
 
 ## Related topics
-- [[Trees and Leaves]]
-- [[Spanning Trees]]
+- [Trees and Leaves](../Theory/Trees%20and%20Leaves.md)
+- [Spanning Trees](../Theory/Spanning%20Trees.md)

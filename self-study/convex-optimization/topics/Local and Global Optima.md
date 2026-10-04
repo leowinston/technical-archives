@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-4]
 source: Boyd & Vandenberghe §4.2.2 (p. 138)
 ---
 # Local and Global Optima
-Back to [[self-study/convex-optimization/Index|Index]] · Section 4.2.2
+Back to [Index](../Index.md) · Section 4.2.2
 
 > [!important] ✎ Highlighted
 > A fundamental property of convex optimization problems is that **any locally optimal point is also (globally) optimal.**
@@ -22,6 +22,6 @@ This contradicts local optimality.
 Any descent method that stops at a local minimum has found the global one. Nonconvex problems give no such guarantee.
 
 ## Explorations
-- [[EX06 - Local Versus Global Minima]]
+- [EX06 - Local Versus Global Minima](../explorations/EX06%20-%20Local%20Versus%20Global%20Minima.md)
 
-See also: [[Convex Optimization Problems]], [[First-Order Condition]]
+See also: [Convex Optimization Problems](Convex%20Optimization%20Problems.md), [First-Order Condition](First-Order%20Condition.md)

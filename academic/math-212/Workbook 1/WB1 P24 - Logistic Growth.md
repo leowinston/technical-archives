@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 24 (pp. 19–20)
 topics: ["[[Logistic Growth]]", "[[Autonomous Equations and Phase Lines]]"]
 ---
 # Problem 24 — Logistic Growth
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Given $y' = r\left(1 - \dfrac{y}{K}\right)y$, where $r > 0$ is the intrinsic growth rate and $K > 0$ is the carrying capacity:
@@ -89,7 +89,7 @@ Check: $y(0) = y_0$, and for $y_0 > 0$, $y \to K$ as $t \to \infty$.
 ## Solution set
 - **General solution:** $y(t) = \dfrac{CK}{C + Ke^{-rt}}$, $C \in \mathbb{R}$, from $\dfrac{y}{1 - y/K} = Ce^{rt}$.
 - **Constant solutions:** $y \equiv 0$ (included at $C = 0$) and $y \equiv K$ (no $C$ gives it; list separately).
-- **IVP form:** $y(t) = \dfrac{y_0K}{y_0 + (K - y_0)e^{-rt}}$, $y_0 \in \mathbb{R}$. This parametrization includes **both** equilibria ($y_0 = 0$ and $y_0 = K$). Which constant solutions a formula misses depends on the parametrization, as in [[WB1 P15 - Separable Equation with an Explicit Solution|Problem 15]].
+- **IVP form:** $y(t) = \dfrac{y_0K}{y_0 + (K - y_0)e^{-rt}}$, $y_0 \in \mathbb{R}$. This parametrization includes **both** equilibria ($y_0 = 0$ and $y_0 = K$). Which constant solutions a formula misses depends on the parametrization, as in [Problem 15](WB1%20P15%20-%20Separable%20Equation%20with%20an%20Explicit%20Solution.md).
 - **Interval of existence:** $0 \leq y_0 \leq K$ gives all $t \in \mathbb{R}$. $y_0 < 0$ blows down to $-\infty$ at $t^\star = \tfrac{1}{r}\ln\tfrac{y_0 - K}{y_0} > 0$. $y_0 > K$ exists for all $t \geq 0$ but blows up going backward in time.
 
 ## Graph
@@ -121,6 +121,6 @@ r_0=1
 ```
 
 ## Related topics
-- [[Logistic Growth]]
-- [[Autonomous Equations and Phase Lines]]
-- [[Bernoulli Equations]]
+- [Logistic Growth](../Topics/Logistic%20Growth.md)
+- [Autonomous Equations and Phase Lines](../Topics/Autonomous%20Equations%20and%20Phase%20Lines.md)
+- [Bernoulli Equations](../Topics/Bernoulli%20Equations.md)

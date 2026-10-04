@@ -3,7 +3,7 @@ tags: [probability, problem, part-6]
 topics: ["[[Limits of Expected Value]]"]
 ---
 # P25 — When Expected Value Misleads
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Each round, your wealth is multiplied by $1.5$ (Heads) or $0.6$ (Tails) with a fair coin.
@@ -31,10 +31,10 @@ A "small" per-round risk is likely to wipe you out eventually.
 
 ## Why they disagree
 - $\E[W_{100}]$ averages over **many parallel players**. A handful of extremely lucky paths carry the mean.
-- One player moving **through time** experiences the product of multipliers. By the [[Law of Large Numbers]] applied to $\log W$, $\tfrac1n\log W_n \to \E[\log(\text{multiplier})] = \tfrac12\ln 0.9 < 0$.
+- One player moving **through time** experiences the product of multipliers. By the [Law of Large Numbers](../Notes/Law%20of%20Large%20Numbers.md) applied to $\log W$, $\tfrac1n\log W_n \to \E[\log(\text{multiplier})] = \tfrac12\ln 0.9 < 0$.
 - Expected value treats ruin as one more bad outcome, weighted by its probability. In reality, ruin ends the game.
 
 ## Related topics
-- [[Limits of Expected Value]]
-- [[Expected Value]]
-- [[Law of Large Numbers]]
+- [Limits of Expected Value](../Notes/Limits%20of%20Expected%20Value.md)
+- [Expected Value](../Notes/Expected%20Value.md)
+- [Law of Large Numbers](../Notes/Law%20of%20Large%20Numbers.md)

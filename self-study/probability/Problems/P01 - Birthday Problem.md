@@ -3,7 +3,7 @@ tags: [probability, problem, part-1]
 topics: ["[[Sampling With and Without Replacement]]", "[[Naive Definition of Probability]]"]
 ---
 # P01 — Birthday Problem
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) There are $k$ people in a room. Each birthday is equally likely to be any of 365 days (ignore Feb 29), independently. Find the probability that at least two share a birthday.
@@ -35,5 +35,5 @@ $$
 For example, $k = 10$ numbers in $n = 100$ slots collide with probability $\approx 0.37$.
 
 ## Related topics
-- [[Sampling With and Without Replacement]]
-- [[Naive Definition of Probability]]
+- [Sampling With and Without Replacement](../Notes/Sampling%20With%20and%20Without%20Replacement.md)
+- [Naive Definition of Probability](../Notes/Naive%20Definition%20of%20Probability.md)

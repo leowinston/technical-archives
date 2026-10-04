@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-2]
 source: Boyd & Vandenberghe §2.5 (pp. 46–51)
 ---
 # Separating and Supporting Hyperplanes
-Back to [[self-study/convex-optimization/Index|Index]] · Section 2.5
+Back to [Index](../Index.md) · Section 2.5
 
 ## Separating hyperplane theorem
 If $C, D$ are convex and disjoint, there are $a \ne 0$ and $b$ with
@@ -20,4 +20,4 @@ For $x_0$ on the boundary of $C$, a **supporting hyperplane** is $\{x \mid a^{\t
 
 These theorems drive duality: they are the geometric reason a dual problem gives a certificate.
 
-See also: [[Dual Cones]], [[First-Order Condition]]
+See also: [Dual Cones](Dual%20Cones.md), [First-Order Condition](First-Order%20Condition.md)

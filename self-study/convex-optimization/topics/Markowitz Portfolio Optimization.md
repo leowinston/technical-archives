@@ -3,7 +3,7 @@ tags: [convex-optimization, topic, ch-4]
 source: Boyd & Vandenberghe §4.4.1 (pp. 155–156)
 ---
 # Markowitz Portfolio Optimization
-Back to [[self-study/convex-optimization/Index|Index]] · Section 4.4.1
+Back to [Index](../Index.md) · Section 4.4.1
 
 > [!note] ✎ Your most-annotated page (p. 155)
 > You wrote **"Algory"** in red next to the heading. You marked $x_i$ as a vector, and $x \in \R^n$ as "how much asset$_1$ … asset$_n$". You labelled $x^{\top}\Sigma x$ as **Cov** $\Sigma$ and $x \succeq 0$ as **"long every stock"**.
@@ -29,6 +29,6 @@ Minimize risk (variance) subject to a minimum mean return, the budget, and no sh
 - **Transaction costs:** $x = x_{\text{init}} + u_{\text{buy}} - u_{\text{sell}}$, $u \succeq 0$, with fees in the budget.
 
 ## Explorations
-- [[EX07 - Markowitz Three-Asset Portfolio]]
+- [EX07 - Markowitz Three-Asset Portfolio](../explorations/EX07%20-%20Markowitz%20Three-Asset%20Portfolio.md)
 
-See also: [[Quadratic Programs]], [[Positive Semidefinite Matrices]]
+See also: [Quadratic Programs](Quadratic%20Programs.md), [Positive Semidefinite Matrices](Positive%20Semidefinite%20Matrices.md)

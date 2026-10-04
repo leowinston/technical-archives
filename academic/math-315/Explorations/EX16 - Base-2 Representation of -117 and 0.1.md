@@ -4,7 +4,7 @@ source: Lecture 2 slides, slides 24–28 (Example 2.2.2 and the Python demo)
 topics: ["[[Floating-Point Number Systems]]", "[[Exponent and Mantissa]]"]
 ---
 # EX16 — Base-2 Representation of −117 and 0.1
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) Write $x = -117$ as a normalized floating-point number in base 10 and in base 2.
@@ -111,9 +111,9 @@ $$
 ## Takeaways
 - A number with a short decimal expansion may have an infinite binary one. That is why `0.1 + 0.2 != 0.3` in Python.
 - Doubling reads off binary digits the same way multiplying by 10 reads off decimal ones.
-- In binary $d_0 = 1$ always, so IEEE doesn't store it (see [[IEEE Floating-Point Standard]]).
+- In binary $d_0 = 1$ always, so IEEE doesn't store it (see [IEEE Floating-Point Standard](../Topics/IEEE%20Floating-Point%20Standard.md)).
 
 ## Related topics
-- [[Floating-Point Number Systems]]
-- [[Exponent and Mantissa]]
-- [[Rounding and Machine Precision]]
+- [Floating-Point Number Systems](../Topics/Floating-Point%20Number%20Systems.md)
+- [Exponent and Mantissa](../Topics/Exponent%20and%20Mantissa.md)
+- [Rounding and Machine Precision](../Topics/Rounding%20and%20Machine%20Precision.md)

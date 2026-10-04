@@ -4,7 +4,7 @@ source: Book §3.2.3 and §4.3 (✎ "Operations that preserve convexity" highlig
 topics: ["[[Operations That Preserve Convexity of Functions]]", "[[Linear Programs]]"]
 ---
 # EX05 — Pointwise Max of Affine Functions
-Back to [[self-study/convex-optimization/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Let $f(x) = \max\{-x - 1,\ 0.5x,\ 2x - 3\}$.
@@ -53,5 +53,5 @@ y=2x-3|dashed|#999999
 - The optimum lands at a kink, where two constraints are active. That is a vertex of the LP.
 
 ## Related topics
-- [[Operations That Preserve Convexity of Functions]]
-- [[Linear Programs]]
+- [Operations That Preserve Convexity of Functions](../topics/Operations%20That%20Preserve%20Convexity%20of%20Functions.md)
+- [Linear Programs](../topics/Linear%20Programs.md)

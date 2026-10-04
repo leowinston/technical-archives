@@ -8,7 +8,7 @@ portfolio: "Final Portfolio - Foundations of Math - Spring 2026"
 date: 2026-05-01
 ---
 # Set Theoretic Proof
-Back to [[archive/proofs/Index|Index]]
+Back to [Index](../Index.md)
 
 *Final Portfolio - Foundations of Math - Spring 2026* · Leo Winston · May 1, 2026
 

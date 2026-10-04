@@ -4,7 +4,7 @@ source: Lecture 3 handout, p. 11 (Section 3.3.2 Example)
 topics: ["[[LDLT Factorization]]", "[[Cholesky Factorization]]"]
 ---
 # EX07 — LDLT Factorization of a 2×2 Symmetric Matrix
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Factor the symmetric matrix
@@ -86,8 +86,8 @@ $$
 ## Takeaways
 - For symmetric $A$, the upper factor is $DL^{\top}$, so it carries no new information.
 - Row operation plus matching column operation gives $D$. That is the symmetric version of elimination.
-- Positive $D$ leads to [[Cholesky Factorization]].
+- Positive $D$ leads to [Cholesky Factorization](../Topics/Cholesky%20Factorization.md).
 
 ## Related topics
-- [[LDLT Factorization]]
-- [[Cholesky Factorization]]
+- [LDLT Factorization](../Topics/LDLT%20Factorization.md)
+- [Cholesky Factorization](../Topics/Cholesky%20Factorization.md)

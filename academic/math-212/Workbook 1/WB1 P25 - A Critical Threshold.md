@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 25 (p. 21)
 topics: ["[[Threshold Growth]]", "[[Autonomous Equations and Phase Lines]]"]
 ---
 # Problem 25 — A Critical Threshold
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Given $y' = -r\left(1 - \dfrac{y}{T}\right)y$, where $r > 0$ is the intrinsic growth rate and $T > 0$ is the threshold level:
@@ -18,7 +18,7 @@ Back to [[academic/math-212/Index|Index]]
 ## Classification
 - **Type:** ODE, first order, **nonlinear**
 - **Also:** **autonomous** and separable
-- **Method:** qualitative phase-line analysis. This is the [[Logistic Growth|logistic equation]] with the sign reversed.
+- **Method:** qualitative phase-line analysis. This is the [logistic equation](../Topics/Logistic%20Growth.md) with the sign reversed.
 
 ## Strategy
 1. Let $f(y) = -ry + \dfrac{r}{T}y^2$ and find its roots.
@@ -71,11 +71,11 @@ f'(0) &= -r < 0 &&\implies y = 0 \text{ is asymptotically stable} \\
 f'(T) &= r > 0 &&\implies y = T \text{ is unstable (the threshold)}
 \end{align*}
 $$
-A population that starts below $T$ goes extinct. One that starts above $T$ grows without bound, reaching infinity in finite time (see [[WB1 P26 - Critical Threshold Blow-Up|Problem 26]]).
+A population that starts below $T$ goes extinct. One that starts above $T$ grows without bound, reaching infinity in finite time (see [Problem 26](WB1%20P26%20-%20Critical%20Threshold%20Blow-Up.md)).
 
 ## Solution set
 - **Constant solutions:** $y \equiv 0$ and $y \equiv T$.
-- **General solution** (from [[WB1 P26 - Critical Threshold Blow-Up|Problem 26]]): $y(t) = \dfrac{y_0T}{y_0 + (T - y_0)e^{rt}}$, $y_0 \in \mathbb{R}$. It includes both equilibria ($y_0 = 0$, $y_0 = T$).
+- **General solution** (from [Problem 26](WB1%20P26%20-%20Critical%20Threshold%20Blow-Up.md)): $y(t) = \dfrac{y_0T}{y_0 + (T - y_0)e^{rt}}$, $y_0 \in \mathbb{R}$. It includes both equilibria ($y_0 = 0$, $y_0 = T$).
 
 ## Graph
 **Solutions in the $ty$-plane** with $T = 2$ and $r = 1$. Starting values below $T$ are blue. The value $y_0 = 2.5$ is red and blows up near $t^\star = \ln 5 \approx 1.61$.
@@ -105,6 +105,6 @@ r_0=1
 ```
 
 ## Related topics
-- [[Threshold Growth]]
-- [[Autonomous Equations and Phase Lines]]
-- [[Logistic Growth with a Threshold]]
+- [Threshold Growth](../Topics/Threshold%20Growth.md)
+- [Autonomous Equations and Phase Lines](../Topics/Autonomous%20Equations%20and%20Phase%20Lines.md)
+- [Logistic Growth with a Threshold](../Topics/Logistic%20Growth%20with%20a%20Threshold.md)

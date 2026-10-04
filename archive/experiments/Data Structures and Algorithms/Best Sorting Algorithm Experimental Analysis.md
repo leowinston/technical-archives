@@ -6,7 +6,7 @@ course: CS 253
 date: 2026-04
 ---
 # BestSort Experimental Analysis
-Back to [[archive/experiments/Data Structures and Algorithms/Index|Index]]
+Back to [Index](Index.md)
 
 *CS 253* · Leo Winston · April 2026
 
@@ -14,7 +14,7 @@ Back to [[archive/experiments/Data Structures and Algorithms/Index|Index]]
 > This project presents the implementation and experimental evaluation of `BestSort`, a hybrid sorting algorithm to optimize performance across different dataset features. The analysis algorithm computes key metrics, including array size, adjacent inversion ratio, and maximum digit count to select between Insertion Sort, Merge Sort, and an explicitly implemented Least Significant Digit Radix Sort. The selection policy applies a cost model to prioritize Insertion Sort for small or nearly sorted arrays, and it balances the $\mathcal{O}(d \cdot N)$ efficiency of Radix Sort against the $\mathcal{O}(N \log N)$ scaling of Merge Sort for larger datasets. Experimental results across various input distributions confirm that this approach successfully minimizes runtime.
 
 ## Visualizations
-![[archive/assets/sorting-algo-plot.pdf]]
+![sorting-algo-plot](../../assets/sorting-algo-plot.svg)
 
 *Top: Log-log plot of average runtime vs. array size ($N$) across five input types. Bottom: Stacked bar chart detailing the policy's algorithm selection frequency. (Graphs produced via MATLAB)*
 

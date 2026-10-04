@@ -4,7 +4,7 @@ source: Workbook Part 1, Problem 3 (p. 3)
 topics: ["[[Classification of Differential Equations]]"]
 ---
 # Problem 3 — Classify as Linear or Nonlinear
-Back to [[academic/math-212/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Classify each equation as linear or nonlinear. If it is linear, say whether it is homogeneous or nonhomogeneous.
@@ -48,5 +48,5 @@ c=[-1,0,1]
 ```
 
 ## Related topics
-- [[Classification of Differential Equations]]
-- [[Linear First-Order Equations]]
+- [Classification of Differential Equations](../Topics/Classification%20of%20Differential%20Equations.md)
+- [Linear First-Order Equations](../Topics/Linear%20First-Order%20Equations.md)

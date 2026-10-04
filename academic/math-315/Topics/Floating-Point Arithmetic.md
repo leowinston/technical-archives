@@ -2,7 +2,7 @@
 tags: [math-315, topic, lecture-2]
 ---
 # Floating-Point Arithmetic
-Back to [[academic/math-315/Index|Index]] · Section 2.2 (slides 36–38)
+Back to [Index](../Index.md) · Section 2.2 (slides 36–38)
 
 Even when $x, y \in F$, the exact result of $x \circ y$ usually is not in $F$, so it gets rounded.
 
@@ -12,7 +12,7 @@ The operands are shifted to a common exponent, and the smaller one loses digits.
 With $\beta = 10$, $p = 10$: $\;2 \times 10^{4} + 3 \times 10^{-10} = 20000.0000000003 \to 2 \times 10^{4}$.
 
 ## Multiplication and division
-No shifting is needed, but the exact product needs up to $2p$ digits and a quotient may need infinitely many. The exponents can also leave $[L, U]$ (see [[Overflow and Underflow]]).
+No shifting is needed, but the exact product needs up to $2p$ digits and a quotient may need infinitely many. The exponents can also leave $[L, U]$ (see [Overflow and Underflow](Overflow%20and%20Underflow.md)).
 
 ## Arithmetic rules
 - **Commutative:** yes, $x + y = y + x$.
@@ -25,7 +25,7 @@ $$
 Only the last one is correct.
 
 ## Explorations
-- [[EX19 - Absorption and Non-Associativity]]
-- [[EX20 - Overflow and Underflow in Base-10 Arithmetic]]
+- [EX19 - Absorption and Non-Associativity](../Explorations/EX19%20-%20Absorption%20and%20Non-Associativity.md)
+- [EX20 - Overflow and Underflow in Base-10 Arithmetic](../Explorations/EX20%20-%20Overflow%20and%20Underflow%20in%20Base-10%20Arithmetic.md)
 
-See also: [[Rounding and Machine Precision]], [[Cancellation Error]]
+See also: [Rounding and Machine Precision](Rounding%20and%20Machine%20Precision.md), [Cancellation Error](Cancellation%20Error.md)

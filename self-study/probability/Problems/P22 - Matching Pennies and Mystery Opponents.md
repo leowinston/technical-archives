@@ -3,7 +3,7 @@ tags: [probability, problem, part-4]
 topics: ["[[Conditional Independence]]", "[[Independence of Random Variables]]"]
 ---
 # P22 — Matching Pennies and Mystery Opponents
-Back to [[self-study/probability/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > (a) A and B each flip a fair penny. $X = 1$ if A's penny is Heads and $-1$ otherwise, and $Y$ is defined the same way for B. A wins if the pennies match. Let $Z = XY$. Are $X$ and $Y$ independent? Are they independent given $Z$?
@@ -24,6 +24,6 @@ $$
 Winning game 1 is evidence that you face the weaker twin. **Conditionally independent, but not independent.**
 
 ## Related topics
-- [[Conditional Independence]]
-- [[Independence of Random Variables]]
-- [[P14 - Random Coin, Fair or Biased]] (same structure as (c))
+- [Conditional Independence](../Notes/Conditional%20Independence.md)
+- [Independence of Random Variables](../Notes/Independence%20of%20Random%20Variables.md)
+- [P14 - Random Coin, Fair or Biased](P14%20-%20Random%20Coin%2C%20Fair%20or%20Biased.md) (same structure as (c))

@@ -2,7 +2,7 @@
 tags: [probability, topic, part-1]
 ---
 # Sampling With and Without Replacement
-Back to [[self-study/probability/Index|Index]] · Part 1
+Back to [Index](../Index.md) · Part 1
 
 Choose $k$ objects from $n$, one at a time.
 
@@ -14,7 +14,7 @@ Choose $k$ objects from $n$, one at a time.
 
 - Without replacement and $k > n$ gives $0$.
 - $k = n$ without replacement gives the **permutations**, $n!$.
-- Only the ordered cases have **equally likely** outcomes under random sampling. The unordered with-replacement count ([[Stars and Bars]]) does not, so don't use it with the naive definition.
+- Only the ordered cases have **equally likely** outcomes under random sampling. The unordered with-replacement count ([Stars and Bars](Stars%20and%20Bars.md)) does not, so don't use it with the naive definition.
 
 ## Example
 Birthdays of $k$ people: $365^k$ possible assignments, and $365 \cdot 364 \cdots (365-k+1)$ of them have no shared birthday.
@@ -23,7 +23,7 @@ $$
 $$
 
 ## Problems
-- [[P01 - Birthday Problem]]
-- [[P07 - Chocolate Bars, Gummy Bears, and Bootstrap Samples]]
+- [P01 - Birthday Problem](../Problems/P01%20-%20Birthday%20Problem.md)
+- [P07 - Chocolate Bars, Gummy Bears, and Bootstrap Samples](../Problems/P07%20-%20Chocolate%20Bars%2C%20Gummy%20Bears%2C%20and%20Bootstrap%20Samples.md)
 
-See also: [[Multiplication Rule]], [[Binomial Coefficients]]
+See also: [Multiplication Rule](Multiplication%20Rule.md), [Binomial Coefficients](Binomial%20Coefficients.md)

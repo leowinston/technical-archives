@@ -4,7 +4,7 @@ source: Lecture 3 handout, pp. 7–8 (Section 3.2.5 Example)
 topics: ["[[Partial Pivoting]]", "[[Gaussian Elimination]]"]
 ---
 # EX05 — Four-Digit Arithmetic With and Without Pivoting
-Back to [[academic/math-315/Index|Index]]
+Back to [Index](../Index.md)
 
 > [!question] Problem
 > Solve
@@ -145,6 +145,6 @@ Now the back-substitution amplification factor is $6.130/5.291 \approx 1.16$ ins
 - The extra cost is one comparison per candidate row, which is negligible.
 
 ## Related topics
-- [[Partial Pivoting]]
-- [[Gaussian Elimination]]
-- [[Forward and Backward Error]]
+- [Partial Pivoting](../Topics/Partial%20Pivoting.md)
+- [Gaussian Elimination](../Topics/Gaussian%20Elimination.md)
+- [Forward and Backward Error](../Topics/Forward%20and%20Backward%20Error.md)

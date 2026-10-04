@@ -2,7 +2,7 @@
 tags: [probability, topic, part-1]
 ---
 # Stars and Bars
-Back to [[self-study/probability/Index|Index]] · Part 1
+Back to [Index](../Index.md) · Part 1
 
 ## Result
 The number of ways to put $k$ **indistinguishable** objects into $n$ **distinguishable** boxes is
@@ -19,6 +19,6 @@ $$
 Under random placement these configurations are **not** equally likely, so don't plug them into the naive definition.
 
 ## Problems
-- [[P07 - Chocolate Bars, Gummy Bears, and Bootstrap Samples]]
+- [P07 - Chocolate Bars, Gummy Bears, and Bootstrap Samples](../Problems/P07%20-%20Chocolate%20Bars%2C%20Gummy%20Bears%2C%20and%20Bootstrap%20Samples.md)
 
-See also: [[Sampling With and Without Replacement]]
+See also: [Sampling With and Without Replacement](Sampling%20With%20and%20Without%20Replacement.md)

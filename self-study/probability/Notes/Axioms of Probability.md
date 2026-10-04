@@ -2,7 +2,7 @@
 tags: [probability, topic, part-2]
 ---
 # Axioms of Probability
-Back to [[self-study/probability/Index|Index]] · Part 2
+Back to [Index](../Index.md) · Part 2
 
 ## Definition
 A **probability space** is a sample space $S$ together with a function $\P$ that sends each event $A \subseteq S$ to $\P(A) \in [0, 1]$, such that
@@ -23,9 +23,9 @@ $$
 **For the union:** write $A \cup B = A \cup (B \cap A^c)$, which is a disjoint union.
 
 ## Measure-theoretic version
-In measure theory a probability space is a triple $(S, \mathscr F, \P)$, where $\mathscr F$ is a $\sigma$-field of events and $\P$ is a **measure** with $\P(S) = 1$ (see [[self-study/ergodic-theory/Theory/Measures, Semirings, and Rings|Measures, Semirings, and Rings]]). Axiom 2 above is exactly $\sigma$-additivity.
+In measure theory a probability space is a triple $(S, \mathscr F, \P)$, where $\mathscr F$ is a $\sigma$-field of events and $\P$ is a **measure** with $\P(S) = 1$ (see [Measures, Semirings, and Rings](../../ergodic-theory/Theory/Measures%2C%20Semirings%2C%20and%20Rings.md)). Axiom 2 above is exactly $\sigma$-additivity.
 - For finite or countable $S$, take $\mathscr F$ = all subsets. Nothing changes.
-- For an uncountable $S$, such as infinite sequences of coin flips, not every subset can be given a consistent probability. So $\P$ is defined only on $\mathscr F$ (see [[self-study/ergodic-theory/Theory/Sequence Spaces and Sigma-Fields|Sequence Spaces and Sigma-Fields]]).
+- For an uncountable $S$, such as infinite sequences of coin flips, not every subset can be given a consistent probability. So $\P$ is defined only on $\mathscr F$ (see [Sequence Spaces and Sigma-Fields](../../ergodic-theory/Theory/Sequence%20Spaces%20and%20Sigma-Fields.md)).
 - $\mathscr F$ is closed under complements and countable unions. That is what makes $\P(A^c)$ and $\P(A \cup B)$ in the consequences well-defined.
 
 ## Interpretations
@@ -34,4 +34,4 @@ In measure theory a probability space is a triple $(S, \mathscr F, \P)$, where $
 
 Both obey the same axioms.
 
-See also: [[Inclusion-Exclusion]], [[Naive Definition of Probability]]
+See also: [Inclusion-Exclusion](Inclusion-Exclusion.md), [Naive Definition of Probability](Naive%20Definition%20of%20Probability.md)
