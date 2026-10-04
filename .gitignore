@@ -58,3 +58,7 @@ archive/dsa-problem-generator/output/
 *.nav
 *.snm
 *.vrb
+
+# MkDocs site build output (built by .github/workflows/pages.yml)
+_docs/
+_site/

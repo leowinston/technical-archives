@@ -1,0 +1,50 @@
+site_name: Technical Archives
+site_url: https://leowinston.github.io/technical-archives/
+repo_url: https://github.com/leowinston/technical-archives
+edit_uri: ""
+docs_dir: ../../_docs
+site_dir: ../../_site
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle: { icon: material/brightness-7, name: Switch to dark mode }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: { icon: material/brightness-4, name: Switch to light mode }
+
+plugins:
+  - search
+  - tags
+  - callouts
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify { kwds: { case: lower } }
+  - pymdownx.arithmatex: { generic: true }
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tasklist: { custom_checkbox: true }
+  - pymdownx.tilde
+  - mdx_breakless_lists
+  - mdx_truly_sane_lists: { nested_indent: 2 }
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
