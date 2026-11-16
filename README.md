@@ -23,7 +23,6 @@ What keeps me going is the click. I'll be learning something new, go back to a t
 │   ├── math-212/               Differential equations: the topics I find most interesting, plus Laplace transforms
 │   └── math-315/               Numerical analysis: topics and selected explorations
 ├── self-study/
-│   ├── probability/            Notes and worked problems
 │   ├── convex-optimization/    Boyd & Vandenberghe, Ch. 1 to §4.5, with NumPy explorations
 │   ├── graph-theory/           Kelly's Cambridge notes through Hall's theorem, plus some curiosities in spectral graph theory
 │   └── ergodic-theory/         Measure-theory foundations — Patrick Billingsley's Ergodic Theory and Information
