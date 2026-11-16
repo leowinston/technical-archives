@@ -5,7 +5,7 @@ source: Handwritten notes "Continuous functions" (Laplacian column)
 # Laplace Operator and the Graph Laplacian
 Back to [Index](../Index.md) · Handwritten notes
 
-The gradient, Jacobian, and Hessian recap lives in [Gradient, Jacobian, and Hessian](../../convex-optimization/topics/Gradient%2C%20Jacobian%2C%20and%20Hessian.md) (convex opt). This note keeps only the piece that explains the name $L_G$.
+The gradient, Jacobian, and Hessian recap lives in [Gradient, Jacobian, and Hessian](../../convex-optimization/ml-notebook/Gradient,%20Jacobian,%20and%20Hessian.md) (convex opt). This note keeps only the piece that explains the name $L_G$.
 
 ## Continuous Laplacian
 ✎ "A scalar value containing the non-mixed second partials":

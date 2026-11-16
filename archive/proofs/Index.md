@@ -37,7 +37,7 @@ The same theorem appears in both portfolios, proved two ways: $x + \frac1x \ge 2
 
 ## Explorations
 - [Inductive Proof of the Fibonacci Recurrence](Explorations/Inductive%20Proof%20of%20the%20Fibonacci%20Recurrence.md) — strong induction, $\begin{bmatrix}1&1\\1&0\end{bmatrix}^n$ state-transition form
-- [Banach's Fixed Point Theorem](Explorations/Banach%27s%20Fixed%20Point%20Theorem.md) — contraction on a complete space (drafted April 2026, finished September 2026) · proves ODE existence and uniqueness via [Picard iteration](../../academic/math-212/Topics%201/Existence%20and%20Uniqueness%20Theorems.md)
+- [Banach's Fixed Point Theorem](Explorations/Banach%27s%20Fixed%20Point%20Theorem.md) — contraction on a complete space (drafted April 2026, finished September 2026) · proves ODE existence and uniqueness via [Picard iteration](../../academic/math-212/Topics%201/Existence%20and%20Uniqueness%20Theorems.md) · the convergence test for [fixed point iteration](../../academic/math-315/Topics%204/Fixed%20Point%20Iteration.md) in root finding · why [gradient descent converges](../../self-study/convex-optimization/numerical-optimization/Gradient%20Descent%20as%20a%20Fixed%20Point%20Iteration.md) for $\alpha < 2/L$
 
 ---
 

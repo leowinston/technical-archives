@@ -55,7 +55,7 @@ Greedy fills 7 of the 10 units for a value of **28**. Item 5 fills a gap that bl
 
 ## Connections
 This instance is a small example of **relaxation**, an idea that comes up across the vault.
-- [Linear Programs](../../../../self-study/convex-optimization/topics/Linear%20Programs.md): allow fractions $x_i \in [0, 1]$ and knapsack becomes an LP. Greedy by ratio solves that LP *exactly*, filling the gap with $\tfrac35$ of item 4:
+- [Linear Programs](../../../../self-study/convex-optimization/4-convex-problems/Linear%20Programs.md): allow fractions $x_i \in [0, 1]$ and knapsack becomes an LP. Greedy by ratio solves that LP *exactly*, filling the gap with $\tfrac35$ of item 4:
 $$
 \underbrace{28}_{\text{greedy}} \ \le\ \underbrace{33}_{\text{0/1 optimum}} \ \le\ \underbrace{28 + \tfrac35 \cdot 10 = 34}_{\text{LP relaxation}}
 $$

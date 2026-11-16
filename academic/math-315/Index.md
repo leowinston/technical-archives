@@ -5,8 +5,8 @@ tags: [math-315, index]
 
 Topic notes hold definitions, key results, and short derivations. The explorations are the worked examples I learned the most from: the ones where something surprising happens.
 
-- Topic notes live in `Topics 1/` (Lectures 2–3), `Topics 2/` (Lecture 4 and textbook 5.1 Differentiation), and `Topics 3/` (textbook 5.2–5.3 Integration)
-- Exploration notes live in `Explorations 1/`, `Explorations 2/`, and `Explorations 3/`, matching the topic folders
+- Topic notes live in `Topics 1/` (Lectures 2–3), `Topics 2/` (Lecture 4 and textbook 5.1 Differentiation), `Topics 3/` (textbook 5.2–5.3 Integration), and `Topics 4/` (Lecture 7 Root Finding and textbook Ch. 7 Minimization)
+- Exploration notes live in `Explorations 1/` through `Explorations 4/`, matching the topic folders
 
 ---
 
@@ -115,6 +115,37 @@ Topic notes hold definitions, key results, and short derivations. The exploratio
 
 ---
 
+## Lecture 7 — Root Finding
+
+### Roots and Fixed Points
+- [Roots and Fixed Points](Topics%204/Roots%20and%20Fixed%20Points.md) — $f(x^*) = 0$ vs $x^* = g(x^*)$, simple roots, brackets
+- [Fixed Point Iteration](Topics%204/Fixed%20Point%20Iteration.md) — $x_{n+1} = g(x_n)$ converges when $\lvert g'\rvert \le G < 1$; contractions and Banach
+- [Order of Convergence](Topics%204/Order%20of%20Convergence.md) — $e_{n+1} \approx \lambda e_n^{\alpha}$, linear / superlinear / quadratic
+
+### Bracketing Methods
+- [Bisection Method](Topics%204/Bisection%20Method.md) — halve the bracket, error $\le (b-a)/2^n$
+- [False Position Method](Topics%204/False%20Position%20Method.md) — linear interpolation inside the bracket
+
+### Local Methods
+- [Newton's Method](Topics%204/Newton's%20Method.md) — $x_{n+1} = x_n - f(x_n)/f'(x_n)$, quadratic at simple roots
+- [Secant Method](Topics%204/Secant%20Method.md) — Newton with a difference quotient, order $1.618$
+- [Inverse Quadratic Interpolation](Topics%204/Inverse%20Quadratic%20Interpolation.md) — interpolate $x$ as a function of $y$, order $1.839$
+
+### In Practice
+- [Root Finding in Python](Topics%204/Root%20Finding%20in%20Python.md) — `root_scalar`, brackets, multiple roots, `numpy.roots`
+
+---
+
+## Chapter 7 — Univariate Minimization (textbook, Topics 4)
+- [Univariate Minimization](Topics%204/Univariate%20Minimization.md) — U-shaped functions, brackets for a minimum, why two interior points
+- [Golden Section Search](Topics%204/Golden%20Section%20Search.md) — $r = \tfrac{3-\sqrt5}{2}$, one evaluation per step, factor $0.618$
+- [Quadratic Interpolation Search](Topics%204/Quadratic%20Interpolation%20Search.md) — jump to the minimum of the interpolating parabola
+- [Cubic Interpolation Search](Topics%204/Cubic%20Interpolation%20Search.md) — Hermite cubic from $f$ and $f'$ at the endpoints
+
+These carry on into $n$ dimensions in [Numerical Optimization](../../self-study/convex-optimization/Index.md#part-ii--numerical-optimization-nocedal--wright).
+
+---
+
 ## Explorations
 
 | # | Exploration | Source | Topics |
@@ -133,10 +164,15 @@ Topic notes hold definitions, key results, and short derivations. The exploratio
 | 45 | [EX45 - Two- and Three-Point Gauss Rules](Explorations%203/EX45%20-%20Two-%20and%20Three-Point%20Gauss%20Rules.md) | textbook Probs. 5.2.26–5.2.27, 5.2.30 | [Gauss Rules](Topics%203/Gauss%20Rules.md), [Peano's Theorem](Topics%203/Peano%27s%20Theorem.md) |
 | 49 | [EX49 - Cardiac Output from Dye Concentration Data](Explorations%203/EX49%20-%20Cardiac%20Output%20from%20Dye%20Concentration%20Data.md) | textbook Ex. 5.3.7 | [Integrating Tabulated Data](Topics%203/Integrating%20Tabulated%20Data.md) |
 | 51 | [EX51 - Singular Integrands sin x over x and cos x over sqrt x](Explorations%203/EX51%20-%20Singular%20Integrands%20sin%20x%20over%20x%20and%20cos%20x%20over%20sqrt%20x.md) | textbook Exs. 5.3.9–5.3.11, Prob. 5.2.37 | [Improper Integrals](Topics%203/Improper%20Integrals.md), [Gauss Rules](Topics%203/Gauss%20Rules.md) |
+| 52 | [EX52 - Fixed Point Iteration for e^-x and -ln x](Explorations%204/EX52%20-%20Fixed%20Point%20Iteration%20for%20e^-x%20and%20-ln%20x.md) | handout pp. 4, 11 | [Fixed Point Iteration](Topics%204/Fixed%20Point%20Iteration.md), [Order of Convergence](Topics%204/Order%20of%20Convergence.md) |
+| 53 | [EX53 - Bisection, Secant, and Newton on the Same Root](Explorations%204/EX53%20-%20Bisection,%20Secant,%20and%20Newton%20on%20the%20Same%20Root.md) | handout pp. 22–23 | [Order of Convergence](Topics%204/Order%20of%20Convergence.md), [Newton's Method](Topics%204/Newton's%20Method.md), [Secant Method](Topics%204/Secant%20Method.md), [Bisection Method](Topics%204/Bisection%20Method.md) |
+| 54 | [EX54 - Golden Section Search for -e^-x sin x](Explorations%204/EX54%20-%20Golden%20Section%20Search%20for%20-e^-x%20sin%20x.md) | textbook Ex. 7.2.1 | [Golden Section Search](Topics%204/Golden%20Section%20Search.md), [Univariate Minimization](Topics%204/Univariate%20Minimization.md) |
 
 ---
 
 ## Sources
+- *Math 315 Lecture 7 handout: Root Finding* (`Topics 4/Math_315_Lecture_7_Root_Finding_handout.pdf`)
+- Textbook *Chapter 7: Univariate Minimization* (pp. 263–279), Sections 7.1–7.3 (`Topics 4/Chapter7.pdf`)
 - *Math 315 Lecture 2 slides: Computer Arithmetic* (`source/MATH_315_Lecture_2.pdf`)
 - *Math 315 Lecture 3 handout: Direct Methods for Linear Systems* (`source/Math_315_Lecture_3_handout.pdf`)
 - *Partial pivoting supplement* (`source/Math_315_Lecture_3_Partial_Pivoting.pdf`)

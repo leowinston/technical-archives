@@ -61,6 +61,6 @@ for t in np.linspace(-1, 1, 5):
 - Eigenvalues also cost $O(n^3)$, but they need an iterative method with a larger constant. Cholesky is a finite direct method and doubles as the $X \succ 0$ test.
 
 ## Related topics
-- [Examples of Convex Functions](../topics/Examples%20of%20Convex%20Functions.md)
-- [Convex Functions](../topics/Convex%20Functions.md) (restriction to a line)
+- [Examples of Convex Functions](../3-convex-functions/Examples%20of%20Convex%20Functions.md)
+- [Convex Functions](../3-convex-functions/Convex%20Functions.md) (restriction to a line)
 - [Cholesky Factorization](../../../academic/math-315/Topics%201/Cholesky%20Factorization.md)

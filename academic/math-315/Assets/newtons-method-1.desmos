@@ -1,0 +1,11 @@
+left=-0.5; right=4; top=2.4; bottom=-0.6
+xAxisLabel=x; yAxisLabel=f(x)
+---
+y=2\cosh(x/4)-x|#2d70b3
+y=2-x|x>=0|x<=2|dashed|#c74440
+y=0.2553-0.7395(x-2)|x>=2|x<=2.3452|dashed|#fa7e19
+(0,2)|#c74440
+(2,0.2553)|#fa7e19
+(2,0)|open|#c74440
+(2.3452,0)|open|#fa7e19
+(2.3576,0)|#000000

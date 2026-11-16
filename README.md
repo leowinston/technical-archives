@@ -21,9 +21,9 @@ What keeps me going is the click. I'll be learning something new, go back to a t
 ```
 ├── academic/
 │   ├── math-212/               Differential equations: the topics I find most interesting, plus Laplace transforms
-│   └── math-315/               Numerical analysis: topics and selected explorations
+│   └── math-315/               Numerical analysis through root finding and minimization: topics and selected explorations
 ├── self-study/
-│   ├── convex-optimization/    Boyd & Vandenberghe, Ch. 1 to §4.5, with NumPy explorations
+│   ├── convex-optimization/    Boyd & Vandenberghe Ch. 1 to §4.5, then Nocedal & Wright on line search, trust regions, and least squares
 │   ├── graph-theory/           Kelly's Cambridge notes through Hall's theorem, plus some curiosities in spectral graph theory
 │   └── ergodic-theory/         Measure-theory foundations — Patrick Billingsley's Ergodic Theory and Information
 ├── archive/

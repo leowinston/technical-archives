@@ -48,6 +48,6 @@ print(np.linalg.eigvalsh(H_lse))             # [0.     0.1186 0.3709]
 - Each has a zero eigenvalue. $x^2/y$ is flat along rays $(x, y) = t(x_0, y_0)$, and log-sum-exp is flat along $\ones$: $f(z + t\ones) = f(z) + t$.
 
 ## Related topics
-- [Second-Order Conditions](../topics/Second-Order%20Conditions.md)
-- [Examples of Convex Functions](../topics/Examples%20of%20Convex%20Functions.md)
-- [Positive Semidefinite Matrices](../topics/Positive%20Semidefinite%20Matrices.md)
+- [Second-Order Conditions](../3-convex-functions/Second-Order%20Conditions.md)
+- [Examples of Convex Functions](../3-convex-functions/Examples%20of%20Convex%20Functions.md)
+- [Positive Semidefinite Matrices](../ml-notebook/Positive%20Semidefinite%20Matrices.md)

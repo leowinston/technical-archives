@@ -1,0 +1,8 @@
+left=-0.2; right=1.8; top=1.4; bottom=-0.1
+xAxisLabel=x; yAxisLabel=y
+---
+y=x|dashed|#000000
+y=\cos(x)|#2d70b3
+y=e^{-x}|#388c46
+(0.7391,0.7391)|#2d70b3
+(0.5671,0.5671)|#388c46

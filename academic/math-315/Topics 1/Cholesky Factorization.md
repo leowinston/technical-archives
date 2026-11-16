@@ -38,4 +38,4 @@ $$
 ## Explorations
 - [EX08 - Cholesky Factorization of a 3x3 SPD Matrix](../Explorations%201/EX08%20-%20Cholesky%20Factorization%20of%20a%203x3%20SPD%20Matrix.md)
 
-See also: [Symmetric Positive Definite Matrices](Symmetric%20Positive%20Definite%20Matrices.md), [LDLT Factorization](LDLT%20Factorization.md), [Log det via Cholesky](../../../self-study/convex-optimization/explorations/EX11%20-%20Log%20Det%20via%20Cholesky.md) (convex opt)
+See also: [Symmetric Positive Definite Matrices](Symmetric%20Positive%20Definite%20Matrices.md), [LDLT Factorization](LDLT%20Factorization.md), [Log det via Cholesky](../../../self-study/convex-optimization/explorations/EX11%20-%20Log%20Det%20via%20Cholesky.md) (convex opt), [Newton's Method with Hessian Modification](../../../self-study/convex-optimization/numerical-optimization/Newton's%20Method%20with%20Hessian%20Modification.md) (Cholesky as a positive-definiteness test)

@@ -30,6 +30,6 @@ For $\mathbf{x} = (3, -4, 12)$: $\|\mathbf{x}\|_1 = 19$, $\|\mathbf{x}\|_2 = 13$
 
 ## Explorations
 - [EX11 - l1 Norm of a 3x2 Matrix](../Explorations%201/EX11%20-%20l1%20Norm%20of%20a%203x2%20Matrix.md)
-- [EX13 - Small Residual, Large Error](../Explorations/EX13%20-%20Small%20Residual%2C%20Large%20Error.md)
+- [EX13 - Small Residual, Large Error](../Explorations%201/EX13%20-%20Small%20Residual,%20Large%20Error.md)
 
 See also: [Matrix Norms](Matrix%20Norms.md)

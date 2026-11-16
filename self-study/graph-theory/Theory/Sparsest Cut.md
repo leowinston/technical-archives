@@ -23,4 +23,4 @@ x^{\top}L_Gx = \card{E(A, B)}, \qquad x^{\top}x = \frac{\card{A}\card{B}}{n},
 $$
 so $\lambda_2 \le \frac{x^{\top}L_Gx}{x^{\top}x} = \phi(A, B)$. Minimizing over $A$ gives the bound.
 
-See also: [Spectral Gap and Fiedler Vector](Spectral%20Gap%20and%20Fiedler%20Vector.md), [Spectral Clustering Algorithm](Spectral%20Clustering%20Algorithm.md), [Regularized Spectral Clustering](Regularized%20Spectral%20Clustering.md) (a modified objective that ignores dangling trees), [Sparsest Cut as a Spectral Relaxation](../../convex-optimization/topics/Sparsest%20Cut%20as%20a%20Spectral%20Relaxation.md) (convex opt: relaxation view, concavity of $\lambda_2$)
+See also: [Spectral Gap and Fiedler Vector](Spectral%20Gap%20and%20Fiedler%20Vector.md), [Spectral Clustering Algorithm](Spectral%20Clustering%20Algorithm.md), [Regularized Spectral Clustering](Regularized%20Spectral%20Clustering.md) (a modified objective that ignores dangling trees), [Sparsest Cut as a Spectral Relaxation](../../convex-optimization/ml-notebook/Sparsest%20Cut%20as%20a%20Spectral%20Relaxation.md) (convex opt: relaxation view, concavity of $\lambda_2$)

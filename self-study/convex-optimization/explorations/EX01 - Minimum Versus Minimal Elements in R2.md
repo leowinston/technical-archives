@@ -38,5 +38,5 @@ Red: $x_1 + K$ for (a) contains all of $S_1$. Blue: $x_2 - K$ at $(2,1)$ meets $
 - Minimal elements form a Pareto front. That is the vector-optimization picture from §4.7.
 
 ## Related topics
-- [Generalized Inequalities and Minimal Elements](../topics/Generalized%20Inequalities%20and%20Minimal%20Elements.md)
-- [Dual Cones](../topics/Dual%20Cones.md)
+- [Generalized Inequalities and Minimal Elements](../2-convex-sets/Generalized%20Inequalities%20and%20Minimal%20Elements.md)
+- [Dual Cones](../2-convex-sets/Dual%20Cones.md)

@@ -42,4 +42,4 @@ $$
 - [EX33 - Least Squares Line and Quadratic for Four Points](../Explorations%202/EX33%20-%20Least%20Squares%20Line%20and%20Quadratic%20for%20Four%20Points.md)
 - [EX34 - Least Squares Line by QR](../Explorations%202/EX34%20-%20Least%20Squares%20Line%20by%20QR.md)
 
-See also: [Least Squares Fitting](Least%20Squares%20Fitting.md), [Symmetric Positive Definite Matrices](../Topics%201/Symmetric%20Positive%20Definite%20Matrices.md)
+See also: [Least Squares Fitting](Least%20Squares%20Fitting.md), [Symmetric Positive Definite Matrices](../Topics%201/Symmetric%20Positive%20Definite%20Matrices.md), [Gauss-Newton Method](../../../self-study/convex-optimization/numerical-optimization/Gauss-Newton%20Method.md) (the nonlinear version)

@@ -26,4 +26,4 @@ Data built as $W\mathbf{a}_{\text{true}}$ is recovered to rounding error, since 
 ## Explorations
 - [EX33 - Least Squares Line and Quadratic for Four Points](../Explorations%202/EX33%20-%20Least%20Squares%20Line%20and%20Quadratic%20for%20Four%20Points.md)
 
-See also: [Least Squares Fitting](Least%20Squares%20Fitting.md), [Normal Equations](Normal%20Equations.md), [Lab 10](../lab%2010/Lab%2010%20-%20Least%20Squares%2C%20General%20Bases%2C%20and%20QR.md)
+See also: [Least Squares Fitting](Least%20Squares%20Fitting.md), [Normal Equations](Normal%20Equations.md), [Lab 10](../lab/lab%2010/Lab%2010%20-%20Least%20Squares,%20General%20Bases,%20and%20QR.md)

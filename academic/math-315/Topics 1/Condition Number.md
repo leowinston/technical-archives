@@ -33,7 +33,7 @@ $$
 
 ## Explorations
 - [EX10 - SVD and Condition Number of a 2x2 Matrix](../Explorations%201/EX10%20-%20SVD%20and%20Condition%20Number%20of%20a%202x2%20Matrix.md)
-- [EX13 - Small Residual, Large Error](../Explorations/EX13%20-%20Small%20Residual%2C%20Large%20Error.md)
+- [EX13 - Small Residual, Large Error](../Explorations%201/EX13%20-%20Small%20Residual,%20Large%20Error.md)
 - [EX14 - Determinant Versus Condition Number](../Explorations%201/EX14%20-%20Determinant%20Versus%20Condition%20Number.md)
 
-See also: [Forward and Backward Error](Forward%20and%20Backward%20Error.md), [Singular Value Decomposition](Singular%20Value%20Decomposition.md), [Matrix Norms](Matrix%20Norms.md)
+See also: [Forward and Backward Error](Forward%20and%20Backward%20Error.md), [Singular Value Decomposition](Singular%20Value%20Decomposition.md), [Matrix Norms](Matrix%20Norms.md), [Convergence Rate of Steepest Descent](../../../self-study/convex-optimization/numerical-optimization/Convergence%20Rate%20of%20Steepest%20Descent.md) ($\kappa$ sets the speed of gradient descent)

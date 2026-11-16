@@ -24,4 +24,4 @@ Here $\kappa(V) \approx 7\times10^{8}$, so $\kappa(V^{\top}V) \approx 10^{17} \g
 ## SPD does not mean well-conditioned
 SPD guarantees Cholesky works and needs no pivoting, so the **solve** is stable. It says nothing about $\kappa$. The tridiagonal $(\tfrac14, 1, \tfrac14)$ B-spline matrix is SPD with $\kappa \to 3$, while $V^{\top}V$ is SPD with $\kappa \sim 10^{17}$. See [Cubic B-Splines](Cubic%20B-Splines.md).
 
-See also: [Normal Equations](Normal%20Equations.md), [Condition Number](../Topics%201/Condition%20Number.md), [Symmetric Positive Definite Matrices](../Topics%201/Symmetric%20Positive%20Definite%20Matrices.md), [Lab 10](../lab%2010/Lab%2010%20-%20Least%20Squares%2C%20General%20Bases%2C%20and%20QR.md)
+See also: [Normal Equations](Normal%20Equations.md), [Condition Number](../Topics%201/Condition%20Number.md), [Symmetric Positive Definite Matrices](../Topics%201/Symmetric%20Positive%20Definite%20Matrices.md), [Lab 10](../lab/lab%2010/Lab%2010%20-%20Least%20Squares,%20General%20Bases,%20and%20QR.md)

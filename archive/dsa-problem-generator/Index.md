@@ -38,7 +38,7 @@ One problem from each of the six families, all from **seed 1**. Each note follow
 | `data_structures` | [Skip List](generated-problems/data_structures/Skip%20List%20Problem.md) | prescribed tower heights up to 5, and deletes that need pointer updates | [Bernoulli and Binomial](../../self-study/probability/Notes/Bernoulli%20and%20Binomial.md), [Expected Value](../../self-study/probability/Notes/Expected%20Value.md) |
 | `sorting` | [LSD Radix Sort](generated-problems/sorting/LSD%20Radix%20Sort%20Problem.md) | repeated digits, so stability decides the order | [BestSort experiment](../experiments/Data%20Structures%20and%20Algorithms/Best%20Sorting%20Algorithm%20Experimental%20Analysis.md) |
 | `text_processing` | [Huffman Coding](generated-problems/text_processing/Huffman%20Coding%20Problem.md) | forced frequency ties, and 3 distinct codeword lengths | [Prefix Codes and Huffman Coding](../../self-study/ergodic-theory/Theory/Prefix%20Codes%20and%20Huffman%20Coding.md) |
-| `dynamic_programming` | [0/1 Knapsack](generated-problems/dynamic_programming/0-1%20Knapsack%20Problem.md) | greedy by ratio gets 28, but the optimum is 33 | [Linear Programs](../../self-study/convex-optimization/topics/Linear%20Programs.md) |
+| `dynamic_programming` | [0/1 Knapsack](generated-problems/dynamic_programming/0-1%20Knapsack%20Problem.md) | greedy by ratio gets 28, but the optimum is 33 | [Linear Programs](../../self-study/convex-optimization/4-convex-problems/Linear%20Programs.md) |
 | `graphs` | [Ford-Fulkerson Max Flow](generated-problems/graphs/Ford-Fulkerson%20Max%20Flow%20Problem.md) | 4 augmenting paths, certified by a min cut | [Matchings and Augmenting Paths](../../self-study/graph-theory/Theory/Matchings%20and%20Augmenting%20Paths.md) |
 
 ```mermaid

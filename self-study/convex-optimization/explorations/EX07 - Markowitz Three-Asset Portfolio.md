@@ -69,6 +69,6 @@ The frontier in (std. dev., return) space. Asset 3 alone is the point at the bot
 - Nonnegativity switches on only at high $r_{\min}$. That is complementary slackness in action.
 
 ## Related topics
-- [Markowitz Portfolio Optimization](../topics/Markowitz%20Portfolio%20Optimization.md)
-- [Quadratic Programs](../topics/Quadratic%20Programs.md)
-- [Optimality Criterion for Differentiable Objectives](../topics/Optimality%20Criterion%20for%20Differentiable%20Objectives.md)
+- [Markowitz Portfolio Optimization](../4-convex-problems/Markowitz%20Portfolio%20Optimization.md)
+- [Quadratic Programs](../4-convex-problems/Quadratic%20Programs.md)
+- [Optimality Criterion for Differentiable Objectives](../4-convex-problems/Optimality%20Criterion%20for%20Differentiable%20Objectives.md)

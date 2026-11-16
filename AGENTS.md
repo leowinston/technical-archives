@@ -5,14 +5,14 @@ This is an Obsidian vault of math and CS notes, published as a site at https://l
 ## Layout
 
 - `academic/`: current courses (`math-212`, `math-315`). `self-study/`: independent study (`probability`, `convex-optimization`, `graph-theory`, `ergodic-theory`). `archive/`: finished past work, kept as it was turned in.
-- Each section has an `Index.md`, its note folders (`Topics 1/`, `Explorations 2/`, `Theory/`, ...), and an `Assets/` folder for figures.
+- Each section has an `Index.md`, its note folders (`Topics 1/`, `Explorations 2/`, `Theory/`, ...), and an `Assets/` folder for figures. Course folders are numbered by unit and each `Explorations N/` matches `Topics N/`. `convex-optimization` is split by source chapter: `1-introduction/` to `4-convex-problems/` (Boyd), `ml-notebook/`, `numerical-optimization/` (Nocedal & Wright), and one shared `explorations/`.
 - `preamble.sty`: every custom LaTeX macro. `tools/`: `figures.py` draws the graphs, `macros.py` syncs the macros, `backup_held.py` snapshots the notes git isn't tracking. `.github/site/`: the MkDocs build.
 - `.workspace/`: local-only. `Review Queue.md` there lists the notes waiting for the user's approval.
 
 ## Publishing and the review queue
 
 - The site publishes exactly the files git tracks on `main`. Tracking a note is publishing it, so the user decides what gets tracked.
-- The folders listed under "Review queue" in `.gitignore` are local-only by default: in `math-212`, every `Topics`, `Workbook`, `Practice Test`, and `Mock Exam` folder; in `math-315`, every `Explorations` folder plus `Practice Test`, `PS5`, the labs, and `Topics 4`; and all of `self-study/probability`. Notes already tracked in them stay tracked, so edits to published notes show up in git as usual.
+- The folders listed under "Review queue" in `.gitignore` are local-only by default: in `math-212`, every `Topics`, `Workbook`, `Practice Test`, and `Mock Exam` folder; in `math-315`, every `Explorations` folder plus `Practice Test`, `PS5`, and the labs; and all of `self-study/probability`. Notes already tracked in them stay tracked, so edits to published notes show up in git as usual.
 - A new note the user has not read is not published, wherever it lives. In a review-queue folder it is ignored automatically. Anywhere else (`self-study/`, `math-315/Topics 1` to `3`), leave it unstaged. Either way, add it to `.workspace/Review Queue.md`. The one exception is a note the user asked to have published.
 - To publish a note the user approved:
   1. If it has a `desmos-graph` block, run `python tools/figures.py --convert "<note>"`.
@@ -37,6 +37,7 @@ This is an Obsidian vault of math and CS notes, published as a site at https://l
 - After writing links, check that each decoded path (only `%20` turned back into spaces) resolves to a real file.
 - A published note may link to an unpublished note or a source document. Keep the link: it works in Obsidian, and the site build turns it into plain text. A list item that is only such a link is dropped from the site.
 - Link to a heading with GitHub's anchor form: lowercase, punctuation dropped, spaces turned into `-` (`#2--rejection-sampling-keeps-only-instructive-instances`).
+- When a folder or note is renamed, fix every link to it across the whole vault, including held notes and `.workspace/Review Queue.md`. Obsidian does not update links that contain `%2C`, `%27`, or `%3D`, which is one more reason to encode only spaces.
 - Embed images as `![file.png](../Assets/file.png)`.
 - Frontmatter properties such as `topics:` stay as quoted `"[[wikilinks]]"`, because Obsidian links properties only in that form.
 - Why: Markdown links work as note links in Obsidian, as clickable links in the GitHub code view, and on the site.

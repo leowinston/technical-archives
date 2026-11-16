@@ -67,10 +67,10 @@ Self-study notes from two sources: my annotated copy of Adam Kelly's Cambridge *
 
 ## Related
 Shared background lives in the convex-optimization notes, and the graph notes link to it rather than repeating it:
-- [Gradient, Jacobian, and Hessian](../convex-optimization/topics/Gradient%2C%20Jacobian%2C%20and%20Hessian.md) — the multivariable recap
-- [Positive Semidefinite Matrices](../convex-optimization/topics/Positive%20Semidefinite%20Matrices.md) — spectral theorem, four PSD conditions
-- [Sparsest Cut as a Spectral Relaxation](../convex-optimization/topics/Sparsest%20Cut%20as%20a%20Spectral%20Relaxation.md) — sparsest cut as a relaxation, concavity of $\lambda_2$ in edge weights, regularization as adding weight $\tfrac{\tau}{n}$ along $K_n$
-- [Bias-Variance Tradeoff](../convex-optimization/topics/Bias-Variance%20Tradeoff.md) — ridge regularization, the same penalty as in [Regularized Spectral Clustering](Theory/Regularized%20Spectral%20Clustering.md)
+- [Gradient, Jacobian, and Hessian](../convex-optimization/ml-notebook/Gradient,%20Jacobian,%20and%20Hessian.md) — the multivariable recap
+- [Positive Semidefinite Matrices](../convex-optimization/ml-notebook/Positive%20Semidefinite%20Matrices.md) — spectral theorem, four PSD conditions
+- [Sparsest Cut as a Spectral Relaxation](../convex-optimization/ml-notebook/Sparsest%20Cut%20as%20a%20Spectral%20Relaxation.md) — sparsest cut as a relaxation, concavity of $\lambda_2$ in edge weights, regularization as adding weight $\tfrac{\tau}{n}$ along $K_n$
+- [Bias-Variance Tradeoff](../convex-optimization/ml-notebook/Bias-Variance%20Tradeoff.md) — ridge regularization, the same penalty as in [Regularized Spectral Clustering](Theory/Regularized%20Spectral%20Clustering.md)
 
 ## Sources
 - Adam Kelly, *Graph Theory* (Cambridge Part II notes, Lent 2021), pp. 1–25

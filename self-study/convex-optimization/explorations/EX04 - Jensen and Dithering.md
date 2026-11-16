@@ -36,7 +36,7 @@ The red chord midpoint $(1, 3.065)$ sits above $(1, e)$ on the curve. The gap is
 
 ## Takeaways
 - The Jensen gap grows with the curvature $f''$ and with the noise variance. For small $z$, the gap is about $\tfrac12 f''(x_0)\Var z = \tfrac12 e \cdot 0.25 = 0.34$.
-- It is the same inequality behind "averaging predictions reduces squared error" in [Bias-Variance Tradeoff](../topics/Bias-Variance%20Tradeoff.md).
+- It is the same inequality behind "averaging predictions reduces squared error" in [Bias-Variance Tradeoff](../ml-notebook/Bias-Variance%20Tradeoff.md).
 
 ## Related topics
-- [Jensen's Inequality](../topics/Jensen%27s%20Inequality.md)
+- [Jensen's Inequality](../3-convex-functions/Jensen's%20Inequality.md)

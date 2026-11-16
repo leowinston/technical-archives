@@ -18,7 +18,7 @@ $$
 $$
 A_{ij} = A_{ji} = \begin{cases} 1 & (i, j) \in E \\ 0 & \text{otherwise (including } i = j) \end{cases}
 $$
-$A$ is **symmetric**, so the spectral theorem ([Positive Semidefinite Matrices](../../convex-optimization/topics/Positive%20Semidefinite%20Matrices.md)) gives real eigenvalues and $A = Q\Lambda Q^{\top}$.
+$A$ is **symmetric**, so the spectral theorem ([Positive Semidefinite Matrices](../../convex-optimization/ml-notebook/Positive%20Semidefinite%20Matrices.md)) gives real eigenvalues and $A = Q\Lambda Q^{\top}$.
 
 ✎ Correction to my notes: $\Lambda$ is **not** positive definite for $A$. Since $\tr A = 0$, $A$ has negative eigenvalues unless $E = \emptyset$.
 

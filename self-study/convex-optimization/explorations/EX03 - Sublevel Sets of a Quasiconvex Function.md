@@ -41,5 +41,5 @@ Blue: $f$. Dashed: the level $\alpha = 0.5$. Green: $S_{0.5}$ on the axis. Red: 
 - Flat tails break convexity but not quasiconvexity.
 
 ## Related topics
-- [Quasiconvex Functions](../topics/Quasiconvex%20Functions.md)
-- [Sublevel Sets and Epigraph](../topics/Sublevel%20Sets%20and%20Epigraph.md)
+- [Quasiconvex Functions](../3-convex-functions/Quasiconvex%20Functions.md)
+- [Sublevel Sets and Epigraph](../3-convex-functions/Sublevel%20Sets%20and%20Epigraph.md)

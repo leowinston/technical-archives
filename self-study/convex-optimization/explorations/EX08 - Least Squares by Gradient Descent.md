@@ -61,6 +61,6 @@ The ratio $\kappa = 8.405/0.595 \approx 14$ is why it zig-zags slowly after the 
 - The speed depends on the condition number of $X^{\top}X$, a Chapter 9 theme.
 
 ## Related topics
-- [Least Squares by Gradient Descent](../topics/Least%20Squares%20by%20Gradient%20Descent.md)
-- [Least-Squares and Linear Programming](../topics/Least-Squares%20and%20Linear%20Programming.md)
-- [Gradient, Jacobian, and Hessian](../topics/Gradient%2C%20Jacobian%2C%20and%20Hessian.md)
+- [Least Squares by Gradient Descent](../ml-notebook/Least%20Squares%20by%20Gradient%20Descent.md)
+- [Least-Squares and Linear Programming](../1-introduction/Least-Squares%20and%20Linear%20Programming.md)
+- [Gradient, Jacobian, and Hessian](../ml-notebook/Gradient,%20Jacobian,%20and%20Hessian.md)

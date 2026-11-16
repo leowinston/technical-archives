@@ -71,7 +71,7 @@ In the figure, blue edges are saturated, dashed gray edges carry nothing, and th
 - [Hall's Theorem](../../../../self-study/graph-theory/Theory/Hall%27s%20Theorem.md): Hall's condition can be proved from max-flow min-cut applied to that unit-capacity network.
 - [Cuts and Cut Density](../../../../self-study/graph-theory/Theory/Cuts%20and%20Cut%20Density.md): both notes rank cuts $(S, V - S)$. Here the score is total capacity crossing from $S$ to $T$, not density.
 - [Paths, Connectivity, and Distance](../../../../self-study/graph-theory/Theory/Paths%2C%20Connectivity%2C%20and%20Distance.md): Edmonds–Karp always augments along a *shortest* residual path, which is what bounds it to $O(VE^2)$ time.
-- [Linear Programs](../../../../self-study/convex-optimization/topics/Linear%20Programs.md): max flow is an LP, and min cut is its dual.
+- [Linear Programs](../../../../self-study/convex-optimization/4-convex-problems/Linear%20Programs.md): max flow is an LP, and min cut is its dual.
 - The generator's test checks every flow against a brute-force minimum over all $2^4$ cuts and checks conservation at every vertex.
 - Other generator topics in `graphs`: `dijkstra`, `topological_sort`, and `prim`/`kruskal` (see [Spanning Trees](../../../../self-study/graph-theory/Theory/Spanning%20Trees.md)).
 

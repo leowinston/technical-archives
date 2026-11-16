@@ -33,6 +33,6 @@ $$
 $$
 
 ## Explorations
-- [EX06 - PA = LU for a Matrix with a Zero Pivot](../Explorations/EX06%20-%20PA%20%3D%20LU%20for%20a%20Matrix%20with%20a%20Zero%20Pivot.md)
+- [EX06 - PA = LU for a Matrix with a Zero Pivot](../Explorations%201/EX06%20-%20PA%20=%20LU%20for%20a%20Matrix%20with%20a%20Zero%20Pivot.md)
 
 See also: [Partial Pivoting](Partial%20Pivoting.md), [LU Decomposition](LU%20Decomposition.md)

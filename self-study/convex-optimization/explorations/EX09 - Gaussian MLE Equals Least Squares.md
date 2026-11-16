@@ -44,5 +44,5 @@ The negative log-likelihood is $36.12$ at $\hat w$, lower than $36.73$ at the tr
 - The Gaussian is log-concave, so $-\log L$ is convex and the MLE is a convex problem. Laplacian noise would give $\ell_1$ regression, which is also convex.
 
 ## Related topics
-- [Maximum Likelihood Estimation](../topics/Maximum%20Likelihood%20Estimation.md)
-- [Log-Concave and Log-Convex Functions](../topics/Log-Concave%20and%20Log-Convex%20Functions.md)
+- [Maximum Likelihood Estimation](../ml-notebook/Maximum%20Likelihood%20Estimation.md)
+- [Log-Concave and Log-Convex Functions](../3-convex-functions/Log-Concave%20and%20Log-Convex%20Functions.md)

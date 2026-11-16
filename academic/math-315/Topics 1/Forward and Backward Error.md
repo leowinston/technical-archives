@@ -28,6 +28,6 @@ A = \begin{bmatrix} 0.913 & 0.659 \\ 0.457 & 0.330 \end{bmatrix}: \quad
 $$
 
 ## Explorations
-- [EX13 - Small Residual, Large Error](../Explorations/EX13%20-%20Small%20Residual%2C%20Large%20Error.md)
+- [EX13 - Small Residual, Large Error](../Explorations%201/EX13%20-%20Small%20Residual,%20Large%20Error.md)
 
 See also: [Condition Number](Condition%20Number.md), [Vector Norms](Vector%20Norms.md)

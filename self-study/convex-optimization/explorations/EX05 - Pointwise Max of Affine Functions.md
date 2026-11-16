@@ -45,5 +45,5 @@ print(xs[f.argmin()], f.min())  # -0.6667 -0.3333
 - The optimum lands at a kink, where two constraints are active. That is a vertex of the LP.
 
 ## Related topics
-- [Operations That Preserve Convexity of Functions](../topics/Operations%20That%20Preserve%20Convexity%20of%20Functions.md)
-- [Linear Programs](../topics/Linear%20Programs.md)
+- [Operations That Preserve Convexity of Functions](../3-convex-functions/Operations%20That%20Preserve%20Convexity%20of%20Functions.md)
+- [Linear Programs](../4-convex-problems/Linear%20Programs.md)

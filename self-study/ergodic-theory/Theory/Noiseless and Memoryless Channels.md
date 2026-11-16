@@ -25,4 +25,4 @@ $\nu_y$ is the **kernel** of the channel. With finite alphabets it is a matrix $
 ## Convexity link
 Channel capacity $\max_{p}\, I(p; C)$ maximizes mutual information, which is **concave** in the input distribution $p$ on the simplex. So it is a concave maximization, which is a convex problem.
 
-See also: [Prefix Codes and Huffman Coding](Prefix%20Codes%20and%20Huffman%20Coding.md), [Rabin–Karp and Horner's Rule](Rabin-Karp%20and%20Horner%27s%20Rule.md) (a rolling hash is a stationary code), [Convex Optimization Problems](../../convex-optimization/topics/Convex%20Optimization%20Problems.md)
+See also: [Prefix Codes and Huffman Coding](Prefix%20Codes%20and%20Huffman%20Coding.md), [Rabin–Karp and Horner's Rule](Rabin-Karp%20and%20Horner%27s%20Rule.md) (a rolling hash is a stationary code), [Convex Optimization Problems](../../convex-optimization/4-convex-problems/Convex%20Optimization%20Problems.md)

@@ -28,7 +28,7 @@ A new $\mathbf{b}$ doesn't need a new factorization.
 
 ## Explorations
 - [EX05 - Four-Digit Arithmetic With and Without Pivoting](../Explorations%201/EX05%20-%20Four-Digit%20Arithmetic%20With%20and%20Without%20Pivoting.md)
-- [EX06 - PA = LU for a Matrix with a Zero Pivot](../Explorations/EX06%20-%20PA%20%3D%20LU%20for%20a%20Matrix%20with%20a%20Zero%20Pivot.md)
-- [EX22 - PA = LU with Two Pivot Swaps](../Explorations/EX22%20-%20PA%20%3D%20LU%20with%20Two%20Pivot%20Swaps.md)
+- [EX06 - PA = LU for a Matrix with a Zero Pivot](../Explorations%201/EX06%20-%20PA%20=%20LU%20for%20a%20Matrix%20with%20a%20Zero%20Pivot.md)
+- [EX22 - PA = LU with Two Pivot Swaps](../Explorations%201/EX22%20-%20PA%20=%20LU%20with%20Two%20Pivot%20Swaps.md)
 
 See also: [Permutation and Multiplier Matrices](Permutation%20and%20Multiplier%20Matrices.md), [LU Decomposition](LU%20Decomposition.md), [Determinants via LU](Determinants%20via%20LU.md)

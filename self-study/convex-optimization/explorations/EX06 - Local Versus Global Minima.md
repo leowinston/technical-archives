@@ -40,5 +40,5 @@ Green: the global min. Red: the local min. The dashed chord between them passes 
 - For convex $f$, "stuck" is impossible, because every local min is global.
 
 ## Related topics
-- [Local and Global Optima](../topics/Local%20and%20Global%20Optima.md)
-- [Second-Order Conditions](../topics/Second-Order%20Conditions.md)
+- [Local and Global Optima](../4-convex-problems/Local%20and%20Global%20Optima.md)
+- [Second-Order Conditions](../3-convex-functions/Second-Order%20Conditions.md)

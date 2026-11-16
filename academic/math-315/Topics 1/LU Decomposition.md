@@ -39,6 +39,6 @@ $$
 ## Explorations
 - [EX03 - Gaussian Elimination and LU of a 3x3 Matrix](../Explorations%201/EX03%20-%20Gaussian%20Elimination%20and%20LU%20of%20a%203x3%20Matrix.md)
 - [EX04 - Exploration 3.2.12 - A Matrix with No LU Decomposition](../Explorations%201/EX04%20-%20Exploration%203.2.12%20-%20A%20Matrix%20with%20No%20LU%20Decomposition.md)
-- [EX06 - PA = LU for a Matrix with a Zero Pivot](../Explorations/EX06%20-%20PA%20%3D%20LU%20for%20a%20Matrix%20with%20a%20Zero%20Pivot.md)
+- [EX06 - PA = LU for a Matrix with a Zero Pivot](../Explorations%201/EX06%20-%20PA%20=%20LU%20for%20a%20Matrix%20with%20a%20Zero%20Pivot.md)
 
 See also: [Partial Pivoting](Partial%20Pivoting.md), [Determinants via LU](Determinants%20via%20LU.md), [LDLT Factorization](LDLT%20Factorization.md)

@@ -41,4 +41,4 @@ Example: for $y' = y$, $y(0) = 1$, starting from $\phi_0 = 1$ gives $\phi_n = \s
 - [WB1 P16 - Separable IVP with Interval of Validity](../Workbook%201/WB1%20P16%20-%20Separable%20IVP%20with%20Interval%20of%20Validity.md)
 - [WB1 P26 - Critical Threshold Blow-Up](../Workbook%201/WB1%20P26%20-%20Critical%20Threshold%20Blow-Up.md) (blow-up in finite time)
 
-See also: [Bernoulli Equations](Bernoulli%20Equations.md)
+See also: [Bernoulli Equations](Bernoulli%20Equations.md), [Fixed Point Iteration](../../math-315/Topics%204/Fixed%20Point%20Iteration.md) (Picard iteration is fixed point iteration on functions), [Gradient Descent as a Fixed Point Iteration](../../../self-study/convex-optimization/numerical-optimization/Gradient%20Descent%20as%20a%20Fixed%20Point%20Iteration.md)

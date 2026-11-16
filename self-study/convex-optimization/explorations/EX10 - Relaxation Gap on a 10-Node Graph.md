@@ -45,6 +45,6 @@ The slopes decrease, as a concave function's must. $\lambda_2(0) = 0$ because th
 - Strengthening the bridge raises connectivity with diminishing returns, which is concavity in $w$.
 
 ## Related topics
-- [Sparsest Cut as a Spectral Relaxation](../topics/Sparsest%20Cut%20as%20a%20Spectral%20Relaxation.md)
-- [Operations That Preserve Convexity of Functions](../topics/Operations%20That%20Preserve%20Convexity%20of%20Functions.md)
+- [Sparsest Cut as a Spectral Relaxation](../ml-notebook/Sparsest%20Cut%20as%20a%20Spectral%20Relaxation.md)
+- [Operations That Preserve Convexity of Functions](../3-convex-functions/Operations%20That%20Preserve%20Convexity%20of%20Functions.md)
 - [EX08 - Whisker Cut Versus Regularized Clustering](../../graph-theory/Examples/EX08%20-%20Whisker%20Cut%20Versus%20Regularized%20Clustering.md) (this graph with a dangling path added)
