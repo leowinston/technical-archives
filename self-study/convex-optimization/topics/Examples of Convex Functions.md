@@ -20,7 +20,7 @@ Back to [Index](../Index.md) · Section 3.1.5
 | any norm | triangle inequality + homogeneity |
 | $\max_i x_i$ | max of linear functions |
 | $x^2/y$, $y > 0$ | $\nabla^2 f \succeq 0$ |
-| $\log\sum_i e^{x_i}$ | $\nabla^2 f = \operatorname{diag}(z) - zz^{\top} \succeq 0$, $z = $ softmax |
+| $\log\sum_i e^{x_i}$ | $\nabla^2 f = \operatorname{diag}(z) - zz^{\top} \succeq 0$, $z =$ softmax |
 | $\big(\prod x_i\big)^{1/n}$ | concave |
 | $\log\det X$ on $\Spd{n}$ | concave |
 
@@ -43,4 +43,4 @@ This is exact and costs $\tfrac13 n^3$ flops, versus $n!$ terms for cofactor exp
 - [EX02 - Checking Convexity with the Hessian](../explorations/EX02%20-%20Checking%20Convexity%20with%20the%20Hessian.md)
 - [EX11 - Log Det via Cholesky](../explorations/EX11%20-%20Log%20Det%20via%20Cholesky.md)
 
-See also: [Second-Order Conditions](Second-Order%20Conditions.md), [Operations That Preserve Convexity of Functions](Operations%20That%20Preserve%20Convexity%20of%20Functions.md), [Cholesky Factorization](../../../academic/math-315/Topics/Cholesky%20Factorization.md)
+See also: [Second-Order Conditions](Second-Order%20Conditions.md), [Operations That Preserve Convexity of Functions](Operations%20That%20Preserve%20Convexity%20of%20Functions.md), [Cholesky Factorization](../../../academic/math-315/Topics%201/Cholesky%20Factorization.md)

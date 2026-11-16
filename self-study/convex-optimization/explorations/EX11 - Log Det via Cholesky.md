@@ -1,7 +1,13 @@
 ---
-tags: [convex-optimization, exploration, ch-3]
+tags:
+  - convex-optimization
+  - exploration
+  - ch-3
 source: Book §3.1.5 (p. 74, $\log\det X$ example); Boyd's lecture question on evaluating it without eigenvalues
-topics: ["[[Examples of Convex Functions]]", "[[Convex Functions]]", "[[academic/math-315/Topics/Cholesky Factorization|Cholesky Factorization]]"]
+topics:
+  - "[[Examples of Convex Functions]]"
+  - "[[Convex Functions]]"
+  - "[[../../../academic/math-315/Topics 1/Cholesky Factorization|Cholesky Factorization]]"
 ---
 # EX11 — Log Det via Cholesky
 Back to [Index](../Index.md)
@@ -15,7 +21,7 @@ Back to [Index](../Index.md)
 > (b) With $V = \operatorname{diag}(1, -1, 0)$, check that $g(t) = \log\det(A + tV)$ is concave on $t \in [-1, 1]$.
 
 ## Strategy
-Reuse the factor $G$ from math-315 [EX08](../../../academic/math-315/Explorations/EX08%20-%20Cholesky%20Factorization%20of%20a%203x3%20SPD%20Matrix.md). Since $G$ is triangular, $\det G = \prod_k g_{kk}$, so $\det A = (\det G)^2$.
+Reuse the factor $G$ from math-315 [EX08](../../../academic/math-315/Explorations%201/EX08%20-%20Cholesky%20Factorization%20of%20a%203x3%20SPD%20Matrix.md). Since $G$ is triangular, $\det G = \prod_k g_{kk}$, so $\det A = (\det G)^2$.
 
 ## Solution
 **(a) From the Cholesky factor.**
@@ -57,4 +63,4 @@ for t in np.linspace(-1, 1, 5):
 ## Related topics
 - [Examples of Convex Functions](../topics/Examples%20of%20Convex%20Functions.md)
 - [Convex Functions](../topics/Convex%20Functions.md) (restriction to a line)
-- [Cholesky Factorization](../../../academic/math-315/Topics/Cholesky%20Factorization.md)
+- [Cholesky Factorization](../../../academic/math-315/Topics%201/Cholesky%20Factorization.md)

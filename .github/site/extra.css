@@ -1,0 +1,12 @@
+/* A wide equation scrolls sideways inside its own box instead of being cut off. */
+.md-typeset div.arithmatex {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Figures are drawn on white, so give them a white card in dark mode too. */
+.md-typeset img[src$=".svg"] {
+  background: #fff;
+  border-radius: 4px;
+  max-width: min(100%, 34rem);
+}

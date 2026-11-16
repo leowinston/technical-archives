@@ -22,9 +22,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - run: pip install -r .github/site/requirements.txt
+      - run: npm ci --prefix .github/site
+      - run: python tools/macros.py --check
+        continue-on-error: true
       - run: python .github/site/prepare.py
       - run: mkdocs build -f .github/site/mkdocs.yml
+      # Typesets every formula; problems show up as warnings on the run without blocking the deploy.
+      - run: node .github/site/check_math.js
+        continue-on-error: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

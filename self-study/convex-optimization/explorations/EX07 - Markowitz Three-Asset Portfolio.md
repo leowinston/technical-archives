@@ -61,16 +61,7 @@ All entries are positive, so the guess holds and this is the QP solution.
 
 ## Graph
 The frontier in (std. dev., return) space. Asset 3 alone is the point at the bottom left.
-```desmos-graph
-left=0; right=0.13; top=0.09; bottom=0.025
----
-(0.0228,0.04)|#2d70b3
-(0.0432,0.05)|#2d70b3
-(0.0643,0.06)|#2d70b3
-(0.0857,0.07)|#c74440
-(0.1075,0.08)|#2d70b3
-(0.01,0.03)|open|#000000
-```
+![EX07 - Markowitz Three-Asset Portfolio, figure 1](../Assets/ex07-markowitz-three-asset-portfolio-1.svg)
 
 ## Takeaways
 - Risk rises with the required return: that is the tradeoff the QP makes explicit.

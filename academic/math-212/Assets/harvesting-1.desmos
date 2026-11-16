@@ -1,0 +1,11 @@
+left=-0.5; right=10; top=6; bottom=-0.5
+xAxisLabel=t; yAxisLabel=y
+---
+y=\frac{y_{0}M}{y_{0}+\left(M-y_{0}\right)e^{-\left(r_0-E\right)x}}|x>=0|#2d70b3
+y_{0}=[0.1,0.3,0.6,1,1.5,2,3,4,5,5.8]
+M=K\left(1-E/r_0\right)
+K=4
+r_0=1
+E=0.4
+y=M|dashed|#388c46
+y=K|dotted|#c74440

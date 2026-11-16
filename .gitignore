@@ -62,3 +62,40 @@ archive/dsa-problem-generator/output/
 # MkDocs site build output (built by .github/workflows/pages.yml)
 _docs/
 _site/
+.github/site/node_modules/
+
+# Local-only workspace (review queue lives here) and agent tooling
+.workspace/
+.agents/
+.claudian/
+.codex/
+
+# Source documents stay on this machine: handouts, exams, lecture photos, raw
+# transcriptions, chat logs. Notes may link to them; the site drops those links.
+/math-212-midterm-1.pdf
+academic/**/*.pdf
+academic/**/*.tex
+academic/**/*.ipynb
+*.heic
+*.HEIC
+Source-*/
+academic/**/Raw *.md
+academic/**/*Source TeX.md
+academic/**/*Chat History*.md
+academic/**/Chat-History*.md
+academic/math-315/Assets/L4-*.png
+academic/**/Local Index.md
+
+# Review queue. Everything in these folders is local-only until it is approved
+# with `git add -f "<path to note>"`. Notes already tracked stay tracked, so
+# edits to approved notes show up in git as usual. The list of what is waiting
+# is .workspace/Review Queue.md.
+academic/math-212/Topics */
+academic/math-212/Workbook */
+academic/math-212/Practice Test */
+academic/math-212/Mock Exam */
+academic/math-315/Explorations */
+academic/math-315/Practice Test/
+academic/math-315/PS5/
+academic/math-315/lab*/
+academic/math-315/Topics 4/

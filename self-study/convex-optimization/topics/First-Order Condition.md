@@ -21,12 +21,6 @@ so any stationary point is a global minimizer.
 ## Geometry
 $(\nabla f(x), -1)$ defines a supporting hyperplane to $\epi f$ at $(x, f(x))$.
 
-```desmos-graph
-left=-2; right=3; top=8; bottom=-2
----
-y=e^{x}|#2d70b3
-y=e^{1}+e^{1}(x-1)|dashed|#c74440
-(1,e^{1})|#c74440
-```
+![First-Order Condition, figure 1](../Assets/first-order-condition-1.svg)
 
 See also: [Convex Functions](Convex%20Functions.md), [Optimality Criterion for Differentiable Objectives](Optimality%20Criterion%20for%20Differentiable%20Objectives.md), [Separating and Supporting Hyperplanes](Separating%20and%20Supporting%20Hyperplanes.md)

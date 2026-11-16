@@ -1,0 +1,8 @@
+{
+  "name": "technical-archives-site",
+  "private": true,
+  "description": "MathJax, served from the site itself and used by check_math.js",
+  "dependencies": {
+    "mathjax-full": "3.2.2"
+  }
+}

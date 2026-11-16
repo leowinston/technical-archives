@@ -1,0 +1,6 @@
+left=-0.5; right=6; top=3; bottom=-1
+xAxisLabel=t; yAxisLabel=y
+---
+y=1+\left(a-1\right)e^{-x}|x>=0|#2d70b3
+a=[-0.8,-0.2,0.4,1.6,2.2,2.8]
+y=1|dashed|#388c46

@@ -34,16 +34,7 @@ The chord lies **below** the graph, so $f$ is not convex. (Here $f'' < 0$ for $\
 
 ## Graph
 Blue: $f$. Dashed: the level $\alpha = 0.5$. Green: $S_{0.5}$ on the axis. Red: the chord from (b).
-```desmos-graph
-left=-3; right=3; top=1.3; bottom=-0.3
----
-y=1-e^{-x^{2}}|#2d70b3
-y=0.5|dashed|#000000
-y=0|x>-0.8326|x<0.8326|#388c46
-y=0.2212+0.5071(x-0.5)|x>0.5|x<2|#c74440
-(1.25,0.7904)|#c74440
-(1.25,0.6015)|open|#c74440
-```
+![EX03 - Sublevel Sets of a Quasiconvex Function, figure 1](../Assets/ex03-sublevel-sets-of-a-quasiconvex-function-1.svg)
 
 ## Takeaways
 - Quasiconvex = "one dip": each horizontal cut leaves one interval, exactly your double-arrow sketch.

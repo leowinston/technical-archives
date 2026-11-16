@@ -1,0 +1,5 @@
+left=-2; right=3; top=8; bottom=-2
+---
+y=e^{x}|#2d70b3
+y=e^{1}+e^{1}(x-1)|dashed|#c74440
+(1,e^{1})|#c74440

@@ -54,15 +54,7 @@ print(np.linalg.solve(X.T @ X, X.T @ y))  # [0.9 0.9]
 The ratio $\kappa = 8.405/0.595 \approx 14$ is why it zig-zags slowly after the first step.
 
 ## Graph
-```desmos-graph
-left=-0.5; right=3.5; top=4.5; bottom=0
----
-(0,1)|#000000
-(1,2)|#000000
-(2,2)|#000000
-(3,4)|#000000
-y=0.9+0.9x|#2d70b3
-```
+![EX08 - Least Squares by Gradient Descent, figure 1](../Assets/ex08-least-squares-by-gradient-descent-1.svg)
 
 ## Takeaways
 - $L$ is convex ($\nabla^2L \succeq 0$), so GD cannot get stuck. It converges to the normal-equations answer.

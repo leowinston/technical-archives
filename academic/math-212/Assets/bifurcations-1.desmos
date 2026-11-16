@@ -1,0 +1,5 @@
+left=-3; right=3; top=2.5; bottom=-2.5
+xAxisLabel=a; yAxisLabel=y*
+---
+y=\sqrt{x}|x>=0|#2d70b3
+y=-\sqrt{x}|x>=0|dashed|#2d70b3

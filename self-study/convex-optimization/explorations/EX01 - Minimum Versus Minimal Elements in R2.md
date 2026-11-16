@@ -31,19 +31,7 @@ $(1,3)$ and $(2,1)$ are **incomparable**: $1 < 2$ but $3 > 1$. So $S_2$ has **no
 
 ## Graph
 Red: $x_1 + K$ for (a) contains all of $S_1$. Blue: $x_2 - K$ at $(2,1)$ meets $S_2$ only at $(2,1)$.
-```desmos-graph
-left=-0.5; right=5; top=5; bottom=-0.5
----
-y\ge1|x>1|#c74440
-(1,1)|#c74440
-(2,3)|#c74440
-(3,2)|#c74440
-y\le1|x<2|#2d70b3
-(1,3)|#2d70b3
-(2,1)|#2d70b3
-(3,2)|#2d70b3
-(4,4)|#2d70b3
-```
+![EX01 - Minimum Versus Minimal Elements in R2, figure 1](../Assets/ex01-minimum-versus-minimal-elements-in-r2-1.svg)
 
 ## Takeaways
 - A minimum beats **everything**. A minimal point is beaten by **nothing**.

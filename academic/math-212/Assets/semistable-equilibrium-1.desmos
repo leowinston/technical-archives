@@ -1,0 +1,8 @@
+left=-0.5; right=5; top=3; bottom=-1
+xAxisLabel=t; yAxisLabel=y
+---
+y=1+\frac{a-1}{1-\left(a-1\right)x}|x>=0|#2d70b3
+a=[-1,0,0.5]
+y=1+\frac{b-1}{1-\left(b-1\right)x}|x>=0|x<1/(b-1)|#c74440
+b=[1.3,1.6]
+y=1|dashed|#fa7e19

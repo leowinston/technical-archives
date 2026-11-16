@@ -19,6 +19,9 @@ Self-study notes on ergodic theory and information. Theory notes hold definition
 - [Noiseless and Memoryless Channels](Theory/Noiseless%20and%20Memoryless%20Channels.md) — $[Y, \nu_y, Z]$, channel kernel, stationary and invertible codes
 - [Prefix Codes and Huffman Coding](Theory/Prefix%20Codes%20and%20Huffman%20Coding.md) — greedy proof, Kraft + entropy bound $H \le \E[L] < H + 1$
 
+## Hashing and String Matching
+- [Rabin–Karp and Horner's Rule](Theory/Rabin-Karp%20and%20Horner%27s%20Rule.md) — Horner hashing, rolling hash as one step of the shift $T$, false-hit rate via Birkhoff's theorem
+
 ---
 
 ## Examples
@@ -31,6 +34,7 @@ Self-study notes on ergodic theory and information. Theory notes hold definition
 
 ## Related
 - A probability space $(\Omega, \mathscr F, \mu)$ with $\mu(\Omega) = 1$ is the measure-theoretic form of [Axioms of Probability](../probability/Notes/Axioms%20of%20Probability.md)
+- Horner's rule in [Rabin–Karp and Horner's Rule](Theory/Rabin-Karp%20and%20Horner%27s%20Rule.md) is the nested multiplication behind the [Newton Form](../../academic/math-315/Topics%202/Newton%20Form.md)
 - The convex relaxation of the code-length problem and channel capacity as a concave maximization connect to [Convex Optimization Problems](../convex-optimization/topics/Convex%20Optimization%20Problems.md)
 
 ## Sources

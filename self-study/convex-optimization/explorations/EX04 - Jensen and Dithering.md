@@ -32,17 +32,7 @@ print(0.5 * (np.exp(x0 + d) + np.exp(x0 - d)), np.exp(x0))  # 3.0652 2.7183
 
 ## Graph
 The red chord midpoint $(1, 3.065)$ sits above $(1, e)$ on the curve. The gap is the Jensen gap.
-```desmos-graph
-left=-0.5; right=2.5; top=6; bottom=-0.5
----
-y=e^{x}|#2d70b3
-y=2x+1|dashed|#388c46
-(0.5,1.6487)|#c74440
-(1.5,4.4817)|#c74440
-y=1.6487+2.833(x-0.5)|x>0.5|x<1.5|#c74440
-(1,3.0652)|#c74440
-(1,2.7183)|#2d70b3
-```
+![EX04 - Jensen and Dithering, figure 1](../Assets/ex04-jensen-and-dithering-1.svg)
 
 ## Takeaways
 - The Jensen gap grows with the curvature $f''$ and with the noise variance. For small $z$, the gap is about $\tfrac12 f''(x_0)\Var z = \tfrac12 e \cdot 0.25 = 0.34$.

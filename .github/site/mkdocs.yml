@@ -10,7 +10,6 @@ theme:
   features:
     - navigation.indexes
     - navigation.sections
-    - navigation.instant
     - navigation.top
     - search.highlight
   palette:
@@ -45,6 +44,10 @@ markdown_extensions:
   - mdx_breakless_lists
   - mdx_truly_sane_lists: { nested_indent: 2 }
 
+extra_css:
+  - stylesheets/extra.css
+
+# mathjax.js holds the macro config (generated from preamble.sty by prepare.py)
+# and loads the MathJax library itself.
 extra_javascript:
   - javascripts/mathjax.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

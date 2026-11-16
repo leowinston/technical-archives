@@ -1,7 +1,7 @@
 
 ## Desmos graphs
 
-These apply to `desmos-graph` code blocks (Obsidian Desmos plugin):
+These apply to graph specs: the `Assets/*.desmos` files that `tools/figures.py` draws, and `desmos-graph` code blocks in notes that are still local. Published notes embed the SVG instead of a block (see the root AGENTS.md).
 
 - Use `r_0` (and `r_{0}` in expressions) instead of `r` for rate constants. Defining `r=` makes Desmos plot a polar curve instead of defining a variable.
 - Write subscripts without braces in restrictions and variable definitions (`t_s`, not `t_{s}`). Otherwise the plugin errors with "subscripts may only contain letters and digits".

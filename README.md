@@ -20,17 +20,18 @@ What keeps me going is the click. I'll be learning something new, go back to a t
 
 ```
 ├── academic/
-│   ├── math-212/               Differential equations: topics and Workbook 1 solutions
-│   └── math-315/               Numerical analysis: topics and explorations
+│   ├── math-212/               Differential equations: the topics I find most interesting, plus Laplace transforms
+│   └── math-315/               Numerical analysis: topics and selected explorations
 ├── self-study/
 │   ├── probability/            Notes and worked problems
-│   ├── convex-optimization/    Boyd & Vandenberghe, Ch. 1 to §4.5, with NumPy and Desmos explorations
+│   ├── convex-optimization/    Boyd & Vandenberghe, Ch. 1 to §4.5, with NumPy explorations
 │   ├── graph-theory/           Kelly's Cambridge notes through Hall's theorem, plus some curiosities in spectral graph theory
 │   └── ergodic-theory/         Measure-theory foundations — Patrick Billingsley's Ergodic Theory and Information
 ├── archive/
 │   ├── proofs/                 Math 250 (Foundations of Math) proof portfolios and my own exploration proofs
 │   ├── experiments/            CS 253 experimental analyses with MATLAB plots
 │   └── dsa-problem-generator/  Python CLI that turns a seed into a solved CS 253 practice problem in LaTeX/TikZ
+├── tools/                      figures.py draws the graphs, macros.py keeps the LaTeX macros in sync
 └── preamble.sty                Shared LaTeX macros for the whole repo
 ```
 
@@ -40,11 +41,13 @@ Each folder has an `Index.md` that is the **place to start.**
 
 ## Reading this Repo
 
-Everything here is plain Markdown with LaTeX math, so the notes stay portable and readable in any editor, with nothing locked into one app. The notes link to each other with `[[wiki links]]` because that's how the ideas actually connect, and following a link from one subject into another is the whole point.
+Everything here is plain Markdown with LaTeX math, so the notes stay portable and readable in any editor, with nothing locked into one app. The notes link to each other because that's how the ideas actually connect, and following a link from one subject into another is the whole point.
 
-- **On GitHub**, the notes and most of the math render directly. Wiki links show as plain text, and the custom macros in `preamble.sty` (like `\P`, `\E`, and `\R`) won't render.
-- **In a Markdown editor** that supports wiki links and MathJax, the links become clickable and the notes read as a connected graph. [Obsidian](https://obsidian.md) is one example: open the repo root as a vault and turn off Restricted Mode, and the included Desmos, MathJax, and Latex Suite plugins switch on and load the preamble macros. Any similar editor works too.
-- **To run the code**, create the virtual environment at the repo root with `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`. The notes use NumPy and yfinance, and the DSA problem generator needs only the standard library.
-- **Coming later:** I plan to publish this on GitHub Pages and eventually turn it into a real personal website and portfolio. This repository is the foundation for that.
+- **On the site**, [leowinston.github.io/technical-archives](https://leowinston.github.io/technical-archives/), everything renders: the math, the custom macros from `preamble.sty`, the graphs, and the links.
+- **On GitHub**, the notes, links, graphs, and most of the math render directly. The custom macros in `preamble.sty` (like `\P`, `\E`, and `\R`) won't.
+- **In Obsidian**, open the repo root as a vault and turn off Restricted Mode, and the included MathJax and Latex Suite plugins switch on and load the preamble macros. Any Markdown editor with MathJax works too.
+- **To run the code**, create the virtual environment at the repo root with `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`. The notes use NumPy and yfinance, the graphs use matplotlib, and the DSA problem generator needs only the standard library.
+
+Not everything I study is here. Workbook solutions, practice exams, and notes I haven't worked through myself stay on my machine until I have.
 
 Note-writing rules, including the index-link format, live in [AGENTS.md](AGENTS.md).

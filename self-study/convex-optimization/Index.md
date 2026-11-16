@@ -134,7 +134,7 @@ Self-study notes built from two sources: my annotated copy of Boyd & Vandenbergh
 | 8 | [EX08 - Least Squares by Gradient Descent](explorations/EX08%20-%20Least%20Squares%20by%20Gradient%20Descent.md) | ML notebook | [Least Squares by Gradient Descent](topics/Least%20Squares%20by%20Gradient%20Descent.md) |
 | 9 | [EX09 - Gaussian MLE Equals Least Squares](explorations/EX09%20-%20Gaussian%20MLE%20Equals%20Least%20Squares.md) | ML notebook | [Maximum Likelihood Estimation](topics/Maximum%20Likelihood%20Estimation.md) |
 | 10 | [EX10 - Relaxation Gap on a 10-Node Graph](explorations/EX10%20-%20Relaxation%20Gap%20on%20a%2010-Node%20Graph.md) | ML notebook | [Sparsest Cut as a Spectral Relaxation](topics/Sparsest%20Cut%20as%20a%20Spectral%20Relaxation.md) |
-| 11 | [EX11 - Log Det via Cholesky](explorations/EX11%20-%20Log%20Det%20via%20Cholesky.md) | §3.1.5, lecture | [Examples of Convex Functions](topics/Examples%20of%20Convex%20Functions.md), [Cholesky Factorization](../../academic/math-315/Topics/Cholesky%20Factorization.md) |
+| 11 | [EX11 - Log Det via Cholesky](explorations/EX11%20-%20Log%20Det%20via%20Cholesky.md) | §3.1.5, lecture | [Examples of Convex Functions](topics/Examples%20of%20Convex%20Functions.md), [Cholesky Factorization](../../academic/math-315/Topics%201/Cholesky%20Factorization.md) |
 
 ---
 

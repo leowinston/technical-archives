@@ -32,14 +32,7 @@ print(r, r**4 - 3*r**2 + r)  # [-1.3008 0.1699 1.1309] [-3.5139 0.0841 -1.0702]
 **(c)** Take the local min $x = 1.1309$ and $y = -1.3008$. The proof steps to $z = (1-\theta)x + \theta y$ and needs $f(z) \le (1-\theta)f(x) + \theta f(y) < f(x)$. That first inequality is convexity, and it fails here: at the midpoint $z = -0.085$, $f(z) = -0.106$, which is above the chord value $-2.292$.
 
 ## Graph
-```desmos-graph
-left=-2.2; right=2.2; top=3; bottom=-4.5
----
-y=x^{4}-3x^{2}+x|#2d70b3
-(-1.3008,-3.5139)|#388c46
-(1.1309,-1.0702)|#c74440
-y=-1.0702+1.0049(x-1.1309)|x>-1.3008|x<1.1309|dashed|#c74440
-```
+![EX06 - Local Versus Global Minima, figure 1](../Assets/ex06-local-versus-global-minima-1.svg)
 Green: the global min. Red: the local min. The dashed chord between them passes **below** the graph.
 
 ## Takeaways

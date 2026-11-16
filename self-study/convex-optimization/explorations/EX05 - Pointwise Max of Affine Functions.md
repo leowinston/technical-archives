@@ -38,15 +38,7 @@ print(xs[f.argmin()], f.min())  # -0.6667 -0.3333
 ```
 
 ## Graph
-```desmos-graph
-left=-3; right=4; top=4; bottom=-2
----
-y=\max(-x-1,0.5x,2x-3)|#2d70b3
-y=-x-1|dashed|#999999
-y=0.5x|dashed|#999999
-y=2x-3|dashed|#999999
-(-0.6667,-0.3333)|#c74440
-```
+![EX05 - Pointwise Max of Affine Functions, figure 1](../Assets/ex05-pointwise-max-of-affine-functions-1.svg)
 
 ## Takeaways
 - Every piecewise-linear convex function is a max of affine functions, and minimizing it is an LP.

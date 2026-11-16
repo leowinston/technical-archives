@@ -1,0 +1,36 @@
+---
+tags: [math-315, topic, lecture-3]
+---
+# Determinants via LU
+Back to [Index](../Index.md) · Sections 3.2.4, 3.2.5.4
+
+## Why not the definition
+Cofactor expansion costs $O(n!)$ flops.
+
+## Without pivoting
+Row replacements don't change $\det$, and $\det(L) = 1$ for a unit triangular $L$:
+$$
+\det(A) = \det(L)\det(U) = \prod_{i=1}^{n} u_{ii}
+$$
+
+## With pivoting
+A single swap has $\det = -1$, so $p$ swaps give $\det(P) = (-1)^p$. From $PA = LU$:
+$$
+\det(A) = (-1)^p \prod_{i=1}^{n} u_{ii}
+$$
+The total cost is $O(n^3)$ for the factorization plus $n - 1$ multiplications.
+
+> [!warning]
+> A small $\det(A)$ does **not** mean $A$ is nearly singular. See [Condition Number](Condition%20Number.md).
+
+## Example
+$$
+\det\begin{bmatrix} 1 & 4 & 7 \\ 2 & 8 & 5 \\ 3 & 6 & 9 \end{bmatrix} = (-1)^1(1)(-6)(-9) = -54
+$$
+
+## Explorations
+- [EX03 - Gaussian Elimination and LU of a 3x3 Matrix](../Explorations%201/EX03%20-%20Gaussian%20Elimination%20and%20LU%20of%20a%203x3%20Matrix.md)
+- [EX06 - PA = LU for a Matrix with a Zero Pivot](../Explorations/EX06%20-%20PA%20%3D%20LU%20for%20a%20Matrix%20with%20a%20Zero%20Pivot.md)
+- [EX14 - Determinant Versus Condition Number](../Explorations%201/EX14%20-%20Determinant%20Versus%20Condition%20Number.md)
+
+See also: [LU Decomposition](LU%20Decomposition.md), [Partial Pivoting](Partial%20Pivoting.md)
