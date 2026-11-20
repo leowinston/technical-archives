@@ -21,9 +21,6 @@ $$
 $$
 There are only $n-1$ steps because $a_{nn}$ has nothing below it.
 
-> [!note] From lecture
-> ![IMG_1784.jpg](../Assets/IMG_1784.jpg)
-
 ## Shortcut
 Conjugating by a later swap only exchanges two multipliers in column $j$. So store the multipliers in $A$'s lower triangle and **swap whole rows, multipliers included**.
 

@@ -176,7 +176,6 @@ These carry on into $n$ dimensions in [Numerical Optimization](../../self-study/
 - *Math 315 Lecture 2 slides: Computer Arithmetic* (`source/MATH_315_Lecture_2.pdf`)
 - *Math 315 Lecture 3 handout: Direct Methods for Linear Systems* (`source/Math_315_Lecture_3_handout.pdf`)
 - *Partial pivoting supplement* (`source/Math_315_Lecture_3_Partial_Pivoting.pdf`)
-- Lecture whiteboard photo (`source/IMG_1784.jpg`)
 - *Math 315 Lecture 4 handout: Interpolation, Splines, and Least Squares* ([Math_315_Lecture_4_handout.pdf](Topics%202/Math_315_Lecture_4_handout.pdf))
 - *Math 315 Lecture 4 fill-in notes* (slides 34–51: cubic B-splines, spline tools in Python, least squares, normal equations, QR), covered by the Lecture 4 Topics 2 notes
 - Textbook *Chapter 5: Differentiation and Integration* (pp. 171–213), Sections 5.1–5.3. Topic notes cite "Section 5.x (textbook)" and exploration notes cite the textbook example or problem number. The textbook's Matlab code is replaced by Python (NumPy/SciPy) throughout.
